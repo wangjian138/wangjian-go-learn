@@ -9,7 +9,7 @@ import (
 	"shorturl/api/internal/svc"
 
 	"github.com/tal-tech/go-zero/core/conf"
-	"go-zero/rest"
+	"wangjian-go-learn/go-zero/rest"
 )
 
 var configFile = flag.String("f", "etc/shorturl-api.yaml", "the config file")
