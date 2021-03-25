@@ -6,7 +6,7 @@ import (
 	"shorturl/api/internal/svc"
 	"shorturl/api/internal/types"
 
-	"github.com/tal-tech/go-zero/core/logx"
+	"shorturl/go-zero/core/logx"
 )
 
 type ExpandLogic struct {

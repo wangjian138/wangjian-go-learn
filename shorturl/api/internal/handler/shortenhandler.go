@@ -7,7 +7,7 @@ import (
 	"shorturl/api/internal/svc"
 	"shorturl/api/internal/types"
 
-	"github.com/tal-tech/go-zero/rest/httpx"
+	"shorturl/go-zero/rest/httpx"
 )
 
 func ShortenHandler(ctx *svc.ServiceContext) http.HandlerFunc {
