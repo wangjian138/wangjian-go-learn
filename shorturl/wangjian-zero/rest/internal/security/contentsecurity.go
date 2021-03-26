@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
-	"shorturl/go-zero/core/codec"
-	"shorturl/go-zero/core/iox"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/rest/httpx"
+	"shorturl/wangjian-zero/core/codec"
+	"shorturl/wangjian-zero/core/iox"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/rest/httpx"
 )
 
 const (

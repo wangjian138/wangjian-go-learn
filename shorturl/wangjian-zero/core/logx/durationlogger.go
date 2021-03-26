@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 
-	"shorturl/go-zero/core/timex"
+	"shorturl/wangjian-zero/core/timex"
 )
 
 const durationCallerDepth = 3

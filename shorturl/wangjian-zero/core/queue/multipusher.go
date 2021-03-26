@@ -1,6 +1,6 @@
 package queue
 
-import "shorturl/go-zero/core/errorx"
+import "shorturl/wangjian-zero/core/errorx"
 
 // A MultiPusher is a pusher that can push messages to multiple underlying pushers.
 type MultiPusher struct {

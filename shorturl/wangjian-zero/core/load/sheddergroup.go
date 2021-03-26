@@ -3,7 +3,7 @@ package load
 import (
 	"io"
 
-	"shorturl/go-zero/core/syncx"
+	"shorturl/wangjian-zero/core/syncx"
 )
 
 // A ShedderGroup is a manager to manage key based shedders.

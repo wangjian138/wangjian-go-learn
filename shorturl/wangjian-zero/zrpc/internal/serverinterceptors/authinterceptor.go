@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"google.golang.org/grpc"
-	"shorturl/go-zero/zrpc/internal/auth"
+	"shorturl/wangjian-zero/zrpc/internal/auth"
 )
 
 // StreamAuthorizeInterceptor returns a func that uses given authenticator in processing stream requests.

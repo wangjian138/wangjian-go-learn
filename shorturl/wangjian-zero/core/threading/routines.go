@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"strconv"
 
-	"shorturl/go-zero/core/rescue"
+	"shorturl/wangjian-zero/core/rescue"
 )
 
 // GoSafe runs the given fn using another goroutine, recovers if fn panics.

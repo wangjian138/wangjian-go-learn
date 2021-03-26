@@ -1,6 +1,6 @@
 package config
 
-import "shorturl/go-zero/core/logx"
+import "shorturl/wangjian-zero/core/logx"
 
 // Config defines a service configure for goctl update
 type Config struct {

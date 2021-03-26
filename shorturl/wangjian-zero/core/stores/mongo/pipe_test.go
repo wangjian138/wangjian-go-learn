@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/breaker"
+	"shorturl/wangjian-zero/core/breaker"
 )
 
 func TestRejectedPipe_All(t *testing.T) {

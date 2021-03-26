@@ -6,9 +6,9 @@ import (
 	"strings"
 	"text/template"
 
-	"shorturl/go-zero/tools/goctl/api/spec"
-	apiutil "shorturl/go-zero/tools/goctl/api/util"
-	"shorturl/go-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/api/spec"
+	apiutil "shorturl/wangjian-zero/tools/goctl/api/util"
+	"shorturl/wangjian-zero/tools/goctl/util"
 )
 
 const (

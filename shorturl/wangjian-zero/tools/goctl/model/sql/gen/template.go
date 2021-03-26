@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/urfave/cli"
-	"shorturl/go-zero/tools/goctl/model/sql/template"
-	"shorturl/go-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/model/sql/template"
+	"shorturl/wangjian-zero/tools/goctl/util"
 )
 
 const (

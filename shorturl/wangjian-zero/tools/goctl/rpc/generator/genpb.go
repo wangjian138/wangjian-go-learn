@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	conf "shorturl/go-zero/tools/goctl/config"
-	"shorturl/go-zero/tools/goctl/rpc/execx"
-	"shorturl/go-zero/tools/goctl/rpc/parser"
+	conf "shorturl/wangjian-zero/tools/goctl/config"
+	"shorturl/wangjian-zero/tools/goctl/rpc/execx"
+	"shorturl/wangjian-zero/tools/goctl/rpc/parser"
 )
 
 // GenPb generates the pb.go file, which is a layer of packaging for protoc to generate gprc,

@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	red "github.com/go-redis/redis"
-	"shorturl/go-zero/core/logx"
+	"shorturl/wangjian-zero/core/logx"
 )
 
 // ClosableNode interface represents a closable redis node.

@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/lang"
+	"shorturl/wangjian-zero/core/lang"
 )
 
 const limit = 10

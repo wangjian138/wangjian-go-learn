@@ -13,8 +13,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/resolver"
 	"google.golang.org/grpc/status"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/mathx"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/mathx"
 )
 
 func init() {

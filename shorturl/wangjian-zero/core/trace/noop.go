@@ -3,7 +3,7 @@ package trace
 import (
 	"context"
 
-	"shorturl/go-zero/core/trace/tracespec"
+	"shorturl/wangjian-zero/core/trace/tracespec"
 )
 
 var emptyNoopSpan = noopSpan{}

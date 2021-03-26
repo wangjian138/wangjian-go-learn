@@ -1,7 +1,7 @@
 package ast
 
 import (
-	"shorturl/go-zero/tools/goctl/api/parser/g4/gen/api"
+	"shorturl/wangjian-zero/tools/goctl/api/parser/g4/gen/api"
 )
 
 // InfoExpr defines info syntax for api

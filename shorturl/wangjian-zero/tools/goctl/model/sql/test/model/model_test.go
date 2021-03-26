@@ -9,10 +9,10 @@ import (
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/stores/cache"
-	"shorturl/go-zero/core/stores/redis"
-	"shorturl/go-zero/core/stores/redis/redistest"
-	mocksql "shorturl/go-zero/tools/goctl/model/sql/test"
+	"shorturl/wangjian-zero/core/stores/cache"
+	"shorturl/wangjian-zero/core/stores/redis"
+	"shorturl/wangjian-zero/core/stores/redis/redistest"
+	mocksql "shorturl/wangjian-zero/tools/goctl/model/sql/test"
 )
 
 func TestStudentModel(t *testing.T) {

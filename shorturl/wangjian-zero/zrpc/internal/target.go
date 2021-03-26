@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"shorturl/go-zero/zrpc/internal/resolver"
+	"shorturl/wangjian-zero/zrpc/internal/resolver"
 )
 
 // BuildDirectTarget returns a string that represents the given endpoints with direct schema.

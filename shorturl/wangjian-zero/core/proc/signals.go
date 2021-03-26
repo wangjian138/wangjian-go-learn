@@ -7,7 +7,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"shorturl/go-zero/core/logx"
+	"shorturl/wangjian-zero/core/logx"
 )
 
 const timeFormat = "0102150405"

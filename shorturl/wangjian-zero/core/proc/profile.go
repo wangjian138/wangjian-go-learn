@@ -14,7 +14,7 @@ import (
 	"syscall"
 	"time"
 
-	"shorturl/go-zero/core/logx"
+	"shorturl/wangjian-zero/core/logx"
 )
 
 // DefaultMemProfileRate is the default memory profiling rate.

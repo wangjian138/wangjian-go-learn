@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"shorturl/go-zero/tools/goctl/vars"
+	"shorturl/wangjian-zero/tools/goctl/vars"
 )
 
 const (

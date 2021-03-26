@@ -8,10 +8,10 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/stringx"
-	conf "shorturl/go-zero/tools/goctl/config"
-	"shorturl/go-zero/tools/goctl/rpc/execx"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/stringx"
+	conf "shorturl/wangjian-zero/tools/goctl/config"
+	"shorturl/wangjian-zero/tools/goctl/rpc/execx"
 )
 
 var cfg = &conf.Config{

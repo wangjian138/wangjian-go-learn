@@ -4,7 +4,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"shorturl/go-zero/core/logx"
+	"shorturl/wangjian-zero/core/logx"
 )
 
 const statInterval = time.Minute

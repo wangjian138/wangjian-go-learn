@@ -6,8 +6,8 @@ import (
 	"io"
 	"strings"
 
-	"shorturl/go-zero/tools/goctl/api/spec"
-	"shorturl/go-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/api/spec"
+	"shorturl/wangjian-zero/tools/goctl/util"
 )
 
 func writeProperty(writer io.Writer, member spec.Member, indent int) error {

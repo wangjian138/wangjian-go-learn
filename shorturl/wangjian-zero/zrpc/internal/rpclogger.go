@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	"google.golang.org/grpc/grpclog"
-	"shorturl/go-zero/core/logx"
+	"shorturl/wangjian-zero/core/logx"
 )
 
 // because grpclog.errorLog is not exported, we need to define our own.

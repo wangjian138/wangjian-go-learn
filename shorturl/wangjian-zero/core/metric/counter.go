@@ -2,7 +2,7 @@ package metric
 
 import (
 	prom "github.com/prometheus/client_golang/prometheus"
-	"shorturl/go-zero/core/proc"
+	"shorturl/wangjian-zero/core/proc"
 )
 
 type (

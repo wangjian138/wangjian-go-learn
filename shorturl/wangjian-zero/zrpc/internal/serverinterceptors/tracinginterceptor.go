@@ -5,7 +5,7 @@ import (
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
-	"shorturl/go-zero/core/trace"
+	"shorturl/wangjian-zero/core/trace"
 )
 
 // UnaryTracingInterceptor returns a func that handles tracing with given service name.

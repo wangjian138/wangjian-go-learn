@@ -14,10 +14,10 @@ import (
 	"strings"
 
 	"github.com/urfave/cli"
-	"shorturl/go-zero/tools/goctl/api/parser"
-	"shorturl/go-zero/tools/goctl/api/spec"
-	"shorturl/go-zero/tools/goctl/rpc/execx"
-	"shorturl/go-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/api/parser"
+	"shorturl/wangjian-zero/tools/goctl/api/spec"
+	"shorturl/wangjian-zero/tools/goctl/rpc/execx"
+	"shorturl/wangjian-zero/tools/goctl/util"
 )
 
 const pluginArg = "_plugin"

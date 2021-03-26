@@ -7,7 +7,7 @@ import (
 	"encoding/base64"
 	"errors"
 
-	"shorturl/go-zero/core/logx"
+	"shorturl/wangjian-zero/core/logx"
 )
 
 // ErrPaddingSize indicates bad padding size.

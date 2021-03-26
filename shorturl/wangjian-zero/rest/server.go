@@ -4,10 +4,10 @@ import (
 	"log"
 	"net/http"
 
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/rest/handler"
-	"shorturl/go-zero/rest/httpx"
-	"shorturl/go-zero/rest/router"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/rest/handler"
+	"shorturl/wangjian-zero/rest/httpx"
+	"shorturl/wangjian-zero/rest/router"
 )
 
 type (

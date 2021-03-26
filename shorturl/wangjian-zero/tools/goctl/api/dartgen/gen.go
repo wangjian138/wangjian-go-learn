@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/urfave/cli"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/tools/goctl/api/parser"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/tools/goctl/api/parser"
 )
 
 // DartCommand create dart network request code

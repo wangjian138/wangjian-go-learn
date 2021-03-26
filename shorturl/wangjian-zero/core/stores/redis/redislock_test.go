@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/stringx"
+	"shorturl/wangjian-zero/core/stringx"
 )
 
 func TestRedisLock(t *testing.T) {

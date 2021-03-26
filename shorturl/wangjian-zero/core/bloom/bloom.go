@@ -4,8 +4,8 @@ import (
 	"errors"
 	"strconv"
 
-	"shorturl/go-zero/core/hash"
-	"shorturl/go-zero/core/stores/redis"
+	"shorturl/wangjian-zero/core/hash"
+	"shorturl/wangjian-zero/core/stores/redis"
 )
 
 const (

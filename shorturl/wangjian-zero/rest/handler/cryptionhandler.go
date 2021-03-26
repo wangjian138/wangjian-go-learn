@@ -10,8 +10,8 @@ import (
 	"net"
 	"net/http"
 
-	"shorturl/go-zero/core/codec"
-	"shorturl/go-zero/core/logx"
+	"shorturl/wangjian-zero/core/codec"
+	"shorturl/wangjian-zero/core/logx"
 )
 
 const maxBytes = 1 << 20 // 1 MiB

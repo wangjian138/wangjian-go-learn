@@ -1,6 +1,6 @@
 package cache
 
-import "shorturl/go-zero/core/stores/redis"
+import "shorturl/wangjian-zero/core/stores/redis"
 
 type (
 	// A ClusterConf is the config of a redis cluster that used as cache.

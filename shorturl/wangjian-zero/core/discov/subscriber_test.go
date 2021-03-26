@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/discov/internal"
+	"shorturl/wangjian-zero/core/discov/internal"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sort"
 
-	"shorturl/go-zero/core/stores/sqlx"
+	"shorturl/wangjian-zero/core/stores/sqlx"
 )
 
 const indexPri = "PRIMARY"

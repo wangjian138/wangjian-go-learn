@@ -7,8 +7,8 @@ import (
 	"time"
 
 	red "github.com/go-redis/redis"
-	"shorturl/go-zero/core/breaker"
-	"shorturl/go-zero/core/mapping"
+	"shorturl/wangjian-zero/core/breaker"
+	"shorturl/wangjian-zero/core/mapping"
 )
 
 const (

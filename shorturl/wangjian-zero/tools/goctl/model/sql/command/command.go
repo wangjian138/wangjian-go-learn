@@ -8,13 +8,13 @@ import (
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/urfave/cli"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/stores/sqlx"
-	"shorturl/go-zero/tools/goctl/config"
-	"shorturl/go-zero/tools/goctl/model/sql/gen"
-	"shorturl/go-zero/tools/goctl/model/sql/model"
-	"shorturl/go-zero/tools/goctl/model/sql/util"
-	"shorturl/go-zero/tools/goctl/util/console"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/stores/sqlx"
+	"shorturl/wangjian-zero/tools/goctl/config"
+	"shorturl/wangjian-zero/tools/goctl/model/sql/gen"
+	"shorturl/wangjian-zero/tools/goctl/model/sql/model"
+	"shorturl/wangjian-zero/tools/goctl/model/sql/util"
+	"shorturl/wangjian-zero/tools/goctl/util/console"
 )
 
 const (

@@ -1,9 +1,9 @@
 package gen
 
 import (
-	"shorturl/go-zero/tools/goctl/model/sql/template"
-	"shorturl/go-zero/tools/goctl/util"
-	"shorturl/go-zero/tools/goctl/util/stringx"
+	"shorturl/wangjian-zero/tools/goctl/model/sql/template"
+	"shorturl/wangjian-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/util/stringx"
 )
 
 func genFindOne(table Table, withCache bool) (string, string, error) {

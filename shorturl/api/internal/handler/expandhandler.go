@@ -7,7 +7,7 @@ import (
 	"shorturl/api/internal/svc"
 	"shorturl/api/internal/types"
 
-	"shorturl/go-zero/rest/httpx"
+	"shorturl/wangjian-zero/rest/httpx"
 )
 
 func ExpandHandler(ctx *svc.ServiceContext) http.HandlerFunc {

@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"shorturl/go-zero/core/hash"
+	"shorturl/wangjian-zero/core/hash"
 )
 
 // TempFileWithText creates the temporary file with the given content,

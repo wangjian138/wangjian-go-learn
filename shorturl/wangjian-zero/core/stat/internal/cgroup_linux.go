@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"shorturl/go-zero/core/iox"
-	"shorturl/go-zero/core/lang"
+	"shorturl/wangjian-zero/core/iox"
+	"shorturl/wangjian-zero/core/lang"
 )
 
 const cgroupDir = "/sys/fs/cgroup"

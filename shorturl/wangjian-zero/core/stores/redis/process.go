@@ -4,9 +4,9 @@ import (
 	"strings"
 
 	red "github.com/go-redis/redis"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/mapping"
-	"shorturl/go-zero/core/timex"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/mapping"
+	"shorturl/wangjian-zero/core/timex"
 )
 
 func process(proc func(red.Cmder) error) func(red.Cmder) error {

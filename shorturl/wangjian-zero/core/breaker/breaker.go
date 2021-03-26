@@ -6,11 +6,11 @@ import (
 	"strings"
 	"sync"
 
-	"shorturl/go-zero/core/mathx"
-	"shorturl/go-zero/core/proc"
-	"shorturl/go-zero/core/stat"
-	"shorturl/go-zero/core/stringx"
-	"shorturl/go-zero/core/timex"
+	"shorturl/wangjian-zero/core/mathx"
+	"shorturl/wangjian-zero/core/proc"
+	"shorturl/wangjian-zero/core/stat"
+	"shorturl/wangjian-zero/core/stringx"
+	"shorturl/wangjian-zero/core/timex"
 )
 
 const (

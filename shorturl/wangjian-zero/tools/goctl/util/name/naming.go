@@ -5,7 +5,7 @@ package name
 import (
 	"strings"
 
-	"shorturl/go-zero/tools/goctl/util/stringx"
+	"shorturl/wangjian-zero/tools/goctl/util/stringx"
 )
 
 // NamingStyle the type of string

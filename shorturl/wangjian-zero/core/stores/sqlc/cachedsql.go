@@ -4,10 +4,10 @@ import (
 	"database/sql"
 	"time"
 
-	"shorturl/go-zero/core/stores/cache"
-	"shorturl/go-zero/core/stores/redis"
-	"shorturl/go-zero/core/stores/sqlx"
-	"shorturl/go-zero/core/syncx"
+	"shorturl/wangjian-zero/core/stores/cache"
+	"shorturl/wangjian-zero/core/stores/redis"
+	"shorturl/wangjian-zero/core/stores/sqlx"
+	"shorturl/wangjian-zero/core/syncx"
 )
 
 // see doc/sql-cache.md

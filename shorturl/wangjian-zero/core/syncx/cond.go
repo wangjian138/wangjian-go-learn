@@ -3,8 +3,8 @@ package syncx
 import (
 	"time"
 
-	"shorturl/go-zero/core/lang"
-	"shorturl/go-zero/core/timex"
+	"shorturl/wangjian-zero/core/lang"
+	"shorturl/wangjian-zero/core/timex"
 )
 
 // A Cond is used to wait for conditions.

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"shorturl/go-zero/core/lang"
+	"shorturl/wangjian-zero/core/lang"
 )
 
 type (

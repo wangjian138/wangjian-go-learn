@@ -1,6 +1,6 @@
 package rescue
 
-import "shorturl/go-zero/core/logx"
+import "shorturl/wangjian-zero/core/logx"
 
 // Recover is used with defer to do cleanup on panics.
 // Use it like:

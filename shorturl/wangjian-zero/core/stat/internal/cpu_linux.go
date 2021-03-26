@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"shorturl/go-zero/core/iox"
-	"shorturl/go-zero/core/logx"
+	"shorturl/wangjian-zero/core/iox"
+	"shorturl/wangjian-zero/core/logx"
 )
 
 const (

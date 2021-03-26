@@ -12,8 +12,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 	"google.golang.org/grpc/test/bufconn"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/zrpc/internal/mock"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/zrpc/internal/mock"
 )
 
 func init() {

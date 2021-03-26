@@ -6,9 +6,9 @@ import (
 
 	"github.com/logrusorgru/aurora"
 	"github.com/urfave/cli"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/tools/goctl/api/parser"
-	"shorturl/go-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/tools/goctl/api/parser"
+	"shorturl/wangjian-zero/tools/goctl/util"
 )
 
 // TsCommand provides the entry to generate typescript codes

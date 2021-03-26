@@ -5,7 +5,7 @@ package mocksql
 import (
 	"database/sql"
 
-	"shorturl/go-zero/core/stores/sqlx"
+	"shorturl/wangjian-zero/core/stores/sqlx"
 )
 
 type (

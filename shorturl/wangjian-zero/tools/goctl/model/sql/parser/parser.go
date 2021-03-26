@@ -6,11 +6,11 @@ import (
 	"strings"
 
 	"github.com/xwb1989/sqlparser"
-	"shorturl/go-zero/core/collection"
-	"shorturl/go-zero/tools/goctl/model/sql/converter"
-	"shorturl/go-zero/tools/goctl/model/sql/model"
-	"shorturl/go-zero/tools/goctl/util/console"
-	"shorturl/go-zero/tools/goctl/util/stringx"
+	"shorturl/wangjian-zero/core/collection"
+	"shorturl/wangjian-zero/tools/goctl/model/sql/converter"
+	"shorturl/wangjian-zero/tools/goctl/model/sql/model"
+	"shorturl/wangjian-zero/tools/goctl/util/console"
+	"shorturl/wangjian-zero/tools/goctl/util/stringx"
 )
 
 const timeImport = "time.Time"

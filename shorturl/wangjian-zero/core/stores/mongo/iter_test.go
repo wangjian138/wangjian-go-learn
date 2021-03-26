@@ -7,9 +7,9 @@ import (
 	"github.com/globalsign/mgo"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/breaker"
-	"shorturl/go-zero/core/stringx"
-	"shorturl/go-zero/core/syncx"
+	"shorturl/wangjian-zero/core/breaker"
+	"shorturl/wangjian-zero/core/stringx"
+	"shorturl/wangjian-zero/core/syncx"
 )
 
 func TestClosableIter_Close(t *testing.T) {

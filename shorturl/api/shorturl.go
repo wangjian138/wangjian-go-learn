@@ -3,13 +3,13 @@ package main
 import (
 	"flag"
 	"fmt"
-	"shorturl/go-zero/rest"
+	"shorturl/wangjian-zero/rest"
 
 	"shorturl/api/internal/config"
 	"shorturl/api/internal/handler"
 	"shorturl/api/internal/svc"
 
-	"shorturl/go-zero/core/conf"
+	"shorturl/wangjian-zero/core/conf"
 )
 
 var configFile = flag.String("f", "etc/shorturl-api.yaml", "the config file")

@@ -16,9 +16,9 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/codec"
-	"shorturl/go-zero/core/fs"
-	"shorturl/go-zero/rest/httpx"
+	"shorturl/wangjian-zero/core/codec"
+	"shorturl/wangjian-zero/core/fs"
+	"shorturl/wangjian-zero/rest/httpx"
 )
 
 const (

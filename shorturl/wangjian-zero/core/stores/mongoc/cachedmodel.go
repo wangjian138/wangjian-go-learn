@@ -4,9 +4,9 @@ import (
 	"log"
 
 	"github.com/globalsign/mgo"
-	"shorturl/go-zero/core/stores/cache"
-	"shorturl/go-zero/core/stores/mongo"
-	"shorturl/go-zero/core/stores/redis"
+	"shorturl/wangjian-zero/core/stores/cache"
+	"shorturl/wangjian-zero/core/stores/mongo"
+	"shorturl/wangjian-zero/core/stores/redis"
 )
 
 // A Model is a mongo model that built with cache capability.

@@ -1,6 +1,6 @@
 package prof
 
-import "shorturl/go-zero/core/utils"
+import "shorturl/wangjian-zero/core/utils"
 
 type (
 	// A ProfilePoint is a profile time point.

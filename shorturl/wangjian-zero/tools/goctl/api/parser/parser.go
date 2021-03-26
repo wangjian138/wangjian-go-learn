@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"unicode"
 
-	"shorturl/go-zero/tools/goctl/api/parser/g4/ast"
-	"shorturl/go-zero/tools/goctl/api/parser/g4/gen/api"
-	"shorturl/go-zero/tools/goctl/api/spec"
+	"shorturl/wangjian-zero/tools/goctl/api/parser/g4/ast"
+	"shorturl/wangjian-zero/tools/goctl/api/parser/g4/gen/api"
+	"shorturl/wangjian-zero/tools/goctl/api/spec"
 )
 
 type parser struct {

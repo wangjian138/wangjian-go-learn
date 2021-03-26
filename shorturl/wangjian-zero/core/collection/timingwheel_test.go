@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/lang"
-	"shorturl/go-zero/core/stringx"
-	"shorturl/go-zero/core/syncx"
-	"shorturl/go-zero/core/timex"
+	"shorturl/wangjian-zero/core/lang"
+	"shorturl/wangjian-zero/core/stringx"
+	"shorturl/wangjian-zero/core/syncx"
+	"shorturl/wangjian-zero/core/timex"
 )
 
 const (

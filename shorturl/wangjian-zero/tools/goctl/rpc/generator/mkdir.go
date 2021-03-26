@@ -4,10 +4,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"shorturl/go-zero/tools/goctl/rpc/parser"
-	"shorturl/go-zero/tools/goctl/util"
-	"shorturl/go-zero/tools/goctl/util/ctx"
-	"shorturl/go-zero/tools/goctl/util/stringx"
+	"shorturl/wangjian-zero/tools/goctl/rpc/parser"
+	"shorturl/wangjian-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/util/ctx"
+	"shorturl/wangjian-zero/tools/goctl/util/stringx"
 )
 
 const (

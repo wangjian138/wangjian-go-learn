@@ -4,7 +4,7 @@ import (
 	"os"
 	"text/template"
 
-	"shorturl/go-zero/tools/goctl/api/spec"
+	"shorturl/wangjian-zero/tools/goctl/api/spec"
 )
 
 const dataTemplate = `// --{{with .Info}}{{.Title}}{{end}}--

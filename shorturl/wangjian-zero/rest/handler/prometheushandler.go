@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"shorturl/go-zero/core/metric"
-	"shorturl/go-zero/core/timex"
-	"shorturl/go-zero/rest/internal/security"
+	"shorturl/wangjian-zero/core/metric"
+	"shorturl/wangjian-zero/core/timex"
+	"shorturl/wangjian-zero/rest/internal/security"
 )
 
 const serverNamespace = "http_server"

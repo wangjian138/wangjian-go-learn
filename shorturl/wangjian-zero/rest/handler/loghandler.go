@@ -12,12 +12,12 @@ import (
 	"net/http/httputil"
 	"time"
 
-	"shorturl/go-zero/core/iox"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/timex"
-	"shorturl/go-zero/core/utils"
-	"shorturl/go-zero/rest/httpx"
-	"shorturl/go-zero/rest/internal"
+	"shorturl/wangjian-zero/core/iox"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/timex"
+	"shorturl/wangjian-zero/core/utils"
+	"shorturl/wangjian-zero/rest/httpx"
+	"shorturl/wangjian-zero/rest/internal"
 )
 
 const slowThreshold = time.Millisecond * 500

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/metadata"
-	"shorturl/go-zero/core/stores/redis/redistest"
+	"shorturl/wangjian-zero/core/stores/redis/redistest"
 )
 
 func TestAuthenticator(t *testing.T) {

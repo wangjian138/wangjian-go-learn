@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package stream;
 
-option go_package = "shorturl/go-zero";
+option go_package = "shorturl/wangjian-zero";
 
 message placeholder {}
 

@@ -3,7 +3,7 @@ package rest
 import (
 	"time"
 
-	"shorturl/go-zero/core/service"
+	"shorturl/wangjian-zero/core/service"
 )
 
 type (

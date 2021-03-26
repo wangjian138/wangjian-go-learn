@@ -1,6 +1,6 @@
 package fx
 
-import "shorturl/go-zero/core/errorx"
+import "shorturl/wangjian-zero/core/errorx"
 
 const defaultRetryTimes = 3
 

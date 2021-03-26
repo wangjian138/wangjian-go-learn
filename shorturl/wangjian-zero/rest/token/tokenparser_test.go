@@ -8,7 +8,7 @@ import (
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/timex"
+	"shorturl/wangjian-zero/core/timex"
 )
 
 func TestTokenParser(t *testing.T) {

@@ -8,9 +8,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/conf"
-	"shorturl/go-zero/rest/httpx"
-	"shorturl/go-zero/rest/router"
+	"shorturl/wangjian-zero/core/conf"
+	"shorturl/wangjian-zero/rest/httpx"
+	"shorturl/wangjian-zero/rest/router"
 )
 
 func TestNewServer(t *testing.T) {

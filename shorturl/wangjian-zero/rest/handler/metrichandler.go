@@ -3,8 +3,8 @@ package handler
 import (
 	"net/http"
 
-	"shorturl/go-zero/core/stat"
-	"shorturl/go-zero/core/timex"
+	"shorturl/wangjian-zero/core/stat"
+	"shorturl/wangjian-zero/core/timex"
 )
 
 // MetricHandler returns a middleware that stat the metrics.

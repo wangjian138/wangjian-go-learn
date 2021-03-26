@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"shorturl/go-zero/tools/goctl/util"
-	"shorturl/go-zero/tools/goctl/util/stringx"
+	"shorturl/wangjian-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/util/stringx"
 )
 
 const rpcTemplateText = `syntax = "proto3";

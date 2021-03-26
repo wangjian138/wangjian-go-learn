@@ -5,15 +5,15 @@ import (
 	"os"
 	"path/filepath"
 
-	conf "shorturl/go-zero/tools/goctl/config"
-	"shorturl/go-zero/tools/goctl/rpc/parser"
-	"shorturl/go-zero/tools/goctl/util"
-	"shorturl/go-zero/tools/goctl/util/format"
+	conf "shorturl/wangjian-zero/tools/goctl/config"
+	"shorturl/wangjian-zero/tools/goctl/rpc/parser"
+	"shorturl/wangjian-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/util/format"
 )
 
 const configTemplate = `package config
 
-import "shorturl/go-zero/zrpc"
+import "shorturl/wangjian-zero/zrpc"
 
 type Config struct {
 	zrpc.RpcServerConf
@@ -23,7 +23,7 @@ type Config struct {
 // GenConfig generates the configuration structure definition file of the rpc service,
 // which contains the zrpc.RpcServerConf configuration item by default.
 // You can specify the naming style of the target file name through config.Config. For details,
-// see https://shorturl/go-zero/tree/master/tools/goctl/config/config.go
+// see https://shorturl/wangjian-zero/tree/master/tools/goctl/config/config.go
 func (g *DefaultGenerator) GenConfig(ctx DirContext, _ parser.Proto, cfg *conf.Config) error {
 	dir := ctx.GetConfig()
 	configFilename, err := format.FileNamingFormat(cfg.NamingFormat, "config")

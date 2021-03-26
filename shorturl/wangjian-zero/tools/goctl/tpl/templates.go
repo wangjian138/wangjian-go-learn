@@ -5,14 +5,14 @@ import (
 
 	"github.com/logrusorgru/aurora"
 	"github.com/urfave/cli"
-	"shorturl/go-zero/core/errorx"
-	"shorturl/go-zero/tools/goctl/api/gogen"
-	"shorturl/go-zero/tools/goctl/docker"
-	"shorturl/go-zero/tools/goctl/kube"
-	mongogen "shorturl/go-zero/tools/goctl/model/mongo/generate"
-	modelgen "shorturl/go-zero/tools/goctl/model/sql/gen"
-	rpcgen "shorturl/go-zero/tools/goctl/rpc/generator"
-	"shorturl/go-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/core/errorx"
+	"shorturl/wangjian-zero/tools/goctl/api/gogen"
+	"shorturl/wangjian-zero/tools/goctl/docker"
+	"shorturl/wangjian-zero/tools/goctl/kube"
+	mongogen "shorturl/wangjian-zero/tools/goctl/model/mongo/generate"
+	modelgen "shorturl/wangjian-zero/tools/goctl/model/sql/gen"
+	rpcgen "shorturl/wangjian-zero/tools/goctl/rpc/generator"
+	"shorturl/wangjian-zero/tools/goctl/util"
 )
 
 const templateParentPath = "/"

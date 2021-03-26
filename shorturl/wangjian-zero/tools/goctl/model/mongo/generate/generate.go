@@ -4,10 +4,10 @@ import (
 	"errors"
 	"path/filepath"
 
-	"shorturl/go-zero/tools/goctl/config"
-	"shorturl/go-zero/tools/goctl/model/mongo/template"
-	"shorturl/go-zero/tools/goctl/util"
-	"shorturl/go-zero/tools/goctl/util/format"
+	"shorturl/wangjian-zero/tools/goctl/config"
+	"shorturl/wangjian-zero/tools/goctl/model/mongo/template"
+	"shorturl/wangjian-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/util/format"
 )
 
 // Context defines the model generation data what they needs

@@ -4,13 +4,13 @@ import (
 	"fmt"
 
 	"github.com/urfave/cli"
-	"shorturl/go-zero/tools/goctl/rpc/execx"
+	"shorturl/wangjian-zero/tools/goctl/rpc/execx"
 )
 
 // Upgrade gets the latest goctl by
-// go get -u shorturl/go-zero/tools/goctl
+// go get -u shorturl/wangjian-zero/tools/goctl
 func Upgrade(_ *cli.Context) error {
-	info, err := execx.Run("GO111MODULE=on GOPROXY=https://goproxy.cn/,direct go get -u shorturl/go-zero/tools/goctl", "")
+	info, err := execx.Run("GO111MODULE=on GOPROXY=https://goproxy.cn/,direct go get -u shorturl/wangjian-zero/tools/goctl", "")
 	if err != nil {
 		return err
 	}

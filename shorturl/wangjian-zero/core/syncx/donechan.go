@@ -3,7 +3,7 @@ package syncx
 import (
 	"sync"
 
-	"shorturl/go-zero/core/lang"
+	"shorturl/wangjian-zero/core/lang"
 )
 
 // A DoneChan is used as a channel that can be closed multiple times and wait for done.

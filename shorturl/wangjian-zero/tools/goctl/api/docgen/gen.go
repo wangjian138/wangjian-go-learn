@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/urfave/cli"
-	"shorturl/go-zero/tools/goctl/api/parser"
-	"shorturl/go-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/api/parser"
+	"shorturl/wangjian-zero/tools/goctl/util"
 )
 
 // DocCommand generate markdown doc file

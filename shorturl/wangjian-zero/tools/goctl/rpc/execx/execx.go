@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"strings"
 
-	"shorturl/go-zero/tools/goctl/util"
-	"shorturl/go-zero/tools/goctl/vars"
+	"shorturl/wangjian-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/vars"
 )
 
 // Run provides the execution of shell scripts in golang,

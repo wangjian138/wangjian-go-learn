@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"strings"
 
-	"shorturl/go-zero/core/breaker"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/stat"
-	"shorturl/go-zero/rest/httpx"
-	"shorturl/go-zero/rest/internal/security"
+	"shorturl/wangjian-zero/core/breaker"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/stat"
+	"shorturl/wangjian-zero/rest/httpx"
+	"shorturl/wangjian-zero/rest/internal/security"
 )
 
 const breakerSeparator = "://"

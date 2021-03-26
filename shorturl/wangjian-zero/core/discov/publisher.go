@@ -2,12 +2,12 @@ package discov
 
 import (
 	"go.etcd.io/etcd/clientv3"
-	"shorturl/go-zero/core/discov/internal"
-	"shorturl/go-zero/core/lang"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/proc"
-	"shorturl/go-zero/core/syncx"
-	"shorturl/go-zero/core/threading"
+	"shorturl/wangjian-zero/core/discov/internal"
+	"shorturl/wangjian-zero/core/lang"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/proc"
+	"shorturl/wangjian-zero/core/syncx"
+	"shorturl/wangjian-zero/core/threading"
 )
 
 type (

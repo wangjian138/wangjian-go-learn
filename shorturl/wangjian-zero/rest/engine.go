@@ -7,13 +7,13 @@ import (
 	"time"
 
 	"github.com/justinas/alice"
-	"shorturl/go-zero/core/codec"
-	"shorturl/go-zero/core/load"
-	"shorturl/go-zero/core/stat"
-	"shorturl/go-zero/rest/handler"
-	"shorturl/go-zero/rest/httpx"
-	"shorturl/go-zero/rest/internal"
-	"shorturl/go-zero/rest/router"
+	"shorturl/wangjian-zero/core/codec"
+	"shorturl/wangjian-zero/core/load"
+	"shorturl/wangjian-zero/core/stat"
+	"shorturl/wangjian-zero/rest/handler"
+	"shorturl/wangjian-zero/rest/httpx"
+	"shorturl/wangjian-zero/rest/internal"
+	"shorturl/wangjian-zero/rest/router"
 )
 
 // use 1000m to represent 100%

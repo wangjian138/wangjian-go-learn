@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"shorturl/go-zero/core/stores/cache"
-	"shorturl/go-zero/core/stores/sqlc"
-	"shorturl/go-zero/core/stores/sqlx"
-	"shorturl/go-zero/core/stringx"
-	"shorturl/go-zero/tools/goctl/model/sql/builderx"
+	"shorturl/wangjian-zero/core/stores/cache"
+	"shorturl/wangjian-zero/core/stores/sqlc"
+	"shorturl/wangjian-zero/core/stores/sqlx"
+	"shorturl/wangjian-zero/core/stringx"
+	"shorturl/wangjian-zero/tools/goctl/model/sql/builderx"
 )
 
 var (

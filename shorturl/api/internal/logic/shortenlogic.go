@@ -6,7 +6,7 @@ import (
 	"shorturl/api/internal/svc"
 	"shorturl/api/internal/types"
 
-	"shorturl/go-zero/core/logx"
+	"shorturl/wangjian-zero/core/logx"
 )
 
 type ShortenLogic struct {

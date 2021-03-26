@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/stringx"
+	"shorturl/wangjian-zero/core/stringx"
 )
 
 func TestBuffer(t *testing.T) {

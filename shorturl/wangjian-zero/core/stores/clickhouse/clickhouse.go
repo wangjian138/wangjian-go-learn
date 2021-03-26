@@ -3,7 +3,7 @@ package clickhouse
 import (
 	// imports the driver.
 	_ "github.com/ClickHouse/clickhouse-go"
-	"shorturl/go-zero/core/stores/sqlx"
+	"shorturl/wangjian-zero/core/stores/sqlx"
 )
 
 const clickHouseDriverName = "clickhouse"

@@ -4,11 +4,11 @@
 
 [English](readme.md) | 简体中文
 
-[![Go](https://shorturl/go-zero/workflows/Go/badge.svg?branch=master)](https://shorturl/go-zero/actions)
-[![Go Report Card](https://goreportcard.com/badge/shorturl/go-zero)](https://goreportcard.com/report/shorturl/go-zero)
-[![goproxy](https://goproxy.cn/stats/shorturl/go-zero/badges/download-count.svg)](https://goproxy.cn/stats/shorturl/go-zero/badges/download-count.svg)
+[![Go](https://shorturl/wangjian-zero/workflows/Go/badge.svg?branch=master)](https://shorturl/wangjian-zero/actions)
+[![Go Report Card](https://goreportcard.com/badge/shorturl/wangjian-zero)](https://goreportcard.com/report/shorturl/wangjian-zero)
+[![goproxy](https://goproxy.cn/stats/shorturl/wangjian-zero/badges/download-count.svg)](https://goproxy.cn/stats/shorturl/wangjian-zero/badges/download-count.svg)
 [![codecov](https://codecov.io/gh/tal-tech/go-zero/branch/master/graph/badge.svg)](https://codecov.io/gh/tal-tech/go-zero)
-[![Release](https://img.shields.io/github/v/release/tal-tech/go-zero.svg?style=flat-square)](https://shorturl/go-zero)
+[![Release](https://img.shields.io/github/v/release/tal-tech/go-zero.svg?style=flat-square)](https://shorturl/wangjian-zero)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 0. go-zero 介绍
@@ -87,7 +87,7 @@ go-zero 是一个集成了各种工程实践的包含 web 和 rpc 框架，有�
 在项目目录下通过如下命令安装：
 
 ```shell
-GO111MODULE=on GOPROXY=https://goproxy.cn/,direct go get -u shorturl/go-zero
+GO111MODULE=on GOPROXY=https://goproxy.cn/,direct go get -u shorturl/wangjian-zero
 ```
 
 ## 5. Quick Start
@@ -103,7 +103,7 @@ GO111MODULE=on GOPROXY=https://goproxy.cn/,direct go get -u shorturl/go-zero
     `goctl` 读作 `go control`，不要读成 `go C-T-L`。`goctl` 的意思是不要被代码控制，而是要去控制它。其中的 `go` 不是指 `golang`。在设计 `goctl` 之初，我就希望通过 ` 她 ` 来解放我们的双手👈
 
     ```shell
-    GO111MODULE=on GOPROXY=https://goproxy.cn/,direct go get -u shorturl/go-zero/tools/goctl
+    GO111MODULE=on GOPROXY=https://goproxy.cn/,direct go get -u shorturl/wangjian-zero/tools/goctl
     ```
 
     确保 goctl 可执行
@@ -195,6 +195,6 @@ GO111MODULE=on GOPROXY=https://goproxy.cn/,direct go get -u shorturl/go-zero
 
 <img src="https://gitee.com/kevwan/static/raw/master/images/wechat.jpg" alt="wechat" width="300" />
 
-项目地址：[https://shorturl/go-zero](https://shorturl/go-zero)
+项目地址：[https://shorturl/wangjian-zero](https://shorturl/wangjian-zero)
 
 码云地址：[https://gitee.com/kevwan/go-zero](https://gitee.com/kevwan/go-zero) (国内用户可访问gitee，每日自动从github同步代码)

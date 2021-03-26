@@ -9,11 +9,11 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/errorx"
-	"shorturl/go-zero/core/hash"
-	"shorturl/go-zero/core/stores/redis"
-	"shorturl/go-zero/core/stores/redis/redistest"
-	"shorturl/go-zero/core/syncx"
+	"shorturl/wangjian-zero/core/errorx"
+	"shorturl/wangjian-zero/core/hash"
+	"shorturl/wangjian-zero/core/stores/redis"
+	"shorturl/wangjian-zero/core/stores/redis/redistest"
+	"shorturl/wangjian-zero/core/syncx"
 )
 
 type mockedNode struct {

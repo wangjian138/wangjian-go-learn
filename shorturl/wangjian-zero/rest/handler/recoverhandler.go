@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"runtime/debug"
 
-	"shorturl/go-zero/rest/internal"
+	"shorturl/wangjian-zero/rest/internal"
 )
 
 // RecoverHandler returns a middleware that recovers if panic happens.

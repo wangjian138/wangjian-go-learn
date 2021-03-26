@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"path"
 
-	"shorturl/go-zero/core/conf"
-	"shorturl/go-zero/core/hash"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/tools/goctl/update/config"
-	"shorturl/go-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/core/conf"
+	"shorturl/wangjian-zero/core/hash"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/tools/goctl/update/config"
+	"shorturl/wangjian-zero/tools/goctl/util"
 )
 
 const (

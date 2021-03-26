@@ -4,9 +4,9 @@ import (
 	"sort"
 	"sync"
 
-	"shorturl/go-zero/core/collection"
-	"shorturl/go-zero/core/lang"
-	"shorturl/go-zero/core/threading"
+	"shorturl/wangjian-zero/core/collection"
+	"shorturl/wangjian-zero/core/lang"
+	"shorturl/wangjian-zero/core/threading"
 )
 
 const (

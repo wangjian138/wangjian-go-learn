@@ -6,9 +6,9 @@ import (
 	"path"
 	"strings"
 
-	"shorturl/go-zero/core/search"
-	"shorturl/go-zero/rest/httpx"
-	"shorturl/go-zero/rest/internal/context"
+	"shorturl/wangjian-zero/core/search"
+	"shorturl/wangjian-zero/rest/httpx"
+	"shorturl/wangjian-zero/rest/internal/context"
 )
 
 const (

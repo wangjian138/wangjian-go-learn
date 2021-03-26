@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/antlr/antlr4/runtime/Go/antlr"
-	"shorturl/go-zero/tools/goctl/api/parser/g4/gen/api"
-	"shorturl/go-zero/tools/goctl/util/console"
+	"shorturl/wangjian-zero/tools/goctl/api/parser/g4/gen/api"
+	"shorturl/wangjian-zero/tools/goctl/util/console"
 )
 
 type (

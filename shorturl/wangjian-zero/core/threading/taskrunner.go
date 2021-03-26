@@ -1,8 +1,8 @@
 package threading
 
 import (
-	"shorturl/go-zero/core/lang"
-	"shorturl/go-zero/core/rescue"
+	"shorturl/wangjian-zero/core/lang"
+	"shorturl/wangjian-zero/core/rescue"
 )
 
 // A TaskRunner is used to control the concurrency of goroutines.

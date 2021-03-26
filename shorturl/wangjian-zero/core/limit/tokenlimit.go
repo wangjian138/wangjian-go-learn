@@ -8,8 +8,8 @@ import (
 	"time"
 
 	xrate "golang.org/x/time/rate"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/stores/redis"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/stores/redis"
 )
 
 const (

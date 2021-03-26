@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/fs"
-	"shorturl/go-zero/core/hash"
+	"shorturl/wangjian-zero/core/fs"
+	"shorturl/wangjian-zero/core/hash"
 )
 
 func TestLoadConfig_notExists(t *testing.T) {

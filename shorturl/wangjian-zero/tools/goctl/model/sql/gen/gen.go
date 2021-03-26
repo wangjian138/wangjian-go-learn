@@ -8,15 +8,15 @@ import (
 	"path/filepath"
 	"strings"
 
-	"shorturl/go-zero/tools/goctl/config"
-	"shorturl/go-zero/tools/goctl/model/sql/model"
-	"shorturl/go-zero/tools/goctl/model/sql/parser"
-	"shorturl/go-zero/tools/goctl/model/sql/template"
-	modelutil "shorturl/go-zero/tools/goctl/model/sql/util"
-	"shorturl/go-zero/tools/goctl/util"
-	"shorturl/go-zero/tools/goctl/util/console"
-	"shorturl/go-zero/tools/goctl/util/format"
-	"shorturl/go-zero/tools/goctl/util/stringx"
+	"shorturl/wangjian-zero/tools/goctl/config"
+	"shorturl/wangjian-zero/tools/goctl/model/sql/model"
+	"shorturl/wangjian-zero/tools/goctl/model/sql/parser"
+	"shorturl/wangjian-zero/tools/goctl/model/sql/template"
+	modelutil "shorturl/wangjian-zero/tools/goctl/model/sql/util"
+	"shorturl/wangjian-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/util/console"
+	"shorturl/wangjian-zero/tools/goctl/util/format"
+	"shorturl/wangjian-zero/tools/goctl/util/stringx"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/lang"
+	"shorturl/wangjian-zero/core/lang"
 )
 
 func TestWorkerGroup(t *testing.T) {

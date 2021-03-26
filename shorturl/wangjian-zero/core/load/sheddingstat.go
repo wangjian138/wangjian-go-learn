@@ -4,8 +4,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/stat"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/stat"
 )
 
 type (

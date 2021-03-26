@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"shorturl/go-zero/core/jsonx"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/mathx"
-	"shorturl/go-zero/core/stat"
-	"shorturl/go-zero/core/stores/redis"
-	"shorturl/go-zero/core/syncx"
+	"shorturl/wangjian-zero/core/jsonx"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/mathx"
+	"shorturl/wangjian-zero/core/stat"
+	"shorturl/wangjian-zero/core/stores/redis"
+	"shorturl/wangjian-zero/core/syncx"
 )
 
 const (

@@ -6,11 +6,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"shorturl/go-zero/core/lang"
-	"shorturl/go-zero/core/proc"
-	"shorturl/go-zero/core/syncx"
-	"shorturl/go-zero/core/threading"
-	"shorturl/go-zero/core/timex"
+	"shorturl/wangjian-zero/core/lang"
+	"shorturl/wangjian-zero/core/proc"
+	"shorturl/wangjian-zero/core/syncx"
+	"shorturl/wangjian-zero/core/threading"
+	"shorturl/wangjian-zero/core/timex"
 )
 
 const idleRound = 10

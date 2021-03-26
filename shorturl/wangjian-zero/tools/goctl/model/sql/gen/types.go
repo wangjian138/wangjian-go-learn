@@ -1,8 +1,8 @@
 package gen
 
 import (
-	"shorturl/go-zero/tools/goctl/model/sql/template"
-	"shorturl/go-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/model/sql/template"
+	"shorturl/wangjian-zero/tools/goctl/util"
 )
 
 func genTypes(table Table, methods string, withCache bool) (string, error) {

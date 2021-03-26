@@ -36,11 +36,11 @@ goctl model 为go-zero下的工具模块中的组件之一，目前支持识别m
     	"strings"
     	"time"
     
-    	"shorturl/go-zero/core/stores/cache"
-    	"shorturl/go-zero/core/stores/sqlc"
-    	"shorturl/go-zero/core/stores/sqlx"
-    	"shorturl/go-zero/core/stringx"
-    	"shorturl/go-zero/tools/goctl/model/sql/builderx"
+    	"shorturl/wangjian-zero/core/stores/cache"
+    	"shorturl/wangjian-zero/core/stores/sqlc"
+    	"shorturl/wangjian-zero/core/stores/sqlx"
+    	"shorturl/wangjian-zero/core/stringx"
+    	"shorturl/wangjian-zero/tools/goctl/model/sql/builderx"
     )
     
     var (
@@ -261,7 +261,7 @@ OPTIONS:
     OPTIONS:
        --src value, -s value  the path or path globbing patterns of the ddl
        --dir value, -d value  the target dir
-       --style value          the file naming format, see [https://shorturl/go-zero/tree/master/tools/goctl/config/readme.md]
+       --style value          the file naming format, see [https://shorturl/wangjian-zero/tree/master/tools/goctl/config/readme.md]
        --cache, -c            generate code with cache [optional]
        --idea                 for idea plugin [optional]
 	```
@@ -286,7 +286,7 @@ OPTIONS:
        --table value, -t value  the table or table globbing patterns in the database
        --cache, -c              generate code with cache [optional]
        --dir value, -d value    the target dir
-       --style value            the file naming format, see [https://shorturl/go-zero/tree/master/tools/goctl/config/readme.md]
+       --style value            the file naming format, see [https://shorturl/wangjian-zero/tree/master/tools/goctl/config/readme.md]
        --idea                   for idea plugin [optional]
 
 

@@ -3,7 +3,7 @@ package ast
 import (
 	"strings"
 
-	"shorturl/go-zero/tools/goctl/api/parser/g4/gen/api"
+	"shorturl/wangjian-zero/tools/goctl/api/parser/g4/gen/api"
 )
 
 // KvExpr describes key-value for api

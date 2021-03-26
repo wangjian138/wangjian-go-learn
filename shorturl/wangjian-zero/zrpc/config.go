@@ -1,9 +1,9 @@
 package zrpc
 
 import (
-	"shorturl/go-zero/core/discov"
-	"shorturl/go-zero/core/service"
-	"shorturl/go-zero/core/stores/redis"
+	"shorturl/wangjian-zero/core/discov"
+	"shorturl/wangjian-zero/core/service"
+	"shorturl/wangjian-zero/core/stores/redis"
 )
 
 type (

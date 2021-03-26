@@ -5,9 +5,9 @@ import (
 	"log"
 	"time"
 
-	"shorturl/go-zero/core/errorx"
-	"shorturl/go-zero/core/hash"
-	"shorturl/go-zero/core/syncx"
+	"shorturl/wangjian-zero/core/errorx"
+	"shorturl/wangjian-zero/core/hash"
+	"shorturl/wangjian-zero/core/syncx"
 )
 
 type (

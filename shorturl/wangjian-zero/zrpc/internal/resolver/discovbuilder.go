@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"google.golang.org/grpc/resolver"
-	"shorturl/go-zero/core/discov"
+	"shorturl/wangjian-zero/core/discov"
 )
 
 type discovBuilder struct{}

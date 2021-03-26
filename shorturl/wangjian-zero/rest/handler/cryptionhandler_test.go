@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/codec"
+	"shorturl/wangjian-zero/core/codec"
 )
 
 const (

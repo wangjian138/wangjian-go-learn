@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/tools/goctl/model/sql/parser"
-	"shorturl/go-zero/tools/goctl/util/stringx"
+	"shorturl/wangjian-zero/tools/goctl/model/sql/parser"
+	"shorturl/wangjian-zero/tools/goctl/util/stringx"
 )
 
 func TestGenCacheKeys(t *testing.T) {

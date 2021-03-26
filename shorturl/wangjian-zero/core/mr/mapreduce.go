@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"sync"
 
-	"shorturl/go-zero/core/errorx"
-	"shorturl/go-zero/core/lang"
-	"shorturl/go-zero/core/syncx"
-	"shorturl/go-zero/core/threading"
+	"shorturl/wangjian-zero/core/errorx"
+	"shorturl/wangjian-zero/core/lang"
+	"shorturl/wangjian-zero/core/syncx"
+	"shorturl/wangjian-zero/core/threading"
 )
 
 const (

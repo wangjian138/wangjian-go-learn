@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/stringx"
-	"shorturl/go-zero/tools/goctl/rpc/execx"
-	"shorturl/go-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/core/stringx"
+	"shorturl/wangjian-zero/tools/goctl/rpc/execx"
+	"shorturl/wangjian-zero/tools/goctl/util"
 )
 
 func TestIsGoMod(t *testing.T) {

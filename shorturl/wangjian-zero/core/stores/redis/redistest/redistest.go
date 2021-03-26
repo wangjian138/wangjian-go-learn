@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/alicebob/miniredis/v2"
-	"shorturl/go-zero/core/lang"
-	"shorturl/go-zero/core/stores/redis"
+	"shorturl/wangjian-zero/core/lang"
+	"shorturl/wangjian-zero/core/stores/redis"
 )
 
 // CreateRedis returns a in process redis.Redis.

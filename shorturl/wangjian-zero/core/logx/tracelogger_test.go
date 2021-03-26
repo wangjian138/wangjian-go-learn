@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/trace/tracespec"
+	"shorturl/wangjian-zero/core/trace/tracespec"
 )
 
 const (

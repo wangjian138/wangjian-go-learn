@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"shorturl/go-zero/core/stringx"
-	"shorturl/go-zero/core/timex"
-	"shorturl/go-zero/core/trace/tracespec"
+	"shorturl/wangjian-zero/core/stringx"
+	"shorturl/wangjian-zero/core/timex"
+	"shorturl/wangjian-zero/core/trace/tracespec"
 )
 
 const (

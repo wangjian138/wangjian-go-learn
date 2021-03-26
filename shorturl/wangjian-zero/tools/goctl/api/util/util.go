@@ -8,9 +8,9 @@ import (
 	"path"
 	"strings"
 
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/tools/goctl/api/spec"
-	"shorturl/go-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/tools/goctl/api/spec"
+	"shorturl/wangjian-zero/tools/goctl/util"
 )
 
 // MaybeCreateFile creates file if not exists

@@ -1,6 +1,6 @@
 package stringx
 
-import "shorturl/go-zero/core/lang"
+import "shorturl/wangjian-zero/core/lang"
 
 const defaultMask = '*'
 

@@ -6,7 +6,7 @@ import (
 
 	"github.com/logrusorgru/aurora"
 	"github.com/urfave/cli"
-	"shorturl/go-zero/tools/goctl/api/parser"
+	"shorturl/wangjian-zero/tools/goctl/api/parser"
 )
 
 // GoValidateApi verifies whether the api has a syntax error

@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"strings"
 
-	"shorturl/go-zero/core/mathx"
-	"shorturl/go-zero/core/stringx"
+	"shorturl/wangjian-zero/core/mathx"
+	"shorturl/wangjian-zero/core/stringx"
 )
 
 var replacer = stringx.NewReplacer(map[string]string{

@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"time"
 
-	"shorturl/go-zero/core/logx"
+	"shorturl/wangjian-zero/core/logx"
 )
 
 const (

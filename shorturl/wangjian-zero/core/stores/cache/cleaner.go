@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"time"
 
-	"shorturl/go-zero/core/collection"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/proc"
-	"shorturl/go-zero/core/stat"
-	"shorturl/go-zero/core/stringx"
-	"shorturl/go-zero/core/threading"
+	"shorturl/wangjian-zero/core/collection"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/proc"
+	"shorturl/wangjian-zero/core/stat"
+	"shorturl/wangjian-zero/core/stringx"
+	"shorturl/wangjian-zero/core/threading"
 )
 
 const (

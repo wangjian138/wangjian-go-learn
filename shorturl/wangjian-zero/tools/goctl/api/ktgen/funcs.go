@@ -7,7 +7,7 @@ import (
 	"text/template"
 
 	"github.com/iancoleman/strcase"
-	"shorturl/go-zero/tools/goctl/api/util"
+	"shorturl/wangjian-zero/tools/goctl/api/util"
 )
 
 var funcsMap = template.FuncMap{

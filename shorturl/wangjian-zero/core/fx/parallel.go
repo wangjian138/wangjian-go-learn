@@ -1,6 +1,6 @@
 package fx
 
-import "shorturl/go-zero/core/threading"
+import "shorturl/wangjian-zero/core/threading"
 
 // Parallel runs fns parallelly and waits for done.
 func Parallel(fns ...func()) {

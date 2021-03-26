@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/rest/internal"
+	"shorturl/wangjian-zero/rest/internal"
 )
 
 func init() {

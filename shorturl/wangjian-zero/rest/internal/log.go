@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"sync"
 
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/rest/httpx"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/rest/httpx"
 )
 
 // LogContext is a context key.

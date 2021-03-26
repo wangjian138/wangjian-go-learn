@@ -1,6 +1,6 @@
 package config
 
-import "shorturl/go-zero/rest"
+import "shorturl/wangjian-zero/rest"
 
 type Config struct {
 	rest.RestConf

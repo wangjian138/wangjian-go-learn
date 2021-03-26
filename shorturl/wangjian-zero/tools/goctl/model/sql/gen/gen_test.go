@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/stringx"
-	"shorturl/go-zero/tools/goctl/config"
-	"shorturl/go-zero/tools/goctl/model/sql/builderx"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/stringx"
+	"shorturl/wangjian-zero/tools/goctl/config"
+	"shorturl/wangjian-zero/tools/goctl/model/sql/builderx"
 )
 
 var (

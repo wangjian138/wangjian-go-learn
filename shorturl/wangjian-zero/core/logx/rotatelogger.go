@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"shorturl/go-zero/core/fs"
-	"shorturl/go-zero/core/lang"
-	"shorturl/go-zero/core/timex"
+	"shorturl/wangjian-zero/core/fs"
+	"shorturl/wangjian-zero/core/lang"
+	"shorturl/wangjian-zero/core/timex"
 )
 
 const (

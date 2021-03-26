@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/mathx"
+	"shorturl/wangjian-zero/core/mathx"
 )
 
 const (

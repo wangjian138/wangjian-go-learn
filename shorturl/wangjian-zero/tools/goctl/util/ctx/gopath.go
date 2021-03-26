@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"shorturl/go-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/util"
 )
 
 // projectFromGoPath is used to find the main module and project file path

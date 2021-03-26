@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"shorturl/go-zero/tools/goctl/plugin"
+	"shorturl/wangjian-zero/tools/goctl/plugin"
 )
 
 func main() {

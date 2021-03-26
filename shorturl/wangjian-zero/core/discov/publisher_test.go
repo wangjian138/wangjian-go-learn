@@ -9,9 +9,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
 	"go.etcd.io/etcd/clientv3"
-	"shorturl/go-zero/core/discov/internal"
-	"shorturl/go-zero/core/lang"
-	"shorturl/go-zero/core/logx"
+	"shorturl/wangjian-zero/core/discov/internal"
+	"shorturl/wangjian-zero/core/lang"
+	"shorturl/wangjian-zero/core/logx"
 )
 
 func init() {

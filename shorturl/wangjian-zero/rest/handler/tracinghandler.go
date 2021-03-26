@@ -3,9 +3,9 @@ package handler
 import (
 	"net/http"
 
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/sysx"
-	"shorturl/go-zero/core/trace"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/sysx"
+	"shorturl/wangjian-zero/core/trace"
 )
 
 // TracingHandler returns a middleware that traces the request.

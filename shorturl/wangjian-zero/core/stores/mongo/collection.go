@@ -5,10 +5,10 @@ import (
 	"time"
 
 	"github.com/globalsign/mgo"
-	"shorturl/go-zero/core/breaker"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/stores/mongo/internal"
-	"shorturl/go-zero/core/timex"
+	"shorturl/wangjian-zero/core/breaker"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/stores/mongo/internal"
+	"shorturl/wangjian-zero/core/timex"
 )
 
 const slowThreshold = time.Millisecond * 500

@@ -3,8 +3,8 @@ package executors
 import (
 	"time"
 
-	"shorturl/go-zero/core/syncx"
-	"shorturl/go-zero/core/timex"
+	"shorturl/wangjian-zero/core/syncx"
+	"shorturl/wangjian-zero/core/timex"
 )
 
 // A LessExecutor is an executor to limit execution once within given time interval.

@@ -2,7 +2,7 @@ package internal
 
 import (
 	"google.golang.org/grpc"
-	"shorturl/go-zero/core/stat"
+	"shorturl/wangjian-zero/core/stat"
 )
 
 type (

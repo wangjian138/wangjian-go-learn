@@ -11,12 +11,12 @@ import (
 
 	"github.com/alicebob/miniredis/v2"
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/mathx"
-	"shorturl/go-zero/core/stat"
-	"shorturl/go-zero/core/stores/redis"
-	"shorturl/go-zero/core/stores/redis/redistest"
-	"shorturl/go-zero/core/syncx"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/mathx"
+	"shorturl/wangjian-zero/core/stat"
+	"shorturl/wangjian-zero/core/stores/redis"
+	"shorturl/wangjian-zero/core/stores/redis/redistest"
+	"shorturl/wangjian-zero/core/syncx"
 )
 
 var errTestNotFound = errors.New("not found")

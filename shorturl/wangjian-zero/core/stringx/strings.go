@@ -3,7 +3,7 @@ package stringx
 import (
 	"errors"
 
-	"shorturl/go-zero/core/lang"
+	"shorturl/wangjian-zero/core/lang"
 )
 
 var (

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"shorturl/go-zero/core/discov/internal"
+	"shorturl/wangjian-zero/core/discov/internal"
 )
 
 const (

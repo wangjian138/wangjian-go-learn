@@ -4,8 +4,8 @@ import (
 	"os"
 	"strings"
 
-	"shorturl/go-zero/core/discov"
-	"shorturl/go-zero/core/netx"
+	"shorturl/wangjian-zero/core/discov"
+	"shorturl/wangjian-zero/core/netx"
 )
 
 const (

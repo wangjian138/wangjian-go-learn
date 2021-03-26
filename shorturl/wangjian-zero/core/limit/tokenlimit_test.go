@@ -6,9 +6,9 @@ import (
 
 	"github.com/alicebob/miniredis/v2"
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/stores/redis"
-	"shorturl/go-zero/core/stores/redis/redistest"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/stores/redis"
+	"shorturl/wangjian-zero/core/stores/redis/redistest"
 )
 
 func init() {

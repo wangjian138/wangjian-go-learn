@@ -6,13 +6,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
-	"shorturl/go-zero/core/discov"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/service"
-	"shorturl/go-zero/core/stat"
-	"shorturl/go-zero/core/stores/redis"
-	"shorturl/go-zero/zrpc/internal"
-	"shorturl/go-zero/zrpc/internal/serverinterceptors"
+	"shorturl/wangjian-zero/core/discov"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/service"
+	"shorturl/wangjian-zero/core/stat"
+	"shorturl/wangjian-zero/core/stores/redis"
+	"shorturl/wangjian-zero/zrpc/internal"
+	"shorturl/wangjian-zero/zrpc/internal/serverinterceptors"
 )
 
 func TestServer_setupInterceptors(t *testing.T) {

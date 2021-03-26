@@ -5,11 +5,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	conf "shorturl/go-zero/tools/goctl/config"
-	"shorturl/go-zero/tools/goctl/rpc/parser"
-	"shorturl/go-zero/tools/goctl/util"
-	"shorturl/go-zero/tools/goctl/util/format"
-	"shorturl/go-zero/tools/goctl/util/stringx"
+	conf "shorturl/wangjian-zero/tools/goctl/config"
+	"shorturl/wangjian-zero/tools/goctl/rpc/parser"
+	"shorturl/wangjian-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/util/format"
+	"shorturl/wangjian-zero/tools/goctl/util/stringx"
 )
 
 const etcTemplate = `Name: {{.serviceName}}.rpc

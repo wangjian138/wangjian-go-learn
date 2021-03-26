@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"shorturl/go-zero/core/executors"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/syncx"
+	"shorturl/wangjian-zero/core/executors"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/syncx"
 )
 
 var (

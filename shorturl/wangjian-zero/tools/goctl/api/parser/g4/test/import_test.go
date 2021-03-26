@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/tools/goctl/api/parser/g4/ast"
-	"shorturl/go-zero/tools/goctl/api/parser/g4/gen/api"
+	"shorturl/wangjian-zero/tools/goctl/api/parser/g4/ast"
+	"shorturl/wangjian-zero/tools/goctl/api/parser/g4/gen/api"
 )
 
 var importAccept = func(p *api.ApiParserParser, visitor *ast.ApiVisitor) interface{} {

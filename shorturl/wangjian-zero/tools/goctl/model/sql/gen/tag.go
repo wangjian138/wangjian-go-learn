@@ -1,8 +1,8 @@
 package gen
 
 import (
-	"shorturl/go-zero/tools/goctl/model/sql/template"
-	"shorturl/go-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/model/sql/template"
+	"shorturl/wangjian-zero/tools/goctl/util"
 )
 
 func genTag(in string) (string, error) {

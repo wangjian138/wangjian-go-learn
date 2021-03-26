@@ -4,8 +4,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"shorturl/go-zero/core/discov/internal"
-	"shorturl/go-zero/core/syncx"
+	"shorturl/wangjian-zero/core/discov/internal"
+	"shorturl/wangjian-zero/core/syncx"
 )
 
 type (

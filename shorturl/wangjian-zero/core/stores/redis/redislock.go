@@ -7,7 +7,7 @@ import (
 	"time"
 
 	red "github.com/go-redis/redis"
-	"shorturl/go-zero/core/logx"
+	"shorturl/wangjian-zero/core/logx"
 )
 
 const (

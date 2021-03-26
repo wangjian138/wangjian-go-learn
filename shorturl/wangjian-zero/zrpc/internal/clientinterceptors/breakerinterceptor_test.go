@@ -9,9 +9,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
-	"shorturl/go-zero/core/breaker"
-	"shorturl/go-zero/core/stat"
-	rcodes "shorturl/go-zero/zrpc/internal/codes"
+	"shorturl/wangjian-zero/core/breaker"
+	"shorturl/wangjian-zero/core/stat"
+	rcodes "shorturl/wangjian-zero/zrpc/internal/codes"
 )
 
 func init() {

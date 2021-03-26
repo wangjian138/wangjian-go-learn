@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sync/atomic"
 
-	"shorturl/go-zero/core/logx"
+	"shorturl/wangjian-zero/core/logx"
 )
 
 // ErrNoAvailablePusher indicates no pusher available.

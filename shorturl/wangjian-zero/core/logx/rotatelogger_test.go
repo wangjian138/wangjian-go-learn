@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/fs"
+	"shorturl/wangjian-zero/core/fs"
 )
 
 func TestDailyRotateRuleMarkRotated(t *testing.T) {

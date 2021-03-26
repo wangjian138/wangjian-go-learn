@@ -5,12 +5,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"shorturl/go-zero/core/collection"
-	conf "shorturl/go-zero/tools/goctl/config"
-	"shorturl/go-zero/tools/goctl/rpc/parser"
-	"shorturl/go-zero/tools/goctl/util"
-	"shorturl/go-zero/tools/goctl/util/format"
-	"shorturl/go-zero/tools/goctl/util/stringx"
+	"shorturl/wangjian-zero/core/collection"
+	conf "shorturl/wangjian-zero/tools/goctl/config"
+	"shorturl/wangjian-zero/tools/goctl/rpc/parser"
+	"shorturl/wangjian-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/util/format"
+	"shorturl/wangjian-zero/tools/goctl/util/stringx"
 )
 
 const (
@@ -21,7 +21,7 @@ import (
 
 	{{.imports}}
 
-	"shorturl/go-zero/core/logx"
+	"shorturl/wangjian-zero/core/logx"
 )
 
 type {{.logicName}} struct {

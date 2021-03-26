@@ -5,7 +5,7 @@ import (
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
-	"shorturl/go-zero/core/trace"
+	"shorturl/wangjian-zero/core/trace"
 )
 
 // TracingInterceptor is an interceptor that handles tracing.

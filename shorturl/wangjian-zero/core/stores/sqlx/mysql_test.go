@@ -7,9 +7,9 @@ import (
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/breaker"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/stat"
+	"shorturl/wangjian-zero/core/breaker"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/stat"
 )
 
 func init() {

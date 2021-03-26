@@ -5,12 +5,12 @@ import (
 	"time"
 
 	"google.golang.org/grpc"
-	"shorturl/go-zero/core/load"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/stat"
-	"shorturl/go-zero/zrpc/internal"
-	"shorturl/go-zero/zrpc/internal/auth"
-	"shorturl/go-zero/zrpc/internal/serverinterceptors"
+	"shorturl/wangjian-zero/core/load"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/stat"
+	"shorturl/wangjian-zero/zrpc/internal"
+	"shorturl/wangjian-zero/zrpc/internal/auth"
+	"shorturl/wangjian-zero/zrpc/internal/serverinterceptors"
 )
 
 // A RpcServer is a rpc server.

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sort"
 
-	"shorturl/go-zero/tools/goctl/api/parser/g4/gen/api"
+	"shorturl/wangjian-zero/tools/goctl/api/parser/g4/gen/api"
 )
 
 // Service describes service for api syntax

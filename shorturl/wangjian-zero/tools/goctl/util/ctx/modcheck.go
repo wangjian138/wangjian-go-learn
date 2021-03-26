@@ -4,8 +4,8 @@ import (
 	"errors"
 	"os"
 
-	"shorturl/go-zero/core/jsonx"
-	"shorturl/go-zero/tools/goctl/rpc/execx"
+	"shorturl/wangjian-zero/core/jsonx"
+	"shorturl/wangjian-zero/tools/goctl/rpc/execx"
 )
 
 // IsGoMod is used to determine whether workDir is a go module project through command `go list -json -m`

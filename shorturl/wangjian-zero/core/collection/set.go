@@ -1,8 +1,8 @@
 package collection
 
 import (
-	"shorturl/go-zero/core/lang"
-	"shorturl/go-zero/core/logx"
+	"shorturl/wangjian-zero/core/lang"
+	"shorturl/wangjian-zero/core/logx"
 )
 
 const (

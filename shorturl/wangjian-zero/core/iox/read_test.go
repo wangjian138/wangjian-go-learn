@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/fs"
-	"shorturl/go-zero/core/stringx"
+	"shorturl/wangjian-zero/core/fs"
+	"shorturl/wangjian-zero/core/stringx"
 )
 
 func TestReadText(t *testing.T) {

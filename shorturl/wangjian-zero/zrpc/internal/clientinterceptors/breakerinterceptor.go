@@ -5,8 +5,8 @@ import (
 	"path"
 
 	"google.golang.org/grpc"
-	"shorturl/go-zero/core/breaker"
-	"shorturl/go-zero/zrpc/internal/codes"
+	"shorturl/wangjian-zero/core/breaker"
+	"shorturl/wangjian-zero/zrpc/internal/codes"
 )
 
 // BreakerInterceptor is an interceptor that acts as a circuit breaker.

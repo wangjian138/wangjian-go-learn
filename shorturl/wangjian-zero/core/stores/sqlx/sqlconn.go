@@ -3,7 +3,7 @@ package sqlx
 import (
 	"database/sql"
 
-	"shorturl/go-zero/core/breaker"
+	"shorturl/wangjian-zero/core/breaker"
 )
 
 // ErrNotFound is an alias of sql.ErrNoRows

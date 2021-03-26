@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/globalsign/mgo"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/syncx"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/syncx"
 )
 
 const (

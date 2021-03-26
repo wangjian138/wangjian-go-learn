@@ -4,8 +4,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"shorturl/go-zero/core/syncx"
-	"shorturl/go-zero/core/timex"
+	"shorturl/wangjian-zero/core/syncx"
+	"shorturl/wangjian-zero/core/timex"
 )
 
 type limitedExecutor struct {

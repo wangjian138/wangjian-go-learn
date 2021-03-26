@@ -10,9 +10,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"shorturl/go-zero/core/jsonx"
-	"shorturl/go-zero/core/lang"
-	"shorturl/go-zero/core/stringx"
+	"shorturl/wangjian-zero/core/jsonx"
+	"shorturl/wangjian-zero/core/lang"
+	"shorturl/wangjian-zero/core/stringx"
 )
 
 const (

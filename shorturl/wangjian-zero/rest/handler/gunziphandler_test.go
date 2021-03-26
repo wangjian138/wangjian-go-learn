@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/codec"
-	"shorturl/go-zero/rest/httpx"
+	"shorturl/wangjian-zero/core/codec"
+	"shorturl/wangjian-zero/rest/httpx"
 )
 
 func TestGunzipHandler(t *testing.T) {

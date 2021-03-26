@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"sync"
 
-	"shorturl/go-zero/core/lang"
-	"shorturl/go-zero/core/mapping"
+	"shorturl/wangjian-zero/core/lang"
+	"shorturl/wangjian-zero/core/mapping"
 )
 
 const (

@@ -10,11 +10,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"shorturl/go-zero/core/executors"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/proc"
-	"shorturl/go-zero/core/sysx"
-	"shorturl/go-zero/core/timex"
+	"shorturl/wangjian-zero/core/executors"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/proc"
+	"shorturl/wangjian-zero/core/sysx"
+	"shorturl/wangjian-zero/core/timex"
 )
 
 const (

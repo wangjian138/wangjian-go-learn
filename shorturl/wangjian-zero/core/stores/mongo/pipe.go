@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/globalsign/mgo"
-	"shorturl/go-zero/core/breaker"
+	"shorturl/wangjian-zero/core/breaker"
 )
 
 type (

@@ -5,8 +5,8 @@ import (
 	"sync"
 
 	"google.golang.org/grpc"
-	"shorturl/go-zero/core/load"
-	"shorturl/go-zero/core/stat"
+	"shorturl/wangjian-zero/core/load"
+	"shorturl/wangjian-zero/core/stat"
 )
 
 const serviceType = "rpc"

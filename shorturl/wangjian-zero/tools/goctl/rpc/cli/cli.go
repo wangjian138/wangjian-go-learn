@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 
 	"github.com/urfave/cli"
-	"shorturl/go-zero/tools/goctl/rpc/generator"
+	"shorturl/wangjian-zero/tools/goctl/rpc/generator"
 )
 
 // RPC is to generate rpc service code from a proto file by specifying a proto file using flag src,

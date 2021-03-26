@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.etcd.io/etcd/clientv3"
 	"go.etcd.io/etcd/mvcc/mvccpb"
-	"shorturl/go-zero/core/contextx"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/stringx"
+	"shorturl/wangjian-zero/core/contextx"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/stringx"
 )
 
 var mockLock sync.Mutex

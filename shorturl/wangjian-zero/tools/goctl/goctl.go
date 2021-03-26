@@ -6,26 +6,26 @@ import (
 	"runtime"
 
 	"github.com/urfave/cli"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/tools/goctl/api/apigen"
-	"shorturl/go-zero/tools/goctl/api/dartgen"
-	"shorturl/go-zero/tools/goctl/api/docgen"
-	"shorturl/go-zero/tools/goctl/api/format"
-	"shorturl/go-zero/tools/goctl/api/gogen"
-	"shorturl/go-zero/tools/goctl/api/javagen"
-	"shorturl/go-zero/tools/goctl/api/ktgen"
-	"shorturl/go-zero/tools/goctl/api/new"
-	"shorturl/go-zero/tools/goctl/api/tsgen"
-	"shorturl/go-zero/tools/goctl/api/validate"
-	"shorturl/go-zero/tools/goctl/configgen"
-	"shorturl/go-zero/tools/goctl/docker"
-	"shorturl/go-zero/tools/goctl/kube"
-	"shorturl/go-zero/tools/goctl/model/mongo"
-	model "shorturl/go-zero/tools/goctl/model/sql/command"
-	"shorturl/go-zero/tools/goctl/plugin"
-	rpc "shorturl/go-zero/tools/goctl/rpc/cli"
-	"shorturl/go-zero/tools/goctl/tpl"
-	"shorturl/go-zero/tools/goctl/upgrade"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/tools/goctl/api/apigen"
+	"shorturl/wangjian-zero/tools/goctl/api/dartgen"
+	"shorturl/wangjian-zero/tools/goctl/api/docgen"
+	"shorturl/wangjian-zero/tools/goctl/api/format"
+	"shorturl/wangjian-zero/tools/goctl/api/gogen"
+	"shorturl/wangjian-zero/tools/goctl/api/javagen"
+	"shorturl/wangjian-zero/tools/goctl/api/ktgen"
+	"shorturl/wangjian-zero/tools/goctl/api/new"
+	"shorturl/wangjian-zero/tools/goctl/api/tsgen"
+	"shorturl/wangjian-zero/tools/goctl/api/validate"
+	"shorturl/wangjian-zero/tools/goctl/configgen"
+	"shorturl/wangjian-zero/tools/goctl/docker"
+	"shorturl/wangjian-zero/tools/goctl/kube"
+	"shorturl/wangjian-zero/tools/goctl/model/mongo"
+	model "shorturl/wangjian-zero/tools/goctl/model/sql/command"
+	"shorturl/wangjian-zero/tools/goctl/plugin"
+	rpc "shorturl/wangjian-zero/tools/goctl/rpc/cli"
+	"shorturl/wangjian-zero/tools/goctl/tpl"
+	"shorturl/wangjian-zero/tools/goctl/upgrade"
 )
 
 var (
@@ -112,7 +112,7 @@ var (
 						},
 						cli.StringFlag{
 							Name:  "style",
-							Usage: "the file naming format, see [https://shorturl/go-zero/tree/master/tools/goctl/config/readme.md]",
+							Usage: "the file naming format, see [https://shorturl/wangjian-zero/tree/master/tools/goctl/config/readme.md]",
 						},
 					},
 					Action: gogen.GoCommand,
@@ -211,7 +211,7 @@ var (
 						},
 						cli.StringFlag{
 							Name:  "style",
-							Usage: "the file naming format, see [https://shorturl/go-zero/tree/master/tools/goctl/config/readme.md]",
+							Usage: "the file naming format, see [https://shorturl/wangjian-zero/tree/master/tools/goctl/config/readme.md]",
 						},
 					},
 					Action: plugin.PluginCommand,
@@ -331,7 +331,7 @@ var (
 					Flags: []cli.Flag{
 						cli.StringFlag{
 							Name:  "style",
-							Usage: "the file naming format, see [https://shorturl/go-zero/tree/master/tools/goctl/config/readme.md]",
+							Usage: "the file naming format, see [https://shorturl/wangjian-zero/tree/master/tools/goctl/config/readme.md]",
 						},
 						cli.BoolFlag{
 							Name:  "idea",
@@ -369,7 +369,7 @@ var (
 						},
 						cli.StringFlag{
 							Name:  "style",
-							Usage: "the file naming format, see [https://shorturl/go-zero/tree/master/tools/goctl/config/readme.md]",
+							Usage: "the file naming format, see [https://shorturl/wangjian-zero/tree/master/tools/goctl/config/readme.md]",
 						},
 						cli.BoolFlag{
 							Name:  "idea",
@@ -402,7 +402,7 @@ var (
 								},
 								cli.StringFlag{
 									Name:  "style",
-									Usage: "the file naming format, see [https://shorturl/go-zero/tree/master/tools/goctl/config/readme.md]",
+									Usage: "the file naming format, see [https://shorturl/wangjian-zero/tree/master/tools/goctl/config/readme.md]",
 								},
 								cli.BoolFlag{
 									Name:  "cache, c",
@@ -437,7 +437,7 @@ var (
 								},
 								cli.StringFlag{
 									Name:  "style",
-									Usage: "the file naming format, see [https://shorturl/go-zero/tree/master/tools/goctl/config/readme.md]",
+									Usage: "the file naming format, see [https://shorturl/wangjian-zero/tree/master/tools/goctl/config/readme.md]",
 								},
 								cli.BoolFlag{
 									Name:  "idea",
@@ -466,7 +466,7 @@ var (
 						},
 						cli.StringFlag{
 							Name:  "style",
-							Usage: "the file naming format, see [https://shorturl/go-zero/tree/master/tools/goctl/config/readme.md]",
+							Usage: "the file naming format, see [https://shorturl/wangjian-zero/tree/master/tools/goctl/config/readme.md]",
 						},
 					},
 					Action: mongo.Action,

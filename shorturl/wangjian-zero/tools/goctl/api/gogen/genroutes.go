@@ -8,12 +8,12 @@ import (
 	"strings"
 	"text/template"
 
-	"shorturl/go-zero/core/collection"
-	"shorturl/go-zero/tools/goctl/api/spec"
-	"shorturl/go-zero/tools/goctl/config"
-	"shorturl/go-zero/tools/goctl/util"
-	"shorturl/go-zero/tools/goctl/util/format"
-	"shorturl/go-zero/tools/goctl/vars"
+	"shorturl/wangjian-zero/core/collection"
+	"shorturl/wangjian-zero/tools/goctl/api/spec"
+	"shorturl/wangjian-zero/tools/goctl/config"
+	"shorturl/wangjian-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/util/format"
+	"shorturl/wangjian-zero/tools/goctl/vars"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"shorturl/go-zero/core/mapping"
-	"shorturl/go-zero/rest/internal/context"
+	"shorturl/wangjian-zero/core/mapping"
+	"shorturl/wangjian-zero/rest/internal/context"
 )
 
 const (

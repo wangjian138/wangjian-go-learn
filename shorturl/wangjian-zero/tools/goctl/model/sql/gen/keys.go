@@ -5,8 +5,8 @@ import (
 	"sort"
 	"strings"
 
-	"shorturl/go-zero/tools/goctl/model/sql/parser"
-	"shorturl/go-zero/tools/goctl/util/stringx"
+	"shorturl/wangjian-zero/tools/goctl/model/sql/parser"
+	"shorturl/wangjian-zero/tools/goctl/util/stringx"
 )
 
 // Key describes cache key

@@ -3,7 +3,7 @@ package prof
 import (
 	"testing"
 
-	"shorturl/go-zero/core/utils"
+	"shorturl/wangjian-zero/core/utils"
 )
 
 func TestProfiler(t *testing.T) {

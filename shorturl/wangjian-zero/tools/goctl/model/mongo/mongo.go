@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/urfave/cli"
-	"shorturl/go-zero/tools/goctl/config"
-	"shorturl/go-zero/tools/goctl/model/mongo/generate"
+	"shorturl/wangjian-zero/tools/goctl/config"
+	"shorturl/wangjian-zero/tools/goctl/model/mongo/generate"
 )
 
 // Action provides the entry for goctl mongo code generation.

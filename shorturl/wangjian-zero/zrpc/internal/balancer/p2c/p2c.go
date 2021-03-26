@@ -13,10 +13,10 @@ import (
 	"google.golang.org/grpc/balancer"
 	"google.golang.org/grpc/balancer/base"
 	"google.golang.org/grpc/resolver"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/syncx"
-	"shorturl/go-zero/core/timex"
-	"shorturl/go-zero/zrpc/internal/codes"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/syncx"
+	"shorturl/wangjian-zero/core/timex"
+	"shorturl/wangjian-zero/zrpc/internal/codes"
 )
 
 const (

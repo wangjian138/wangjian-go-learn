@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/tools/goctl/api/parser/g4/ast"
+	"shorturl/wangjian-zero/tools/goctl/api/parser/g4/ast"
 )
 
 var (

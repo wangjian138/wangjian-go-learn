@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/fs"
+	"shorturl/wangjian-zero/core/fs"
 )
 
 func TestSplitLineChunks(t *testing.T) {

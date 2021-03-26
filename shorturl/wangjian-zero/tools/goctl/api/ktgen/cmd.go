@@ -4,7 +4,7 @@ import (
 	"errors"
 
 	"github.com/urfave/cli"
-	"shorturl/go-zero/tools/goctl/api/parser"
+	"shorturl/wangjian-zero/tools/goctl/api/parser"
 )
 
 // KtCommand the generate kotlin code command entrance

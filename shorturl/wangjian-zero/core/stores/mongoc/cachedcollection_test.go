@@ -15,11 +15,11 @@ import (
 	"github.com/globalsign/mgo"
 	"github.com/globalsign/mgo/bson"
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/stat"
-	"shorturl/go-zero/core/stores/cache"
-	"shorturl/go-zero/core/stores/mongo"
-	"shorturl/go-zero/core/stores/redis"
-	"shorturl/go-zero/core/stores/redis/redistest"
+	"shorturl/wangjian-zero/core/stat"
+	"shorturl/wangjian-zero/core/stores/cache"
+	"shorturl/wangjian-zero/core/stores/mongo"
+	"shorturl/wangjian-zero/core/stores/redis"
+	"shorturl/wangjian-zero/core/stores/redis/redistest"
 )
 
 const dummyCount = 10

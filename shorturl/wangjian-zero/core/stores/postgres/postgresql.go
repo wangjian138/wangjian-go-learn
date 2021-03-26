@@ -3,7 +3,7 @@ package postgres
 import (
 	// imports the driver.
 	_ "github.com/lib/pq"
-	"shorturl/go-zero/core/stores/sqlx"
+	"shorturl/wangjian-zero/core/stores/sqlx"
 )
 
 const postgresDriverName = "postgres"

@@ -12,10 +12,10 @@ import (
 	"strings"
 
 	"github.com/urfave/cli"
-	"shorturl/go-zero/core/errorx"
-	"shorturl/go-zero/tools/goctl/api/parser"
-	"shorturl/go-zero/tools/goctl/api/util"
-	ctlutil "shorturl/go-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/core/errorx"
+	"shorturl/wangjian-zero/tools/goctl/api/parser"
+	"shorturl/wangjian-zero/tools/goctl/api/util"
+	ctlutil "shorturl/wangjian-zero/tools/goctl/util"
 )
 
 const (

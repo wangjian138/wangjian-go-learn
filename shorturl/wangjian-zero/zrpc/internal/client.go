@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"google.golang.org/grpc"
-	"shorturl/go-zero/zrpc/internal/balancer/p2c"
-	"shorturl/go-zero/zrpc/internal/clientinterceptors"
-	"shorturl/go-zero/zrpc/internal/resolver"
+	"shorturl/wangjian-zero/zrpc/internal/balancer/p2c"
+	"shorturl/wangjian-zero/zrpc/internal/clientinterceptors"
+	"shorturl/wangjian-zero/zrpc/internal/resolver"
 )
 
 const (

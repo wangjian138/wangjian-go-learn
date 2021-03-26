@@ -5,11 +5,11 @@ import (
 	"path"
 	"strings"
 
-	"shorturl/go-zero/tools/goctl/api/spec"
-	"shorturl/go-zero/tools/goctl/config"
-	ctlutil "shorturl/go-zero/tools/goctl/util"
-	"shorturl/go-zero/tools/goctl/util/format"
-	"shorturl/go-zero/tools/goctl/vars"
+	"shorturl/wangjian-zero/tools/goctl/api/spec"
+	"shorturl/wangjian-zero/tools/goctl/config"
+	ctlutil "shorturl/wangjian-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/util/format"
+	"shorturl/wangjian-zero/tools/goctl/vars"
 )
 
 const logicTemplate = `package logic

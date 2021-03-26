@@ -6,11 +6,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/rescue"
-	"shorturl/go-zero/core/stat"
-	"shorturl/go-zero/core/threading"
-	"shorturl/go-zero/core/timex"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/rescue"
+	"shorturl/wangjian-zero/core/stat"
+	"shorturl/wangjian-zero/core/threading"
+	"shorturl/wangjian-zero/core/timex"
 )
 
 const queueName = "queue"

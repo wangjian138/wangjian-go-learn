@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
-	"shorturl/go-zero/core/load"
-	"shorturl/go-zero/core/stat"
+	"shorturl/wangjian-zero/core/load"
+	"shorturl/wangjian-zero/core/stat"
 )
 
 func TestUnarySheddingInterceptor(t *testing.T) {

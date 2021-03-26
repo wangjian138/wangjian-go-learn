@@ -4,8 +4,8 @@ import (
 	"os"
 	"strings"
 
-	"shorturl/go-zero/tools/goctl/api/spec"
-	"shorturl/go-zero/tools/goctl/api/util"
+	"shorturl/wangjian-zero/tools/goctl/api/spec"
+	"shorturl/wangjian-zero/tools/goctl/api/util"
 )
 
 func lowCamelCase(s string) string {

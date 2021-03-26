@@ -3,11 +3,11 @@ package generator
 import (
 	"path/filepath"
 
-	conf "shorturl/go-zero/tools/goctl/config"
-	"shorturl/go-zero/tools/goctl/rpc/parser"
-	"shorturl/go-zero/tools/goctl/util"
-	"shorturl/go-zero/tools/goctl/util/console"
-	"shorturl/go-zero/tools/goctl/util/ctx"
+	conf "shorturl/wangjian-zero/tools/goctl/config"
+	"shorturl/wangjian-zero/tools/goctl/rpc/parser"
+	"shorturl/wangjian-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/util/console"
+	"shorturl/wangjian-zero/tools/goctl/util/ctx"
 )
 
 // RPCGenerator defines a generator and configure

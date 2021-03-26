@@ -3,9 +3,9 @@ package gogen
 import (
 	"strings"
 
-	"shorturl/go-zero/tools/goctl/api/spec"
-	"shorturl/go-zero/tools/goctl/config"
-	"shorturl/go-zero/tools/goctl/util/format"
+	"shorturl/wangjian-zero/tools/goctl/api/spec"
+	"shorturl/wangjian-zero/tools/goctl/config"
+	"shorturl/wangjian-zero/tools/goctl/util/format"
 )
 
 var middlewareImplementCode = `

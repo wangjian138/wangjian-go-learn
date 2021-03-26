@@ -3,9 +3,9 @@ package handler
 import (
 	"net/http"
 
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/syncx"
-	"shorturl/go-zero/rest/internal"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/syncx"
+	"shorturl/wangjian-zero/rest/internal"
 )
 
 // MaxConns returns a middleware that limit the concurrent connections.

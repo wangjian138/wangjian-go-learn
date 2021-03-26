@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	"shorturl/go-zero/core/stringx"
+	"shorturl/wangjian-zero/core/stringx"
 )
 
 const (

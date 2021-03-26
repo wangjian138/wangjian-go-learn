@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"shorturl/go-zero/core/threading"
+	"shorturl/wangjian-zero/core/threading"
 )
 
 // A DelayExecutor delays a tasks on given delay interval.

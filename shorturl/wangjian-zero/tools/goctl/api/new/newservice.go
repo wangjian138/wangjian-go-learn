@@ -8,9 +8,9 @@ import (
 	"text/template"
 
 	"github.com/urfave/cli"
-	"shorturl/go-zero/tools/goctl/api/gogen"
-	conf "shorturl/go-zero/tools/goctl/config"
-	"shorturl/go-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/api/gogen"
+	conf "shorturl/wangjian-zero/tools/goctl/config"
+	"shorturl/wangjian-zero/tools/goctl/util"
 )
 
 const apiTemplate = `

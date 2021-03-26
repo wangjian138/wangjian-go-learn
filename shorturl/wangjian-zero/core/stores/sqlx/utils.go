@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/mapping"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/mapping"
 )
 
 func desensitize(datasource string) string {

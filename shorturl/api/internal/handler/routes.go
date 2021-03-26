@@ -6,7 +6,7 @@ import (
 
 	"shorturl/api/internal/svc"
 
-	"shorturl/go-zero/rest"
+	"shorturl/wangjian-zero/rest"
 )
 
 func RegisterHandlers(engine *rest.Server, serverCtx *svc.ServiceContext) {

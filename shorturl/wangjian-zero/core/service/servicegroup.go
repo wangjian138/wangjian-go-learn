@@ -3,9 +3,9 @@ package service
 import (
 	"log"
 
-	"shorturl/go-zero/core/proc"
-	"shorturl/go-zero/core/syncx"
-	"shorturl/go-zero/core/threading"
+	"shorturl/wangjian-zero/core/proc"
+	"shorturl/wangjian-zero/core/syncx"
+	"shorturl/wangjian-zero/core/threading"
 )
 
 type (

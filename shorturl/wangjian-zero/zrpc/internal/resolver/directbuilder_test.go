@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/resolver"
-	"shorturl/go-zero/core/lang"
-	"shorturl/go-zero/core/mathx"
+	"shorturl/wangjian-zero/core/lang"
+	"shorturl/wangjian-zero/core/mathx"
 )
 
 func TestDirectBuilder_Build(t *testing.T) {

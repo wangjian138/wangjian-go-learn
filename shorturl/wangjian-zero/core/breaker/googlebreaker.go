@@ -4,8 +4,8 @@ import (
 	"math"
 	"time"
 
-	"shorturl/go-zero/core/collection"
-	"shorturl/go-zero/core/mathx"
+	"shorturl/wangjian-zero/core/collection"
+	"shorturl/wangjian-zero/core/mathx"
 )
 
 const (

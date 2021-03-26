@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/trace/tracespec"
+	"shorturl/wangjian-zero/core/trace/tracespec"
 )
 
 func TestTracingHandler(t *testing.T) {

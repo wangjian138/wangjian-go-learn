@@ -9,11 +9,11 @@ import (
 	"strings"
 	"text/template"
 
-	"shorturl/go-zero/core/collection"
-	"shorturl/go-zero/tools/goctl/api/spec"
-	"shorturl/go-zero/tools/goctl/api/util"
-	ctlutil "shorturl/go-zero/tools/goctl/util"
-	"shorturl/go-zero/tools/goctl/util/ctx"
+	"shorturl/wangjian-zero/core/collection"
+	"shorturl/wangjian-zero/tools/goctl/api/spec"
+	"shorturl/wangjian-zero/tools/goctl/api/util"
+	ctlutil "shorturl/wangjian-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/util/ctx"
 )
 
 type fileGenConfig struct {

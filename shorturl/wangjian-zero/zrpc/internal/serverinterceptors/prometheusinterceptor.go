@@ -7,8 +7,8 @@ import (
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/status"
-	"shorturl/go-zero/core/metric"
-	"shorturl/go-zero/core/timex"
+	"shorturl/wangjian-zero/core/metric"
+	"shorturl/wangjian-zero/core/timex"
 )
 
 const serverNamespace = "rpc_server"

@@ -7,11 +7,11 @@ import (
 	"path"
 	"strings"
 
-	"shorturl/go-zero/tools/goctl/api/spec"
-	apiutil "shorturl/go-zero/tools/goctl/api/util"
-	"shorturl/go-zero/tools/goctl/config"
-	"shorturl/go-zero/tools/goctl/util"
-	"shorturl/go-zero/tools/goctl/util/format"
+	"shorturl/wangjian-zero/tools/goctl/api/spec"
+	apiutil "shorturl/wangjian-zero/tools/goctl/api/util"
+	"shorturl/wangjian-zero/tools/goctl/config"
+	"shorturl/wangjian-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/tools/goctl/util/format"
 )
 
 const (

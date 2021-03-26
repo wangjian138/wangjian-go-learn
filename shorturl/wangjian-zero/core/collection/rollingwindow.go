@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"shorturl/go-zero/core/timex"
+	"shorturl/wangjian-zero/core/timex"
 )
 
 type (

@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/tools/goctl/api/parser"
-	"shorturl/go-zero/tools/goctl/rpc/execx"
+	"shorturl/wangjian-zero/tools/goctl/api/parser"
+	"shorturl/wangjian-zero/tools/goctl/rpc/execx"
 )
 
 const testApiTemplate = `

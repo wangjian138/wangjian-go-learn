@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"shorturl/go-zero/core/timex"
+	"shorturl/wangjian-zero/core/timex"
 )
 
 // A ElapsedTimer is a timer to track the elapsed time.

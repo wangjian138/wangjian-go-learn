@@ -6,9 +6,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/mathx"
-	"shorturl/go-zero/core/syncx"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/mathx"
+	"shorturl/wangjian-zero/core/syncx"
 )
 
 const (

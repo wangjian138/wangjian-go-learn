@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"shorturl/go-zero/core/stores/redis"
+	"shorturl/wangjian-zero/core/stores/redis"
 )
 
 const (

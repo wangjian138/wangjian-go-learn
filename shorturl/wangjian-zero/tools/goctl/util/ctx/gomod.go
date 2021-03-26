@@ -5,8 +5,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"shorturl/go-zero/core/jsonx"
-	"shorturl/go-zero/tools/goctl/rpc/execx"
+	"shorturl/wangjian-zero/core/jsonx"
+	"shorturl/wangjian-zero/tools/goctl/rpc/execx"
 )
 
 // Module contains the relative data of go module,

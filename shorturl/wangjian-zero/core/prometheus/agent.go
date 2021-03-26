@@ -6,8 +6,8 @@ import (
 	"sync"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/threading"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/threading"
 )
 
 var once sync.Once

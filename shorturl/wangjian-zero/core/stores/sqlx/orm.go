@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"shorturl/go-zero/core/mapping"
+	"shorturl/wangjian-zero/core/mapping"
 )
 
 const tagName = "db"

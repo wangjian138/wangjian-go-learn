@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"google.golang.org/grpc"
-	"shorturl/go-zero/core/discov"
-	"shorturl/go-zero/zrpc/internal"
-	"shorturl/go-zero/zrpc/internal/auth"
+	"shorturl/wangjian-zero/core/discov"
+	"shorturl/wangjian-zero/zrpc/internal"
+	"shorturl/wangjian-zero/zrpc/internal/auth"
 )
 
 var (

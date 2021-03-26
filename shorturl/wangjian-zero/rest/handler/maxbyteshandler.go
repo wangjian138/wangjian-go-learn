@@ -3,7 +3,7 @@ package handler
 import (
 	"net/http"
 
-	"shorturl/go-zero/rest/internal"
+	"shorturl/wangjian-zero/rest/internal"
 )
 
 // MaxBytesHandler returns a middleware that limit reading of http request body.

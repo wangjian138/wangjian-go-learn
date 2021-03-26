@@ -7,10 +7,10 @@ import (
 	"github.com/globalsign/mgo"
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/breaker"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/stores/mongo/internal"
-	"shorturl/go-zero/core/stringx"
+	"shorturl/wangjian-zero/core/breaker"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/stores/mongo/internal"
+	"shorturl/wangjian-zero/core/stringx"
 )
 
 var errDummy = errors.New("dummy")

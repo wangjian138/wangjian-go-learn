@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/collection"
-	"shorturl/go-zero/core/mathx"
-	"shorturl/go-zero/core/stat"
+	"shorturl/wangjian-zero/core/collection"
+	"shorturl/wangjian-zero/core/mathx"
+	"shorturl/wangjian-zero/core/stat"
 )
 
 const (

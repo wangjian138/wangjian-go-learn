@@ -7,7 +7,7 @@ import (
 	"os"
 	"path"
 
-	"shorturl/go-zero/core/mapping"
+	"shorturl/wangjian-zero/core/mapping"
 )
 
 var loaders = map[string]func([]byte, interface{}) error{

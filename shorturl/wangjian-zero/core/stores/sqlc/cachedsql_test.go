@@ -16,13 +16,13 @@ import (
 
 	"github.com/alicebob/miniredis/v2"
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/fx"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/stat"
-	"shorturl/go-zero/core/stores/cache"
-	"shorturl/go-zero/core/stores/redis"
-	"shorturl/go-zero/core/stores/redis/redistest"
-	"shorturl/go-zero/core/stores/sqlx"
+	"shorturl/wangjian-zero/core/fx"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/stat"
+	"shorturl/wangjian-zero/core/stores/cache"
+	"shorturl/wangjian-zero/core/stores/redis"
+	"shorturl/wangjian-zero/core/stores/redis/redistest"
+	"shorturl/wangjian-zero/core/stores/sqlx"
 )
 
 func init() {

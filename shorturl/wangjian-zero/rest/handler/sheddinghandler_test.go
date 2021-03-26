@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/load"
-	"shorturl/go-zero/core/stat"
+	"shorturl/wangjian-zero/core/load"
+	"shorturl/wangjian-zero/core/stat"
 )
 
 func init() {

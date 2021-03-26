@@ -1,8 +1,8 @@
 package generator
 
 import (
-	conf "shorturl/go-zero/tools/goctl/config"
-	"shorturl/go-zero/tools/goctl/rpc/parser"
+	conf "shorturl/wangjian-zero/tools/goctl/config"
+	"shorturl/wangjian-zero/tools/goctl/rpc/parser"
 )
 
 // Generator defines a generator interface to describe how to generate rpc service

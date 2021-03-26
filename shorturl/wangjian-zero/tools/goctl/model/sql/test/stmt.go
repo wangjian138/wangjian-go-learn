@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/timex"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/timex"
 )
 
 const slowThreshold = time.Millisecond * 500

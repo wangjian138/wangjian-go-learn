@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"strings"
 
-	"shorturl/go-zero/core/stringx"
-	"shorturl/go-zero/tools/goctl/api/gogen"
-	"shorturl/go-zero/tools/goctl/api/spec"
-	"shorturl/go-zero/tools/goctl/api/util"
+	"shorturl/wangjian-zero/core/stringx"
+	"shorturl/wangjian-zero/tools/goctl/api/gogen"
+	"shorturl/wangjian-zero/tools/goctl/api/spec"
+	"shorturl/wangjian-zero/tools/goctl/api/util"
 )
 
 const (

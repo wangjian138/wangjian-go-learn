@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
-	"shorturl/go-zero/core/trace"
+	"shorturl/wangjian-zero/core/trace"
 )
 
 func TestTracingInterceptor(t *testing.T) {

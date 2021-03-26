@@ -9,8 +9,8 @@ import (
 	"net/http/httputil"
 
 	"github.com/dgrijalva/jwt-go"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/rest/token"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/rest/token"
 )
 
 const (

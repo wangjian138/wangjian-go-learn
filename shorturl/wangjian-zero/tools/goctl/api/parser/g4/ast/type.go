@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 
-	"shorturl/go-zero/tools/goctl/api/parser/g4/gen/api"
-	"shorturl/go-zero/tools/goctl/api/util"
+	"shorturl/wangjian-zero/tools/goctl/api/parser/g4/gen/api"
+	"shorturl/wangjian-zero/tools/goctl/api/util"
 )
 
 type (

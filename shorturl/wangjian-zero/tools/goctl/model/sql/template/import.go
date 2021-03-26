@@ -8,11 +8,11 @@ var (
 	"strings"
 	{{if .time}}"time"{{end}}
 
-	"shorturl/go-zero/core/stores/cache"
-	"shorturl/go-zero/core/stores/sqlc"
-	"shorturl/go-zero/core/stores/sqlx"
-	"shorturl/go-zero/core/stringx"
-	"shorturl/go-zero/tools/goctl/model/sql/builderx"
+	"shorturl/wangjian-zero/core/stores/cache"
+	"shorturl/wangjian-zero/core/stores/sqlc"
+	"shorturl/wangjian-zero/core/stores/sqlx"
+	"shorturl/wangjian-zero/core/stringx"
+	"shorturl/wangjian-zero/tools/goctl/model/sql/builderx"
 )
 `
 	// ImportsNoCache defines a import template for model in normal case
@@ -22,10 +22,10 @@ var (
 	"strings"
 	{{if .time}}"time"{{end}}
 
-	"shorturl/go-zero/core/stores/sqlc"
-	"shorturl/go-zero/core/stores/sqlx"
-	"shorturl/go-zero/core/stringx"
-	"shorturl/go-zero/tools/goctl/model/sql/builderx"
+	"shorturl/wangjian-zero/core/stores/sqlc"
+	"shorturl/wangjian-zero/core/stores/sqlx"
+	"shorturl/wangjian-zero/core/stringx"
+	"shorturl/wangjian-zero/tools/goctl/model/sql/builderx"
 )
 `
 )

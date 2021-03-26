@@ -2,9 +2,9 @@ package mongoc
 
 import (
 	"github.com/globalsign/mgo"
-	"shorturl/go-zero/core/stores/cache"
-	"shorturl/go-zero/core/stores/mongo"
-	"shorturl/go-zero/core/syncx"
+	"shorturl/wangjian-zero/core/stores/cache"
+	"shorturl/wangjian-zero/core/stores/mongo"
+	"shorturl/wangjian-zero/core/syncx"
 )
 
 var (

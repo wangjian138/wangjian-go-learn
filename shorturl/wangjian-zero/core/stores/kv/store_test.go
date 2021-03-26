@@ -6,10 +6,10 @@ import (
 
 	"github.com/alicebob/miniredis/v2"
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/hash"
-	"shorturl/go-zero/core/stores/cache"
-	"shorturl/go-zero/core/stores/redis"
-	"shorturl/go-zero/core/stringx"
+	"shorturl/wangjian-zero/core/hash"
+	"shorturl/wangjian-zero/core/stores/cache"
+	"shorturl/wangjian-zero/core/stores/redis"
+	"shorturl/wangjian-zero/core/stringx"
 )
 
 var s1, _ = miniredis.Run()

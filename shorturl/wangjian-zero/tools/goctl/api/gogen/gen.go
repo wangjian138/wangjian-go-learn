@@ -13,12 +13,12 @@ import (
 
 	"github.com/logrusorgru/aurora"
 	"github.com/urfave/cli"
-	"shorturl/go-zero/core/logx"
-	apiformat "shorturl/go-zero/tools/goctl/api/format"
-	"shorturl/go-zero/tools/goctl/api/parser"
-	apiutil "shorturl/go-zero/tools/goctl/api/util"
-	"shorturl/go-zero/tools/goctl/config"
-	"shorturl/go-zero/tools/goctl/util"
+	"shorturl/wangjian-zero/core/logx"
+	apiformat "shorturl/wangjian-zero/tools/goctl/api/format"
+	"shorturl/wangjian-zero/tools/goctl/api/parser"
+	apiutil "shorturl/wangjian-zero/tools/goctl/api/util"
+	"shorturl/wangjian-zero/tools/goctl/config"
+	"shorturl/wangjian-zero/tools/goctl/util"
 )
 
 const tmpFile = "%s-%d"

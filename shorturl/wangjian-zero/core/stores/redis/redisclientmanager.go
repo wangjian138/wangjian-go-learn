@@ -4,7 +4,7 @@ import (
 	"io"
 
 	red "github.com/go-redis/redis"
-	"shorturl/go-zero/core/syncx"
+	"shorturl/wangjian-zero/core/syncx"
 )
 
 const (

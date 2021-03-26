@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
-	"shorturl/go-zero/zrpc/internal/mock"
+	"shorturl/wangjian-zero/zrpc/internal/mock"
 )
 
 func TestProxy(t *testing.T) {

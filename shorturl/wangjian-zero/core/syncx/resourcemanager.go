@@ -4,7 +4,7 @@ import (
 	"io"
 	"sync"
 
-	"shorturl/go-zero/core/errorx"
+	"shorturl/wangjian-zero/core/errorx"
 )
 
 // A ResourceManager is a manager that used to manage resources.

@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/stringx"
-	"shorturl/go-zero/core/syncx"
+	"shorturl/wangjian-zero/core/stringx"
+	"shorturl/wangjian-zero/core/syncx"
 )
 
 var errDummy = errors.New("dummy")

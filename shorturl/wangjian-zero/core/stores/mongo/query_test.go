@@ -5,7 +5,7 @@ import (
 
 	"github.com/globalsign/mgo"
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/breaker"
+	"shorturl/wangjian-zero/core/breaker"
 )
 
 func Test_rejectedQuery_All(t *testing.T) {

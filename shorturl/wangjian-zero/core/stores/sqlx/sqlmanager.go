@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"shorturl/go-zero/core/syncx"
+	"shorturl/wangjian-zero/core/syncx"
 )
 
 const (

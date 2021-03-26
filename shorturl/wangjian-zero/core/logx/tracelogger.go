@@ -6,8 +6,8 @@ import (
 	"io"
 	"time"
 
-	"shorturl/go-zero/core/timex"
-	"shorturl/go-zero/core/trace/tracespec"
+	"shorturl/wangjian-zero/core/timex"
+	"shorturl/wangjian-zero/core/trace/tracespec"
 )
 
 type traceLogger struct {

@@ -4,7 +4,7 @@ package mongo
 
 import (
 	"github.com/globalsign/mgo/bson"
-	"shorturl/go-zero/core/breaker"
+	"shorturl/wangjian-zero/core/breaker"
 )
 
 type (

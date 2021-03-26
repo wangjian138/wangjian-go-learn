@@ -7,9 +7,9 @@ import (
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/peer"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/stat"
-	"shorturl/go-zero/core/timex"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/stat"
+	"shorturl/wangjian-zero/core/timex"
 )
 
 const serverSlowThreshold = time.Millisecond * 500

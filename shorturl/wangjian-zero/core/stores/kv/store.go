@@ -4,10 +4,10 @@ import (
 	"errors"
 	"log"
 
-	"shorturl/go-zero/core/errorx"
-	"shorturl/go-zero/core/hash"
-	"shorturl/go-zero/core/stores/cache"
-	"shorturl/go-zero/core/stores/redis"
+	"shorturl/wangjian-zero/core/errorx"
+	"shorturl/wangjian-zero/core/hash"
+	"shorturl/wangjian-zero/core/stores/cache"
+	"shorturl/wangjian-zero/core/stores/redis"
 )
 
 // ErrNoRedisNode is an error that indicates no redis node.

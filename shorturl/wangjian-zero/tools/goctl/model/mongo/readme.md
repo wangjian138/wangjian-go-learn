@@ -65,8 +65,8 @@ type User struct {
       "context"
   
       "github.com/globalsign/mgo/bson"
-      cachec "shorturl/go-zero/core/stores/cache"
-      "shorturl/go-zero/core/stores/mongoc"
+      cachec "shorturl/wangjian-zero/core/stores/cache"
+      "shorturl/wangjian-zero/core/stores/mongoc"
   )
   
   type UserModel interface {
@@ -196,7 +196,7 @@ OPTIONS:
    --type value, -t value  specified model type name
    --cache, -c             generate code with cache [optional]
    --dir value, -d value   the target dir
-   --style value           the file naming format, see [https://shorturl/go-zero/tree/master/tools/goctl/config/readme.md]
+   --style value           the file naming format, see [https://shorturl/wangjian-zero/tree/master/tools/goctl/config/readme.md]
 
 ```
 

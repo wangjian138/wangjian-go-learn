@@ -3,7 +3,7 @@ package mapping
 import (
 	"io"
 
-	"shorturl/go-zero/core/jsonx"
+	"shorturl/wangjian-zero/core/jsonx"
 )
 
 const jsonTagKey = "json"

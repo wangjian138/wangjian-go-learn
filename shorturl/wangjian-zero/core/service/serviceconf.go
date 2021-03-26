@@ -3,10 +3,10 @@ package service
 import (
 	"log"
 
-	"shorturl/go-zero/core/load"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/prometheus"
-	"shorturl/go-zero/core/stat"
+	"shorturl/wangjian-zero/core/load"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/prometheus"
+	"shorturl/wangjian-zero/core/stat"
 )
 
 const (

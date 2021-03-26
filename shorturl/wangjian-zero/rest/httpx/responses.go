@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"sync"
 
-	"shorturl/go-zero/core/logx"
+	"shorturl/wangjian-zero/core/logx"
 )
 
 var (

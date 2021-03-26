@@ -3,7 +3,7 @@ package generator
 import (
 	"os/exec"
 
-	"shorturl/go-zero/tools/goctl/util/console"
+	"shorturl/wangjian-zero/tools/goctl/util/console"
 )
 
 // DefaultGenerator defines the environment needs of rpc service generation

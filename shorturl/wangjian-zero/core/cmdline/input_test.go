@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/iox"
-	"shorturl/go-zero/core/lang"
+	"shorturl/wangjian-zero/core/iox"
+	"shorturl/wangjian-zero/core/lang"
 )
 
 func TestEnterToContinue(t *testing.T) {

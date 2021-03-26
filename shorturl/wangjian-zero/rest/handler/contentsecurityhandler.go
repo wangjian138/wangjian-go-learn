@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"time"
 
-	"shorturl/go-zero/core/codec"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/rest/httpx"
-	"shorturl/go-zero/rest/internal/security"
+	"shorturl/wangjian-zero/core/codec"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/rest/httpx"
+	"shorturl/wangjian-zero/rest/internal/security"
 )
 
 const contentSecurity = "X-Content-Security"

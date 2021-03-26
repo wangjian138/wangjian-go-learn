@@ -4,9 +4,9 @@ import (
 	"net"
 
 	"google.golang.org/grpc"
-	"shorturl/go-zero/core/proc"
-	"shorturl/go-zero/core/stat"
-	"shorturl/go-zero/zrpc/internal/serverinterceptors"
+	"shorturl/wangjian-zero/core/proc"
+	"shorturl/wangjian-zero/core/stat"
+	"shorturl/wangjian-zero/zrpc/internal/serverinterceptors"
 )
 
 type (

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"shorturl/go-zero/core/iox"
+	"shorturl/wangjian-zero/core/iox"
 )
 
 // PropertyError represents a configuration error message.

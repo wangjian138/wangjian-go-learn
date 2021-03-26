@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"shorturl/go-zero/core/conf"
+	"shorturl/wangjian-zero/core/conf"
 )
 
 func TestNewEngine(t *testing.T) {

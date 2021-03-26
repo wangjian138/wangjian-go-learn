@@ -3,7 +3,7 @@ package contextx
 import (
 	"context"
 
-	"shorturl/go-zero/core/mapping"
+	"shorturl/wangjian-zero/core/mapping"
 )
 
 const contextTagKey = "ctx"

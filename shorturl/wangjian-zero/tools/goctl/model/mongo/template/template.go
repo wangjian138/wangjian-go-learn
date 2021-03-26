@@ -7,8 +7,8 @@ import (
     "context"
 
     "github.com/globalsign/mgo/bson"
-     cachec "shorturl/go-zero/core/stores/cache"
-	"shorturl/go-zero/core/stores/mongoc"
+     cachec "shorturl/wangjian-zero/core/stores/cache"
+	"shorturl/wangjian-zero/core/stores/mongoc"
 )
 
 {{if .Cache}}var prefix{{.Type}}CacheKey = "cache#{{.Type}}#"{{end}}

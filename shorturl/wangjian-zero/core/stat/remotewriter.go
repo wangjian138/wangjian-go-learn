@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"shorturl/go-zero/core/logx"
+	"shorturl/wangjian-zero/core/logx"
 )
 
 const httpTimeout = time.Second * 5

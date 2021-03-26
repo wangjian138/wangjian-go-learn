@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"shorturl/go-zero/rest/httpx"
+	"shorturl/wangjian-zero/rest/httpx"
 )
 
 const gzipEncoding = "gzip"

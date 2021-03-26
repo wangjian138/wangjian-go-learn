@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/olekukonko/tablewriter"
-	"shorturl/go-zero/core/logx"
-	"shorturl/go-zero/core/threading"
+	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/core/threading"
 )
 
 type (
