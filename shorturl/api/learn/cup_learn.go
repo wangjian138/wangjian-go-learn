@@ -95,10 +95,10 @@ func currentCgroup() (*cgroup, error) {
 			continue
 		}
 
-		fmt.Printf("currentCgroup line:%v cols:%v\n", line, cols)
 		// https://man7.org/linux/man-pages/man7/cgroups.7.html
 		// comma-separated list of controllers for cgroup version 1
 		fields := strings.Split(subsys, ",")
+		fmt.Printf("currentCgroup line:%v cols:%v fields:%v\n", line, cols, fields)
 		for _, val := range fields {
 			cgroups[val] = path.Join(cgroupDir, val)
 		}
