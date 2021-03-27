@@ -3,6 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
+	"shorturl/api/learn"
 	"shorturl/wangjian-zero/rest"
 
 	"shorturl/api/internal/config"
@@ -19,6 +20,8 @@ func main() {
 
 	var c config.Config
 	conf.MustLoad(*configFile, &c)
+
+	learn.Init()
 
 	ctx := svc.NewServiceContext(c)
 	server := rest.MustNewServer(c.RestConf)
