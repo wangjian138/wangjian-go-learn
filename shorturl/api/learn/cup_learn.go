@@ -83,7 +83,6 @@ func currentCgroup() (*cgroup, error) {
 	}
 
 	cgroups := make(map[string]string)
-	fmt.Printf("currentCgroup lines:%v\n", lines)
 	for _, line := range lines {
 		cols := strings.Split(line, ":")
 		if len(cols) != 3 {
@@ -96,6 +95,7 @@ func currentCgroup() (*cgroup, error) {
 			continue
 		}
 
+		fmt.Printf("currentCgroup line:%v cols:%v\n", line, cols)
 		// https://man7.org/linux/man-pages/man7/cgroups.7.html
 		// comma-separated list of controllers for cgroup version 1
 		fields := strings.Split(subsys, ",")
