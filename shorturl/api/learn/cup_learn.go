@@ -226,8 +226,6 @@ func Init() {
 		logx.Error(err)
 		return
 	}
-
-	fmt.Printf("init quota:%v cq:%v preSystem:%v preTotal:%v\n", quota, cq, preSystem, preTotal)
 }
 
 // RefreshCpu refreshes cpu usage and returns.

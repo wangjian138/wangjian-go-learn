@@ -336,6 +336,7 @@ func getCaller(callDepth int) string {
 	var buf strings.Builder
 
 	_, file, line, ok := runtime.Caller(callDepth)
+
 	if ok {
 		short := file
 		for i := len(file) - 1; i > 0; i-- {
