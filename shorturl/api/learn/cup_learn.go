@@ -103,7 +103,6 @@ func currentCgroup() (*cgroup, error) {
 		}
 	}
 
-	fmt.Printf("currentCgroup cgroups:%v\n", cgroups)
 	return &cgroup{
 		cgroups: cgroups,
 	}, nil
@@ -227,6 +226,8 @@ func Init() {
 		logx.Error(err)
 		return
 	}
+
+	fmt.Printf("init quota:%v cq:%v preSystem:%v preTotal:%v\n", quota, cq, preSystem, preTotal)
 }
 
 // RefreshCpu refreshes cpu usage and returns.
