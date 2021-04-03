@@ -47,6 +47,7 @@ func (pr *patRouter) Handle(method, reqPath string, handler http.Handler) error 
 
 	cleanPath := path.Clean(reqPath)
 	tree, ok := pr.trees[method]
+
 	if ok {
 		return tree.Add(cleanPath, handler)
 	}

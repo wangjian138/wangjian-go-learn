@@ -1,6 +1,8 @@
 package search
 
-import "errors"
+import (
+	"errors"
+)
 
 const (
 	colon = ':'

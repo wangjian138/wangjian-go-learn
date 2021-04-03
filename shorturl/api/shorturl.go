@@ -13,6 +13,7 @@ import (
 )
 
 var configFile = flag.String("f", "etc/shorturl-api.yaml", "the config file")
+var serviceName = flag.String("serviceName", "wangjian-zero", "the service name")
 
 func main() {
 	flag.Parse()

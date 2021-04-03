@@ -15,7 +15,6 @@ var once sync.Once
 // StartAgent starts a prometheus agent.
 func StartAgent(c Config) {
 	once.Do(func() {
-		fmt.Printf("StartAgent:%v\n", c.Host)
 		if len(c.Host) == 0 {
 			return
 		}
