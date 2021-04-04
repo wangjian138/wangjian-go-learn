@@ -10,7 +10,6 @@ require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/emicklei/proto v1.9.0
-	github.com/fatih/color v1.9.0 // indirect
 	github.com/fatih/structtag v1.2.0
 	github.com/frankban/quicktest v1.7.2 // indirect
 	github.com/globalsign/mgo v0.0.0-20181015135952-eeefdecb41b8
@@ -24,13 +23,13 @@ require (
 	github.com/google/uuid v1.1.1
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/grpc-ecosystem/grpc-gateway v1.14.3 // indirect
+	github.com/hashicorp/consul/api v1.8.1
+	github.com/hashicorp/go-cleanhttp v0.5.1
 	github.com/iancoleman/strcase v0.1.2
 	github.com/justinas/alice v1.2.0
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
-	github.com/kr/pretty v0.2.0 // indirect
 	github.com/lib/pq v1.3.0
 	github.com/logrusorgru/aurora v2.0.3+incompatible
-	github.com/mattn/go-colorable v0.1.6 // indirect
 	github.com/mattn/go-runewidth v0.0.9 // indirect
 	github.com/olekukonko/tablewriter v0.0.4
 	github.com/onsi/ginkgo v1.7.0 // indirect
