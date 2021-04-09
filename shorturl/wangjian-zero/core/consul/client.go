@@ -8,6 +8,12 @@ import (
 
 type ZeroConsul struct {
 	*api.Client
+	ServiceMap map[string][]ZeroConsulService
+}
+
+type ZeroConsulService struct {
+	Host string `json:"host"`
+	Port string `json:"port"`
 }
 
 func NewConsulClient(addr string) *ZeroConsul {
@@ -23,12 +29,13 @@ func NewConsulClient(addr string) *ZeroConsul {
 		panic("consul创建失败：" + err.Error())
 	}
 
+	serviceMap := make(map[string][]ZeroConsulService)
 	//_, err = client.Status().Peers()
 	//if err != nil {
 	//	panic("consul连接失败：" + err.Error())
 	//}
 
-	return &ZeroConsul{client}
+	return &ZeroConsul{client, serviceMap}
 }
 
 func (z *ZeroConsul) GetConfigByServiceName(serviceName string) (string, error) {
