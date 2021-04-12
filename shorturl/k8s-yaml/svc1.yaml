@@ -5,8 +5,8 @@ metadata:
   namespace: default
 spec:
   selector:
-    app: myapp
-    release: canary
+    app: myzero
+    release: frontend
   type: NodePort
   ports:
     - port: 8888
