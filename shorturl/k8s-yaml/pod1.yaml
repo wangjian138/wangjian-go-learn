@@ -10,7 +10,7 @@ spec:
   containers:
     - name: myzero
       imagePullPolicy: IfNotPresent
-      image: wangjian-zero:v0.0.01
+      image: wangjianqutoutiao/wangjian-zero:v0.0.01
       ports:
         - name: http
           containerPort: 8888
