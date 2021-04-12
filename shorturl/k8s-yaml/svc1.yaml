@@ -7,7 +7,7 @@ spec:
   selector:
     app: myapp
     release: canary
-  type: nodePort
+  type: NodePort
   ports:
     - port: 8080
       targetPort: 8080
