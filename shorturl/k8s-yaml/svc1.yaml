@@ -9,6 +9,6 @@ spec:
     release: canary
   type: NodePort
   ports:
-    - port: 8080
-      targetPort: 8080
+    - port: 8888
+      targetPort: 8888
       nodePort: 30080
