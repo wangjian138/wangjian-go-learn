@@ -6,7 +6,7 @@ metadata:
 spec:
   selector:
     app: myzero
-    release: frontend
+    tier: frontend
   type: NodePort
   ports:
     - port: 8888
