@@ -16,7 +16,7 @@ services:
       - '--initial-cluster=etcd1=http://etcd1:2380,etcd2=http://etcd2:2380,etcd3=http://etcd3:2380'
       - '--initial-cluster-state=new'
     ports:
-      - 2379
+      - 2379:2379
     volumes:
       - ./store/etcd1/data:/etcd_data
   etcd2:
