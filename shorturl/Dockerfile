@@ -10,4 +10,5 @@ RUN go env -w GOPROXY=https://goproxy.cn,direct && \
 go env -w GO111MODULE=on
 
 EXPOSE 8888
+EXPOSE 8080
 ENTRYPOINT ["entrypoint.sh"]

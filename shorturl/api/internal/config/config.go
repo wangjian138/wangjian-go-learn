@@ -4,10 +4,12 @@ import (
 	"shorturl/api/lib/consul"
 	"shorturl/wangjian-zero/core/mapping"
 	"shorturl/wangjian-zero/rest"
+	"shorturl/wangjian-zero/zrpc"
 )
 
 type Config struct {
 	rest.RestConf
+	Transform zrpc.RpcClientConf // manual code
 }
 
 //从consul获取 后面进行抽象化 支持etcd等

@@ -100,6 +100,8 @@ func (c *cluster) handleChanges(key string, kvs []KV) {
 	c.lock.Lock()
 	listeners := append([]UpdateListener(nil), c.listeners[key]...)
 	vals, ok := c.values[key]
+	//fmt.Printf("handleChanges listeners:%+v len:%v ok:%v key:%v vals:%v\n", listeners, len(listeners), ok, key, vals)
+
 	if !ok {
 		add = kvs
 		vals = make(map[string]string)

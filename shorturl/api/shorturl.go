@@ -10,6 +10,7 @@ import (
 	"shorturl/api/internal/config"
 	"shorturl/api/internal/handler"
 	"shorturl/api/internal/svc"
+	_ "shorturl/wangjian-zero/core/proc"
 )
 
 func main() {
