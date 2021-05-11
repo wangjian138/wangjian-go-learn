@@ -29,6 +29,7 @@ func (d *discovBuilder) Build(target resolver.Target, cc resolver.ClientConn, op
 				Addr: val,
 			})
 		}
+
 		cc.UpdateState(resolver.State{
 			Addresses: addrs,
 		})

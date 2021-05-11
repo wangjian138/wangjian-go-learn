@@ -8,5 +8,5 @@ Prometheus:
 Transform:
   Etcd:
     Hosts:
-      - localhost:2379
+      - 106.13.164.225:2379
     Key: transform.rpc
