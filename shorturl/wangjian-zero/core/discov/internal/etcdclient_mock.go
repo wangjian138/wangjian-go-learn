@@ -7,8 +7,8 @@ package internal
 import (
 	context "context"
 	gomock "github.com/golang/mock/gomock"
-	clientv3 "go.etcd.io/etcd/clientv3"
 	reflect "reflect"
+	clientv3 "shorturl/wangjian-zero/etcd/clientv3"
 	grpc "shorturl/wangjian-zero/grpc"
 )
 

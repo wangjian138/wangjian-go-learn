@@ -8,10 +8,10 @@ import (
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	"go.etcd.io/etcd/clientv3"
 	"shorturl/wangjian-zero/core/discov/internal"
 	"shorturl/wangjian-zero/core/lang"
 	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/etcd/clientv3"
 )
 
 func init() {

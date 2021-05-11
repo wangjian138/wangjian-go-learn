@@ -7,11 +7,11 @@ import (
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/assert"
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/mvcc/mvccpb"
 	"shorturl/wangjian-zero/core/contextx"
 	"shorturl/wangjian-zero/core/logx"
 	"shorturl/wangjian-zero/core/stringx"
+	"shorturl/wangjian-zero/etcd/clientv3"
+	"shorturl/wangjian-zero/etcd/mvcc/mvccpb"
 )
 
 var mockLock sync.Mutex

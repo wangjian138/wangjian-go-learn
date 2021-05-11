@@ -240,11 +240,11 @@ service Greet {
 
   ```golang
 
-  # go.etcd.io/etcd/clientv3/balancer/picker
-  ../../../go/pkg/mod/go.etcd.io/etcd@v0.0.0-20200402134248-51bdeb39e698/clientv3/balancer/picker/err.go:25:9: cannot use &errPicker literal (type *errPicker) as type Picker in return argument:*errPicker does not implement Picker (wrong type for Pick method)
+  # shorturl/wangjian-zero/etcd/clientv3/balancer/picker
+  ../../../go/pkg/mod/shorturl/wangjian-zero/etcd@v0.0.0-20200402134248-51bdeb39e698/clientv3/balancer/picker/err.go:25:9: cannot use &errPicker literal (type *errPicker) as type Picker in return argument:*errPicker does not implement Picker (wrong type for Pick method)
     have Pick(context.Context, balancer.PickInfo) (balancer.SubConn, func(balancer.DoneInfo), error)
     want Pick(balancer.PickInfo) (balancer.PickResult, error)
-    ../../../go/pkg/mod/go.etcd.io/etcd@v0.0.0-20200402134248-51bdeb39e698/clientv3/balancer/picker/roundrobin_balanced.go:33:9: cannot use &rrBalanced literal (type *rrBalanced) as type Picker in return argument:
+    ../../../go/pkg/mod/shorturl/wangjian-zero/etcd@v0.0.0-20200402134248-51bdeb39e698/clientv3/balancer/picker/roundrobin_balanced.go:33:9: cannot use &rrBalanced literal (type *rrBalanced) as type Picker in return argument:
     *rrBalanced does not implement Picker (wrong type for Pick method)
 		have Pick(context.Context, balancer.PickInfo) (balancer.SubConn, func(balancer.DoneInfo), error)
     want Pick(balancer.PickInfo) (balancer.PickResult, error)

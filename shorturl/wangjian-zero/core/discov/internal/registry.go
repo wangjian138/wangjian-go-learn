@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
-	"go.etcd.io/etcd/clientv3"
 	"shorturl/wangjian-zero/core/contextx"
 	"shorturl/wangjian-zero/core/lang"
 	"shorturl/wangjian-zero/core/logx"
 	"shorturl/wangjian-zero/core/syncx"
 	"shorturl/wangjian-zero/core/threading"
+	"shorturl/wangjian-zero/etcd/clientv3"
 )
 
 var (
