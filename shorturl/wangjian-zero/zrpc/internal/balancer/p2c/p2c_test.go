@@ -9,12 +9,12 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/status"
 	"shorturl/wangjian-zero/core/logx"
 	"shorturl/wangjian-zero/core/mathx"
+	"shorturl/wangjian-zero/grpc/balancer"
+	"shorturl/wangjian-zero/grpc/codes"
+	"shorturl/wangjian-zero/grpc/resolver"
+	"shorturl/wangjian-zero/grpc/status"
 )
 
 func init() {

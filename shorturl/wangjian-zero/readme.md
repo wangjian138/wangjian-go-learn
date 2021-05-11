@@ -214,7 +214,7 @@ go get -u shorturl/wangjian-zero
 
 * Use grpc 1.29.1, because etcd lib doesn’t support latter versions.
 
-  `google.golang.org/grpc v1.29.1`
+  `shorturl/wangjian-zero/grpc v1.29.1`
 
 ## 10. Chat group
 

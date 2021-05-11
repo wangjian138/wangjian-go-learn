@@ -8,11 +8,11 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/test/bufconn"
 	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/grpc"
+	"shorturl/wangjian-zero/grpc/codes"
+	"shorturl/wangjian-zero/grpc/status"
+	"shorturl/wangjian-zero/grpc/test/bufconn"
 	"shorturl/wangjian-zero/zrpc/internal/mock"
 )
 

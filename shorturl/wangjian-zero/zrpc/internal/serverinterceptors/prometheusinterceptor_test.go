@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc"
+	"shorturl/wangjian-zero/grpc"
 )
 
 func TestUnaryPromMetricInterceptor(t *testing.T) {

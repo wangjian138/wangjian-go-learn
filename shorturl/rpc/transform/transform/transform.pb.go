@@ -7,10 +7,10 @@ import (
 	context "context"
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	grpc "google.golang.org/grpc"
-	codes "google.golang.org/grpc/codes"
-	status "google.golang.org/grpc/status"
 	math "math"
+	grpc "shorturl/wangjian-zero/grpc"
+	codes "shorturl/wangjian-zero/grpc/codes"
+	status "shorturl/wangjian-zero/grpc/status"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -214,7 +214,7 @@ const _ = grpc.SupportPackageIsVersion4
 
 // TransformerClient is the client API for Transformer service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/shorturl/wangjian-zero/grpc#ClientConn.NewStream.
 type TransformerClient interface {
 	Expand(ctx context.Context, in *ExpandReq, opts ...grpc.CallOption) (*ExpandResp, error)
 	Shorten(ctx context.Context, in *ShortenReq, opts ...grpc.CallOption) (*ShortenResp, error)

@@ -3,7 +3,7 @@ package resolver
 import (
 	"fmt"
 
-	"google.golang.org/grpc/resolver"
+	"shorturl/wangjian-zero/grpc/resolver"
 )
 
 const (

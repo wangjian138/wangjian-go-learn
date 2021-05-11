@@ -1,8 +1,8 @@
 package codes
 
 import (
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
+	"shorturl/wangjian-zero/grpc/codes"
+	"shorturl/wangjian-zero/grpc/status"
 )
 
 // Acceptable checks if given error is acceptable.

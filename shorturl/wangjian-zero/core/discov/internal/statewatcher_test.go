@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"google.golang.org/grpc/connectivity"
+	"shorturl/wangjian-zero/grpc/connectivity"
 )
 
 func TestStateWatcher_watch(t *testing.T) {

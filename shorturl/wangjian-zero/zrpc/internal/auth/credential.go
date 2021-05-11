@@ -3,7 +3,7 @@ package auth
 import (
 	"context"
 
-	"google.golang.org/grpc/metadata"
+	"shorturl/wangjian-zero/grpc/metadata"
 )
 
 // A Credential is used to authenticate.

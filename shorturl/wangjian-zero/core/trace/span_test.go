@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc/metadata"
 	"shorturl/wangjian-zero/core/stringx"
 	"shorturl/wangjian-zero/core/trace/tracespec"
+	"shorturl/wangjian-zero/grpc/metadata"
 )
 
 func TestClientSpan(t *testing.T) {

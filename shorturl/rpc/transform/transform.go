@@ -9,8 +9,8 @@ import (
 	"shorturl/rpc/transform/internal/svc"
 	"shorturl/rpc/transform/transform"
 
-	"google.golang.org/grpc"
 	"shorturl/wangjian-zero/core/conf"
+	"shorturl/wangjian-zero/grpc"
 	"shorturl/wangjian-zero/zrpc"
 )
 

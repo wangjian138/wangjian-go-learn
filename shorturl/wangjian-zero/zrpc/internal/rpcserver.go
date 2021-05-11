@@ -3,9 +3,9 @@ package internal
 import (
 	"net"
 
-	"google.golang.org/grpc"
 	"shorturl/wangjian-zero/core/proc"
 	"shorturl/wangjian-zero/core/stat"
+	"shorturl/wangjian-zero/grpc"
 	"shorturl/wangjian-zero/zrpc/internal/serverinterceptors"
 )
 

@@ -8,8 +8,8 @@ import (
 	context "context"
 	gomock "github.com/golang/mock/gomock"
 	clientv3 "go.etcd.io/etcd/clientv3"
-	grpc "google.golang.org/grpc"
 	reflect "reflect"
+	grpc "shorturl/wangjian-zero/grpc"
 )
 
 // MockEtcdClient is a mock of EtcdClient interface

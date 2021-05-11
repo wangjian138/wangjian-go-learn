@@ -3,7 +3,7 @@ package serverinterceptors
 import (
 	"context"
 
-	"google.golang.org/grpc"
+	"shorturl/wangjian-zero/grpc"
 	"shorturl/wangjian-zero/zrpc/internal/auth"
 )
 

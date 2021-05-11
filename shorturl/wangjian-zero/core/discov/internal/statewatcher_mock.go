@@ -7,8 +7,8 @@ package internal
 import (
 	context "context"
 	gomock "github.com/golang/mock/gomock"
-	connectivity "google.golang.org/grpc/connectivity"
 	reflect "reflect"
+	connectivity "shorturl/wangjian-zero/grpc/connectivity"
 )
 
 // MocketcdConn is a mock of etcdConn interface

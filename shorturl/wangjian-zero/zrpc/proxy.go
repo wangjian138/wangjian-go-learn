@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"google.golang.org/grpc"
 	"shorturl/wangjian-zero/core/syncx"
+	"shorturl/wangjian-zero/grpc"
 	"shorturl/wangjian-zero/zrpc/internal"
 	"shorturl/wangjian-zero/zrpc/internal/auth"
 )

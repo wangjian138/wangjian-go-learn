@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"google.golang.org/grpc"
 	"shorturl/wangjian-zero/core/contextx"
+	"shorturl/wangjian-zero/grpc"
 )
 
 // TimeoutInterceptor is an interceptor that controls timeout.

@@ -3,8 +3,8 @@ package resolver
 import (
 	"strings"
 
-	"google.golang.org/grpc/resolver"
 	"shorturl/wangjian-zero/core/discov"
+	"shorturl/wangjian-zero/grpc/resolver"
 )
 
 type discovBuilder struct{}

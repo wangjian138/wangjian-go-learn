@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc/metadata"
+	"shorturl/wangjian-zero/grpc/metadata"
 )
 
 func TestParseCredential(t *testing.T) {

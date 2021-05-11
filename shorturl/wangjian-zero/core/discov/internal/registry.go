@@ -291,7 +291,7 @@ func (c *cluster) watchConnState(cli EtcdClient) {
 	watcher.addListener(func() {
 		go c.reload(cli)
 	})
-	watcher.watch(cli.ActiveConnection())
+	//watcher.watch(cli.ActiveConnection())
 }
 
 // DialClient dials an etcd cluster with given endpoints.

@@ -5,12 +5,12 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc"
 	"shorturl/wangjian-zero/core/discov"
 	"shorturl/wangjian-zero/core/logx"
 	"shorturl/wangjian-zero/core/service"
 	"shorturl/wangjian-zero/core/stat"
 	"shorturl/wangjian-zero/core/stores/redis"
+	"shorturl/wangjian-zero/grpc"
 	"shorturl/wangjian-zero/zrpc/internal"
 	"shorturl/wangjian-zero/zrpc/internal/serverinterceptors"
 )

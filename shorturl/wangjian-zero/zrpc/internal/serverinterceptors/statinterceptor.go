@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/peer"
 	"shorturl/wangjian-zero/core/logx"
 	"shorturl/wangjian-zero/core/stat"
 	"shorturl/wangjian-zero/core/timex"
+	"shorturl/wangjian-zero/grpc"
+	"shorturl/wangjian-zero/grpc/peer"
 )
 
 const serverSlowThreshold = time.Millisecond * 500

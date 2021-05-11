@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/status"
 	"shorturl/wangjian-zero/core/metric"
 	"shorturl/wangjian-zero/core/timex"
+	"shorturl/wangjian-zero/grpc"
+	"shorturl/wangjian-zero/grpc/status"
 )
 
 const clientNamespace = "rpc_client"

@@ -10,12 +10,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/base"
-	"google.golang.org/grpc/resolver"
 	"shorturl/wangjian-zero/core/logx"
 	"shorturl/wangjian-zero/core/syncx"
 	"shorturl/wangjian-zero/core/timex"
+	"shorturl/wangjian-zero/grpc/balancer"
+	"shorturl/wangjian-zero/grpc/balancer/base"
+	"shorturl/wangjian-zero/grpc/resolver"
 	"shorturl/wangjian-zero/zrpc/internal/codes"
 )
 

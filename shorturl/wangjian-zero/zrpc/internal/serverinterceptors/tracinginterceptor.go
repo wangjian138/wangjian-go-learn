@@ -3,9 +3,9 @@ package serverinterceptors
 import (
 	"context"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/metadata"
 	"shorturl/wangjian-zero/core/trace"
+	"shorturl/wangjian-zero/grpc"
+	"shorturl/wangjian-zero/grpc/metadata"
 )
 
 // UnaryTracingInterceptor returns a func that handles tracing with given service name.

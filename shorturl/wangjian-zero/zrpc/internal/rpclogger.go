@@ -3,8 +3,8 @@ package internal
 import (
 	"sync"
 
-	"google.golang.org/grpc/grpclog"
 	"shorturl/wangjian-zero/core/logx"
+	"shorturl/wangjian-zero/grpc/grpclog"
 )
 
 // because grpclog.errorLog is not exported, we need to define our own.

@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc/metadata"
+	"shorturl/wangjian-zero/grpc/metadata"
 )
 
 func TestHttpPropagator_Extract(t *testing.T) {

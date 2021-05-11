@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"google.golang.org/grpc"
+	"shorturl/wangjian-zero/grpc"
 	"shorturl/wangjian-zero/zrpc/internal/balancer/p2c"
 	"shorturl/wangjian-zero/zrpc/internal/clientinterceptors"
 	"shorturl/wangjian-zero/zrpc/internal/resolver"

@@ -6,7 +6,7 @@ import (
 	"context"
 	"sync"
 
-	"google.golang.org/grpc/connectivity"
+	"shorturl/wangjian-zero/grpc/connectivity"
 )
 
 type (

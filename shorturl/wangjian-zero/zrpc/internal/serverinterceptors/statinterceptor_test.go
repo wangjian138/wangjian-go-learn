@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc"
 	"shorturl/wangjian-zero/core/stat"
+	"shorturl/wangjian-zero/grpc"
 )
 
 func TestUnaryStatInterceptor(t *testing.T) {

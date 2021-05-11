@@ -3,8 +3,8 @@ package resolver
 import (
 	"testing"
 
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
+	"shorturl/wangjian-zero/grpc/resolver"
+	"shorturl/wangjian-zero/grpc/serviceconfig"
 )
 
 func TestNopResolver(t *testing.T) {

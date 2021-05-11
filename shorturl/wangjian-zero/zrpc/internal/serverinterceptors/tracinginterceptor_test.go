@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/metadata"
 	"shorturl/wangjian-zero/core/trace/tracespec"
+	"shorturl/wangjian-zero/grpc"
+	"shorturl/wangjian-zero/grpc/metadata"
 )
 
 func TestUnaryTracingInterceptor(t *testing.T) {

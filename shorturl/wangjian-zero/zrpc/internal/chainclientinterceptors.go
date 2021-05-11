@@ -1,6 +1,6 @@
 package internal
 
-import "google.golang.org/grpc"
+import "shorturl/wangjian-zero/grpc"
 
 // WithStreamClientInterceptors uses given client stream interceptors.
 func WithStreamClientInterceptors(interceptors ...grpc.StreamClientInterceptor) grpc.DialOption {

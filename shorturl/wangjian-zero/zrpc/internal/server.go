@@ -1,8 +1,8 @@
 package internal
 
 import (
-	"google.golang.org/grpc"
 	"shorturl/wangjian-zero/core/stat"
+	"shorturl/wangjian-zero/grpc"
 )
 
 type (

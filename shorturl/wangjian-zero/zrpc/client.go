@@ -4,8 +4,8 @@ import (
 	"log"
 	"time"
 
-	"google.golang.org/grpc"
 	"shorturl/wangjian-zero/core/discov"
+	"shorturl/wangjian-zero/grpc"
 	"shorturl/wangjian-zero/zrpc/internal"
 	"shorturl/wangjian-zero/zrpc/internal/auth"
 )

@@ -22,7 +22,7 @@ import (
 
 	"shorturl/wangjian-zero/core/conf"
 	"shorturl/wangjian-zero/zrpc"
-	"google.golang.org/grpc"
+	"shorturl/wangjian-zero/grpc"
 )
 
 var configFile = flag.String("f", "etc/{{.serviceName}}.yaml", "the config file")

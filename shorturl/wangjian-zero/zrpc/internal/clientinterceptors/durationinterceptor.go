@@ -5,9 +5,9 @@ import (
 	"path"
 	"time"
 
-	"google.golang.org/grpc"
 	"shorturl/wangjian-zero/core/logx"
 	"shorturl/wangjian-zero/core/timex"
+	"shorturl/wangjian-zero/grpc"
 )
 
 const slowThreshold = time.Millisecond * 500

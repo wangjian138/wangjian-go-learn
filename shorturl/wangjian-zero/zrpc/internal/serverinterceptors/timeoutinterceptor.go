@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc"
 	"shorturl/wangjian-zero/core/contextx"
+	"shorturl/wangjian-zero/grpc"
 )
 
 // UnaryTimeoutInterceptor returns a func that sets timeout to incoming unary requests.

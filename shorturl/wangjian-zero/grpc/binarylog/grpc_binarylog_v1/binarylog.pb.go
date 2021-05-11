@@ -821,21 +821,21 @@ func (m *Address) GetIpPort() uint32 {
 }
 
 func init() {
-	proto.RegisterType((*GrpcLogEntry)(nil), "grpc.binarylog.v1.GrpcLogEntry")
-	proto.RegisterType((*ClientHeader)(nil), "grpc.binarylog.v1.ClientHeader")
-	proto.RegisterType((*ServerHeader)(nil), "grpc.binarylog.v1.ServerHeader")
-	proto.RegisterType((*Trailer)(nil), "grpc.binarylog.v1.Trailer")
-	proto.RegisterType((*Message)(nil), "grpc.binarylog.v1.Message")
-	proto.RegisterType((*Metadata)(nil), "grpc.binarylog.v1.Metadata")
-	proto.RegisterType((*MetadataEntry)(nil), "grpc.binarylog.v1.MetadataEntry")
-	proto.RegisterType((*Address)(nil), "grpc.binarylog.v1.Address")
-	proto.RegisterEnum("grpc.binarylog.v1.GrpcLogEntry_EventType", GrpcLogEntry_EventType_name, GrpcLogEntry_EventType_value)
-	proto.RegisterEnum("grpc.binarylog.v1.GrpcLogEntry_Logger", GrpcLogEntry_Logger_name, GrpcLogEntry_Logger_value)
-	proto.RegisterEnum("grpc.binarylog.v1.Address_Type", Address_Type_name, Address_Type_value)
+	//proto.RegisterType((*GrpcLogEntry)(nil), "grpc.binarylog.v1.GrpcLogEntry")
+	//proto.RegisterType((*ClientHeader)(nil), "grpc.binarylog.v1.ClientHeader")
+	//proto.RegisterType((*ServerHeader)(nil), "grpc.binarylog.v1.ServerHeader")
+	//proto.RegisterType((*Trailer)(nil), "grpc.binarylog.v1.Trailer")
+	//proto.RegisterType((*Message)(nil), "grpc.binarylog.v1.Message")
+	//proto.RegisterType((*Metadata)(nil), "grpc.binarylog.v1.Metadata")
+	//proto.RegisterType((*MetadataEntry)(nil), "grpc.binarylog.v1.MetadataEntry")
+	//proto.RegisterType((*Address)(nil), "grpc.binarylog.v1.Address")
+	//proto.RegisterEnum("grpc.binarylog.v1.GrpcLogEntry_EventType", GrpcLogEntry_EventType_name, GrpcLogEntry_EventType_value)
+	//proto.RegisterEnum("grpc.binarylog.v1.GrpcLogEntry_Logger", GrpcLogEntry_Logger_name, GrpcLogEntry_Logger_value)
+	//proto.RegisterEnum("grpc.binarylog.v1.Address_Type", Address_Type_name, Address_Type_value)
 }
 
 func init() {
-	proto.RegisterFile("grpc/binarylog/grpc_binarylog_v1/binarylog.proto", fileDescriptor_binarylog_264c8c9c551ce911)
+	//proto.RegisterFile("grpc/binarylog/grpc_binarylog_v1/binarylog.proto", fileDescriptor_binarylog_264c8c9c551ce911)
 }
 
 var fileDescriptor_binarylog_264c8c9c551ce911 = []byte{

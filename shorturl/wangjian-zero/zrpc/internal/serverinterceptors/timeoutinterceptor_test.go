@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"google.golang.org/grpc"
+	"shorturl/wangjian-zero/grpc"
 )
 
 func TestUnaryTimeoutInterceptor(t *testing.T) {

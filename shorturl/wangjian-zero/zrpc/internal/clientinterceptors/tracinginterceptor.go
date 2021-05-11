@@ -3,9 +3,9 @@ package clientinterceptors
 import (
 	"context"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/metadata"
 	"shorturl/wangjian-zero/core/trace"
+	"shorturl/wangjian-zero/grpc"
+	"shorturl/wangjian-zero/grpc/metadata"
 )
 
 // TracingInterceptor is an interceptor that handles tracing.
