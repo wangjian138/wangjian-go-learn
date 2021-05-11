@@ -19,8 +19,8 @@ import (
 
 	"shorturl/wangjian-zero/etcd/etcdserver/api/v3rpc/rpctypes"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/metadata"
+	"shorturl/wangjian-zero/grpc"
+	"shorturl/wangjian-zero/grpc/metadata"
 )
 
 func getAuthTokenFromClient(ctx context.Context) string {

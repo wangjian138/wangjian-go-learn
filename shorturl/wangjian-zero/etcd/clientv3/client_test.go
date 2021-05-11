@@ -24,7 +24,7 @@ import (
 	"shorturl/wangjian-zero/etcd/etcdserver/api/v3rpc/rpctypes"
 	"shorturl/wangjian-zero/etcd/pkg/testutil"
 
-	"google.golang.org/grpc"
+	"shorturl/wangjian-zero/grpc"
 )
 
 func TestDialCancel(t *testing.T) {

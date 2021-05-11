@@ -20,8 +20,8 @@
 //		"shorturl/wangjian-zero/etcd/clientv3"
 //		etcdnaming "shorturl/wangjian-zero/etcd/clientv3/naming"
 //
-//		"google.golang.org/grpc"
-//		"google.golang.org/grpc/naming"
+//		"shorturl/wangjian-zero/grpc"
+//		"shorturl/wangjian-zero/grpc/naming"
 //	)
 //
 // First, register new endpoint addresses for a service:

@@ -24,7 +24,7 @@ import (
 	"shorturl/wangjian-zero/etcd/functional/rpcpb"
 
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
+	"shorturl/wangjian-zero/grpc"
 )
 
 type leaseExpireChecker struct {

@@ -32,7 +32,7 @@ import (
 
 	grpcprom "github.com/grpc-ecosystem/go-grpc-prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"google.golang.org/grpc"
+	"shorturl/wangjian-zero/grpc"
 )
 
 func TestV3ClientMetrics(t *testing.T) {

@@ -21,9 +21,9 @@ import (
 
 	etcd "shorturl/wangjian-zero/etcd/clientv3"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/naming"
-	"google.golang.org/grpc/status"
+	"shorturl/wangjian-zero/grpc/codes"
+	"shorturl/wangjian-zero/grpc/naming"
+	"shorturl/wangjian-zero/grpc/status"
 )
 
 var ErrWatcherClosed = fmt.Errorf("naming: watch closed")

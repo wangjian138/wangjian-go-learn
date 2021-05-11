@@ -22,8 +22,8 @@ import (
 	"shorturl/wangjian-zero/etcd/etcdserver/api/v3rpc/rpctypes"
 	"shorturl/wangjian-zero/etcd/mvcc"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
+	"shorturl/wangjian-zero/grpc/codes"
+	"shorturl/wangjian-zero/grpc/status"
 )
 
 func TestGRPCError(t *testing.T) {

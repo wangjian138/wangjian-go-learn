@@ -532,7 +532,7 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.2.11...v3.2.12) an
 
 ### Dependency
 
-- Upgrade [`google.golang.org/grpc`](https://github.com/grpc/grpc-go/releases/tag) from [**`v1.7.4`**](https://github.com/grpc/grpc-go/releases/tag/v1.7.4) to [**`v1.7.5`**](https://github.com/grpc/grpc-go/releases/tag/v1.7.5).
+- Upgrade [`shorturl/wangjian-zero/grpc`](https://github.com/grpc/grpc-go/releases/tag) from [**`v1.7.4`**](https://github.com/grpc/grpc-go/releases/tag/v1.7.4) to [**`v1.7.5`**](https://github.com/grpc/grpc-go/releases/tag/v1.7.5).
 - Upgrade [`github.com/grpc-ecosystem/grpc-gateway`](https://github.com/grpc-ecosystem/grpc-gateway/releases) from [**`v1.3`**](https://github.com/grpc-ecosystem/grpc-gateway/releases/tag/v1.3) to [**`v1.3.0`**](https://github.com/grpc-ecosystem/grpc-gateway/releases/tag/v1.3.0).
 
 ### etcd server
@@ -564,7 +564,7 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.2.10...v3.2.11) an
 
 ### Dependency
 
-- Upgrade [`google.golang.org/grpc`](https://github.com/grpc/grpc-go/releases/tag) from [**`v1.7.3`**](https://github.com/grpc/grpc-go/releases/tag/v1.7.3) to [**`v1.7.4`**](https://github.com/grpc/grpc-go/releases/tag/v1.7.4).
+- Upgrade [`shorturl/wangjian-zero/grpc`](https://github.com/grpc/grpc-go/releases/tag) from [**`v1.7.3`**](https://github.com/grpc/grpc-go/releases/tag/v1.7.3) to [**`v1.7.4`**](https://github.com/grpc/grpc-go/releases/tag/v1.7.4).
 
 ### Security, Authentication
 
@@ -597,7 +597,7 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.2.9...v3.2.10) and
 
 ### Dependency
 
-- Upgrade [`google.golang.org/grpc`](https://github.com/grpc/grpc-go/releases/tag) from [**`v1.2.1`**](https://github.com/grpc/grpc-go/releases/tag/v1.2.1) to [**`v1.7.3`**](https://github.com/grpc/grpc-go/releases/tag/v1.7.3).
+- Upgrade [`shorturl/wangjian-zero/grpc`](https://github.com/grpc/grpc-go/releases/tag) from [**`v1.2.1`**](https://github.com/grpc/grpc-go/releases/tag/v1.2.1) to [**`v1.7.3`**](https://github.com/grpc/grpc-go/releases/tag/v1.7.3).
 - Upgrade [`github.com/grpc-ecosystem/grpc-gateway`](https://github.com/grpc-ecosystem/grpc-gateway/releases) from [**`v1.2.0`**](https://github.com/grpc-ecosystem/grpc-gateway/releases/tag/v1.2.0) to [**`v1.3`**](https://github.com/grpc-ecosystem/grpc-gateway/releases/tag/v1.3).
 
 ### Security, Authentication
@@ -893,7 +893,7 @@ See [code changes](https://github.com/etcd-io/etcd/compare/v3.1.0...v3.2.0) and 
 
 ### Dependency
 
-- Upgrade [`google.golang.org/grpc`](https://github.com/grpc/grpc-go/releases) from [**`v1.0.4`**](https://github.com/grpc/grpc-go/releases/tag/v1.0.4) to [**`v1.2.1`**](https://github.com/grpc/grpc-go/releases/tag/v1.2.1).
+- Upgrade [`shorturl/wangjian-zero/grpc`](https://github.com/grpc/grpc-go/releases) from [**`v1.0.4`**](https://github.com/grpc/grpc-go/releases/tag/v1.0.4) to [**`v1.2.1`**](https://github.com/grpc/grpc-go/releases/tag/v1.2.1).
 - Upgrade [`github.com/grpc-ecosystem/grpc-gateway`](https://github.com/grpc-ecosystem/grpc-gateway/releases) to [**`v1.2.0`**](https://github.com/grpc-ecosystem/grpc-gateway/releases/tag/v1.2.0).
 
 ### Metrics, Monitoring

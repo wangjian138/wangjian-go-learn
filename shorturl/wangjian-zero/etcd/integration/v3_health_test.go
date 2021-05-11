@@ -20,7 +20,7 @@ import (
 
 	"shorturl/wangjian-zero/etcd/pkg/testutil"
 
-	healthpb "google.golang.org/grpc/health/grpc_health_v1"
+	healthpb "shorturl/wangjian-zero/grpc/health/grpc_health_v1"
 )
 
 func TestHealthCheck(t *testing.T) {

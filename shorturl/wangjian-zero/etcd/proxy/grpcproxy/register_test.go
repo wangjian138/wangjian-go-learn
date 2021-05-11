@@ -24,7 +24,7 @@ import (
 	"shorturl/wangjian-zero/etcd/pkg/testutil"
 
 	"go.uber.org/zap"
-	gnaming "google.golang.org/grpc/naming"
+	gnaming "shorturl/wangjian-zero/grpc/naming"
 )
 
 func TestRegister(t *testing.T) {

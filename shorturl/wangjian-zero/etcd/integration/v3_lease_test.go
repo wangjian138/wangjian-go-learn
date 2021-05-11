@@ -25,9 +25,9 @@ import (
 	"shorturl/wangjian-zero/etcd/mvcc/mvccpb"
 	"shorturl/wangjian-zero/etcd/pkg/testutil"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/status"
+	"shorturl/wangjian-zero/grpc/codes"
+	"shorturl/wangjian-zero/grpc/metadata"
+	"shorturl/wangjian-zero/grpc/status"
 )
 
 // TestV3LeasePrmote ensures the newly elected leader can promote itself

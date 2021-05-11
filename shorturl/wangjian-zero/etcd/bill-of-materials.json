@@ -405,7 +405,7 @@
 		]
 	},
 	{
-		"project": "google.golang.org/grpc",
+		"project": "shorturl/wangjian-zero/grpc",
 		"licenses": [
 			{
 				"type": "Apache License 2.0",

@@ -32,8 +32,8 @@ import (
 	"shorturl/wangjian-zero/etcd/pkg/testutil"
 	"shorturl/wangjian-zero/etcd/version"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
+	"shorturl/wangjian-zero/grpc"
+	"shorturl/wangjian-zero/grpc/codes"
 )
 
 func TestKVPutError(t *testing.T) {

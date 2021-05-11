@@ -25,7 +25,7 @@ import (
 	"shorturl/wangjian-zero/etcd/integration"
 	"shorturl/wangjian-zero/etcd/pkg/testutil"
 
-	"google.golang.org/grpc"
+	"shorturl/wangjian-zero/grpc"
 )
 
 func TestKVProxyRange(t *testing.T) {

@@ -18,8 +18,8 @@ import (
 	"context"
 	"errors"
 
-	"google.golang.org/grpc"
 	pb "shorturl/wangjian-zero/etcd/etcdserver/etcdserverpb"
+	"shorturl/wangjian-zero/grpc"
 )
 
 var errAlreadySentHeader = errors.New("adapter: already sent header")

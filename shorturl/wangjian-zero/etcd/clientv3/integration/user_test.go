@@ -19,11 +19,11 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc"
 	"shorturl/wangjian-zero/etcd/clientv3"
 	"shorturl/wangjian-zero/etcd/etcdserver/api/v3rpc/rpctypes"
 	"shorturl/wangjian-zero/etcd/integration"
 	"shorturl/wangjian-zero/etcd/pkg/testutil"
+	"shorturl/wangjian-zero/grpc"
 )
 
 func TestUserError(t *testing.T) {

@@ -38,7 +38,7 @@ import (
 	"shorturl/wangjian-zero/etcd/proxy/httpproxy"
 
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
+	"shorturl/wangjian-zero/grpc"
 )
 
 type dirType string

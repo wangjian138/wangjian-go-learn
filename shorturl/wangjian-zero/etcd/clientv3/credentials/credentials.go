@@ -22,8 +22,8 @@ import (
 	"net"
 	"sync"
 
-	grpccredentials "google.golang.org/grpc/credentials"
 	"shorturl/wangjian-zero/etcd/etcdserver/api/v3rpc/rpctypes"
+	grpccredentials "shorturl/wangjian-zero/grpc/credentials"
 )
 
 // Config defines gRPC credential configuration.

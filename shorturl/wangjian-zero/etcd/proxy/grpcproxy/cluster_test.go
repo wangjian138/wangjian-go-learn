@@ -26,7 +26,7 @@ import (
 	"shorturl/wangjian-zero/etcd/pkg/testutil"
 
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
+	"shorturl/wangjian-zero/grpc"
 )
 
 func TestClusterProxyMemberList(t *testing.T) {

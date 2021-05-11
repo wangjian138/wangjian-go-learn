@@ -23,7 +23,7 @@ import (
 	"shorturl/wangjian-zero/etcd/clientv3"
 	"shorturl/wangjian-zero/etcd/pkg/testutil"
 
-	"google.golang.org/grpc"
+	"shorturl/wangjian-zero/grpc"
 )
 
 func TestTLSClientCipherSuitesValid(t *testing.T)    { testTLSCipherSuites(t, true) }

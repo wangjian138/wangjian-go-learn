@@ -19,7 +19,7 @@ import (
 	"sync"
 
 	"go.uber.org/zap"
-	"google.golang.org/grpc/connectivity"
+	"shorturl/wangjian-zero/grpc/connectivity"
 )
 
 // Recorder records gRPC connectivity.

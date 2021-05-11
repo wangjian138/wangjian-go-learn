@@ -24,7 +24,7 @@ import (
 	"shorturl/wangjian-zero/etcd/integration"
 	"shorturl/wangjian-zero/etcd/pkg/testutil"
 
-	"google.golang.org/grpc/naming"
+	"shorturl/wangjian-zero/grpc/naming"
 )
 
 func TestGRPCResolver(t *testing.T) {

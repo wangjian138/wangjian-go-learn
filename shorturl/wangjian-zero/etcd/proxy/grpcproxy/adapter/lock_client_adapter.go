@@ -19,7 +19,7 @@ import (
 
 	"shorturl/wangjian-zero/etcd/etcdserver/api/v3lock/v3lockpb"
 
-	"google.golang.org/grpc"
+	"shorturl/wangjian-zero/grpc"
 )
 
 type ls2lsc struct{ ls v3lockpb.LockServer }

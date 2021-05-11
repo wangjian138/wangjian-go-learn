@@ -24,11 +24,11 @@ import (
 	"time"
 
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/status"
 	"shorturl/wangjian-zero/etcd/etcdserver/api/v3rpc/rpctypes"
+	"shorturl/wangjian-zero/grpc"
+	"shorturl/wangjian-zero/grpc/codes"
+	"shorturl/wangjian-zero/grpc/metadata"
+	"shorturl/wangjian-zero/grpc/status"
 )
 
 // unaryClientInterceptor returns a new retrying unary client interceptor.

@@ -5,8 +5,8 @@ package internal
 import (
 	"context"
 
-	"google.golang.org/grpc"
 	"shorturl/wangjian-zero/etcd/clientv3"
+	"shorturl/wangjian-zero/grpc"
 )
 
 // EtcdClient interface represents an etcd client.

@@ -26,8 +26,8 @@ import (
 	"shorturl/wangjian-zero/etcd/integration"
 	"shorturl/wangjian-zero/etcd/pkg/testutil"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
+	"shorturl/wangjian-zero/grpc/codes"
+	"shorturl/wangjian-zero/grpc/status"
 )
 
 // TestBalancerUnderServerShutdownWatch expects that watch client

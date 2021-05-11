@@ -27,10 +27,10 @@ import (
 	"shorturl/wangjian-zero/etcd/pkg/mock/mockserver"
 
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/peer"
-	"google.golang.org/grpc/status"
+	"shorturl/wangjian-zero/grpc"
+	"shorturl/wangjian-zero/grpc/codes"
+	"shorturl/wangjian-zero/grpc/peer"
+	"shorturl/wangjian-zero/grpc/status"
 )
 
 // TestRoundRobinBalancedResolvableNoFailover ensures that

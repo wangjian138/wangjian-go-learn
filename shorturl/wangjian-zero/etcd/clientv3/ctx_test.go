@@ -19,9 +19,9 @@ import (
 	"reflect"
 	"testing"
 
-	"google.golang.org/grpc/metadata"
 	"shorturl/wangjian-zero/etcd/etcdserver/api/v3rpc/rpctypes"
 	"shorturl/wangjian-zero/etcd/version"
+	"shorturl/wangjian-zero/grpc/metadata"
 )
 
 func TestMetadataWithRequireLeader(t *testing.T) {

@@ -23,8 +23,8 @@ import (
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/grpclog"
+	"shorturl/wangjian-zero/grpc"
+	"shorturl/wangjian-zero/grpc/grpclog"
 )
 
 // GetLogger returns the logger.

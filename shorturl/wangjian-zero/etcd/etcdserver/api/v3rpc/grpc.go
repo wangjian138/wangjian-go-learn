@@ -23,10 +23,10 @@ import (
 
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/health"
-	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 	"shorturl/wangjian-zero/etcd/clientv3/credentials"
+	"shorturl/wangjian-zero/grpc"
+	"shorturl/wangjian-zero/grpc/health"
+	healthpb "shorturl/wangjian-zero/grpc/health/grpc_health_v1"
 )
 
 const (

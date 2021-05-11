@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"strings"
 
-	"google.golang.org/grpc"
 	"shorturl/wangjian-zero/etcd/auth/authpb"
 	pb "shorturl/wangjian-zero/etcd/etcdserver/etcdserverpb"
+	"shorturl/wangjian-zero/grpc"
 )
 
 type (

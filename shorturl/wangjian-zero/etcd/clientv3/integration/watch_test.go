@@ -32,7 +32,7 @@ import (
 	"shorturl/wangjian-zero/etcd/pkg/testutil"
 	"shorturl/wangjian-zero/etcd/version"
 
-	"google.golang.org/grpc/metadata"
+	"shorturl/wangjian-zero/grpc/metadata"
 )
 
 type watcherTest func(*testing.T, *watchctx)

@@ -20,7 +20,7 @@ import (
 	"time"
 
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
+	"shorturl/wangjian-zero/grpc"
 )
 
 type Config struct {

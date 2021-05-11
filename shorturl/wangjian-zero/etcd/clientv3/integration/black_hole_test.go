@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc"
 	"shorturl/wangjian-zero/etcd/clientv3"
 	"shorturl/wangjian-zero/etcd/etcdserver/api/v3rpc/rpctypes"
 	"shorturl/wangjian-zero/etcd/integration"
 	"shorturl/wangjian-zero/etcd/pkg/testutil"
+	"shorturl/wangjian-zero/grpc"
 )
 
 // TestBalancerUnderBlackholeKeepAliveWatch tests when watch discovers it cannot talk to

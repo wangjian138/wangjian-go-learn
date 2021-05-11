@@ -21,12 +21,12 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc"
 	"shorturl/wangjian-zero/etcd/clientv3"
 	pb "shorturl/wangjian-zero/etcd/etcdserver/etcdserverpb"
 	"shorturl/wangjian-zero/etcd/integration"
 	"shorturl/wangjian-zero/etcd/pkg/testutil"
 	"shorturl/wangjian-zero/etcd/pkg/transport"
+	"shorturl/wangjian-zero/grpc"
 )
 
 var (

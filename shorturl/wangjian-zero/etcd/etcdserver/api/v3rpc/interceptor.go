@@ -26,10 +26,10 @@ import (
 	"shorturl/wangjian-zero/etcd/raft"
 
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/peer"
 	pb "shorturl/wangjian-zero/etcd/etcdserver/etcdserverpb"
+	"shorturl/wangjian-zero/grpc"
+	"shorturl/wangjian-zero/grpc/metadata"
+	"shorturl/wangjian-zero/grpc/peer"
 )
 
 const (

@@ -20,7 +20,7 @@ import (
 	pb "shorturl/wangjian-zero/etcd/etcdserver/etcdserverpb"
 	"shorturl/wangjian-zero/etcd/pkg/types"
 
-	"google.golang.org/grpc"
+	"shorturl/wangjian-zero/grpc"
 )
 
 type (

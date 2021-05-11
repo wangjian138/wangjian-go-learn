@@ -23,8 +23,8 @@ import (
 	pb "shorturl/wangjian-zero/etcd/etcdserver/etcdserverpb"
 
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/metadata"
+	"shorturl/wangjian-zero/grpc"
+	"shorturl/wangjian-zero/grpc/metadata"
 )
 
 type (

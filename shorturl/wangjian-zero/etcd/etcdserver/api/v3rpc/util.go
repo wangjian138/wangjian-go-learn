@@ -26,8 +26,8 @@ import (
 	"shorturl/wangjian-zero/etcd/lease"
 	"shorturl/wangjian-zero/etcd/mvcc"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
+	"shorturl/wangjian-zero/grpc/codes"
+	"shorturl/wangjian-zero/grpc/status"
 )
 
 var toGRPCErrorMap = map[error]error{

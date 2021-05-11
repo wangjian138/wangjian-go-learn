@@ -17,10 +17,10 @@ package adapter
 import (
 	"context"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/status"
+	"shorturl/wangjian-zero/grpc"
+	"shorturl/wangjian-zero/grpc/codes"
+	"shorturl/wangjian-zero/grpc/metadata"
+	"shorturl/wangjian-zero/grpc/status"
 )
 
 // chanServerStream implements grpc.ServerStream with a chanStream

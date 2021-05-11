@@ -22,9 +22,9 @@ import (
 	"strings"
 
 	"github.com/bgentry/speakeasy"
-	"google.golang.org/grpc/grpclog"
 	"shorturl/wangjian-zero/etcd/clientv3"
 	"shorturl/wangjian-zero/etcd/pkg/report"
+	"shorturl/wangjian-zero/grpc/grpclog"
 )
 
 var (

@@ -23,9 +23,9 @@ import (
 	"shorturl/wangjian-zero/etcd/etcdserver/api/v3rpc/rpctypes"
 	pb "shorturl/wangjian-zero/etcd/etcdserver/etcdserverpb"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/status"
+	"shorturl/wangjian-zero/grpc/codes"
+	"shorturl/wangjian-zero/grpc/metadata"
+	"shorturl/wangjian-zero/grpc/status"
 )
 
 type watchProxy struct {

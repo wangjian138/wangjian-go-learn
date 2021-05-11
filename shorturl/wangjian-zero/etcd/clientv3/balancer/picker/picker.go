@@ -18,8 +18,8 @@ import (
 	"fmt"
 
 	"go.uber.org/zap"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/resolver"
+	"shorturl/wangjian-zero/grpc/balancer"
+	"shorturl/wangjian-zero/grpc/resolver"
 )
 
 // Picker defines balancer Picker methods.

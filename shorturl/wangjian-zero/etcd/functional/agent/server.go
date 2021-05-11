@@ -26,7 +26,7 @@ import (
 	"shorturl/wangjian-zero/etcd/pkg/proxy"
 
 	"go.uber.org/zap"
-	"google.golang.org/grpc"
+	"shorturl/wangjian-zero/grpc"
 )
 
 // Server implements "rpcpb.TransportServer"

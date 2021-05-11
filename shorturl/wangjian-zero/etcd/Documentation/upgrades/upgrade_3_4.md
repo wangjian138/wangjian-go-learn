@@ -72,9 +72,9 @@ Other HTTP APIs will still work (e.g. `[CLIENT-URL]/metrics`, `[CLIENT-URL]/heal
 import (
 +	"shorturl/wangjian-zero/etcd/clientv3"
 
-	"google.golang.org/grpc"
-+	"google.golang.org/grpc/codes"
-+	"google.golang.org/grpc/status"
+	"shorturl/wangjian-zero/grpc"
++	"shorturl/wangjian-zero/grpc/codes"
++	"shorturl/wangjian-zero/grpc/status"
 )
 
 _, err := kvc.Get(ctx, "a")
@@ -95,7 +95,7 @@ _, err := kvc.Get(ctx, "a")
 import (
 	"time"
 	"shorturl/wangjian-zero/etcd/clientv3"
-+	"google.golang.org/grpc"
++	"shorturl/wangjian-zero/grpc"
 )
 
 +// "grpc.WithBlock()" to block until the underlying connection is up

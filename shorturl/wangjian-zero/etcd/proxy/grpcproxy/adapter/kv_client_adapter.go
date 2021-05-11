@@ -19,7 +19,7 @@ import (
 
 	pb "shorturl/wangjian-zero/etcd/etcdserver/etcdserverpb"
 
-	grpc "google.golang.org/grpc"
+	grpc "shorturl/wangjian-zero/grpc"
 )
 
 type kvs2kvc struct{ kvs pb.KVServer }

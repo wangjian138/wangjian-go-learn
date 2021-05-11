@@ -24,8 +24,8 @@ import (
 
 	pb "shorturl/wangjian-zero/etcd/etcdserver/etcdserverpb"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/resolver"
+	"shorturl/wangjian-zero/grpc"
+	"shorturl/wangjian-zero/grpc/resolver"
 )
 
 // MockServer provides a mocked out grpc server of the etcdserver interface.

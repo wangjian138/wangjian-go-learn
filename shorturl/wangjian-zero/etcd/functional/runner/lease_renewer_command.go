@@ -24,8 +24,8 @@ import (
 	"shorturl/wangjian-zero/etcd/clientv3"
 
 	"github.com/spf13/cobra"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
+	"shorturl/wangjian-zero/grpc/codes"
+	"shorturl/wangjian-zero/grpc/status"
 )
 
 var (

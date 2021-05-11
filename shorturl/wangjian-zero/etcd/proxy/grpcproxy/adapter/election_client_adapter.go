@@ -19,7 +19,7 @@ import (
 
 	"shorturl/wangjian-zero/etcd/etcdserver/api/v3election/v3electionpb"
 
-	"google.golang.org/grpc"
+	"shorturl/wangjian-zero/grpc"
 )
 
 type es2ec struct{ es v3electionpb.ElectionServer }

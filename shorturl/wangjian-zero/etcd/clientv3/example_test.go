@@ -23,7 +23,7 @@ import (
 	"shorturl/wangjian-zero/etcd/clientv3"
 	"shorturl/wangjian-zero/etcd/pkg/transport"
 
-	"google.golang.org/grpc/grpclog"
+	"shorturl/wangjian-zero/grpc/grpclog"
 )
 
 var (

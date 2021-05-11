@@ -20,8 +20,8 @@ import (
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/resolver"
+	"shorturl/wangjian-zero/grpc/balancer"
+	"shorturl/wangjian-zero/grpc/resolver"
 )
 
 // newRoundrobinBalanced returns a new roundrobin balanced picker.

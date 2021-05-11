@@ -33,7 +33,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 	"go.uber.org/zap"
-	"google.golang.org/grpc/grpclog"
+	"shorturl/wangjian-zero/grpc/grpclog"
 )
 
 // GlobalFlags are flags that defined globally

@@ -18,7 +18,7 @@ import (
 
 	context "golang.org/x/net/context"
 
-	grpc "google.golang.org/grpc"
+	grpc "shorturl/wangjian-zero/grpc"
 
 	io "io"
 )

@@ -24,11 +24,11 @@ import (
 	"shorturl/wangjian-zero/etcd/clientv3/balancer/picker"
 
 	"go.uber.org/zap"
-	"google.golang.org/grpc/balancer"
-	grpcconnectivity "google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/resolver"
-	_ "google.golang.org/grpc/resolver/dns"         // register DNS resolver
-	_ "google.golang.org/grpc/resolver/passthrough" // register passthrough resolver
+	"shorturl/wangjian-zero/grpc/balancer"
+	grpcconnectivity "shorturl/wangjian-zero/grpc/connectivity"
+	"shorturl/wangjian-zero/grpc/resolver"
+	_ "shorturl/wangjian-zero/grpc/resolver/dns"         // register DNS resolver
+	_ "shorturl/wangjian-zero/grpc/resolver/passthrough" // register passthrough resolver
 )
 
 // Config defines balancer configurations.

@@ -25,7 +25,7 @@ import (
 	"shorturl/wangjian-zero/etcd/etcdserver/api/v2v3"
 	"shorturl/wangjian-zero/etcd/integration"
 
-	"google.golang.org/grpc/grpclog"
+	"shorturl/wangjian-zero/grpc/grpclog"
 )
 
 func init() {

@@ -17,9 +17,9 @@ package clientv3
 import (
 	"context"
 
-	"google.golang.org/grpc/metadata"
 	"shorturl/wangjian-zero/etcd/etcdserver/api/v3rpc/rpctypes"
 	"shorturl/wangjian-zero/etcd/version"
+	"shorturl/wangjian-zero/grpc/metadata"
 )
 
 // WithRequireLeader requires client requests to only succeed

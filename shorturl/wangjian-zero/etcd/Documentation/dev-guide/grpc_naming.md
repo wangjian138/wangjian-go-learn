@@ -13,7 +13,7 @@ import (
 	"shorturl/wangjian-zero/etcd/clientv3"
 	etcdnaming "shorturl/wangjian-zero/etcd/clientv3/naming"
 
-	"google.golang.org/grpc"
+	"shorturl/wangjian-zero/grpc"
 )
 
 ...
