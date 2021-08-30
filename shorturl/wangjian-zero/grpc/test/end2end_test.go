@@ -44,11 +44,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golang/protobuf/proto"
-	anypb "github.com/golang/protobuf/ptypes/any"
-	"golang.org/x/net/http2"
-	"golang.org/x/net/http2/hpack"
-	spb "google.golang.org/genproto/googleapis/rpc/status"
 	"shorturl/wangjian-zero/grpc"
 	"shorturl/wangjian-zero/grpc/balancer/roundrobin"
 	"shorturl/wangjian-zero/grpc/codes"
@@ -74,6 +69,12 @@ import (
 	"shorturl/wangjian-zero/grpc/tap"
 	testpb "shorturl/wangjian-zero/grpc/test/grpc_testing"
 	"shorturl/wangjian-zero/grpc/testdata"
+
+	"github.com/golang/protobuf/proto"
+	anypb "github.com/golang/protobuf/ptypes/any"
+	"golang.org/x/net/http2"
+	"golang.org/x/net/http2/hpack"
+	spb "google.golang.org/genproto/googleapis/rpc/status"
 )
 
 const defaultHealthService = "grpc.health.v1.Health"
@@ -216,7 +217,7 @@ func (s *testServer) UnaryCall(ctx context.Context, in *testpb.SimpleRequest) (*
 		return nil, status.Error(codes.DataLoss, "failed to get peer address")
 	}
 	if s.security != "" {
-		// Check Auth info
+		// AuthCheck Auth info
 		var authType, serverName string
 		switch info := pr.AuthInfo.(type) {
 		case credentials.TLSInfo:
@@ -2432,7 +2433,7 @@ func verifyHealthCheckStatus(t *testing.T, d time.Duration, cc *grpc.ClientConn,
 	t.Helper()
 	resp, err := healthCheck(d, cc, service)
 	if err != nil {
-		t.Fatalf("Health/Check(_, _) = _, %v, want _, <nil>", err)
+		t.Fatalf("Health/AuthCheck(_, _) = _, %v, want _, <nil>", err)
 	}
 	if resp.Status != wantStatus {
 		t.Fatalf("Got the serving status %v, want %v", resp.Status, wantStatus)
@@ -2444,7 +2445,7 @@ func verifyHealthCheckStatus(t *testing.T, d time.Duration, cc *grpc.ClientConn,
 func verifyHealthCheckErrCode(t *testing.T, d time.Duration, cc *grpc.ClientConn, service string, wantCode codes.Code) {
 	t.Helper()
 	if _, err := healthCheck(d, cc, service); status.Code(err) != wantCode {
-		t.Fatalf("Health/Check() got errCode %v, want %v", status.Code(err), wantCode)
+		t.Fatalf("Health/AuthCheck() got errCode %v, want %v", status.Code(err), wantCode)
 	}
 }
 
@@ -2474,7 +2475,7 @@ func healthWatchChecker(t *testing.T, stream healthgrpc.Health_WatchClient, want
 	}
 }
 
-// TestHealthCheckSuccess invokes the unary Check() RPC on the health server in
+// TestHealthCheckSuccess invokes the unary AuthCheck() RPC on the health server in
 // a successful case.
 func (s) TestHealthCheckSuccess(t *testing.T) {
 	for _, e := range listTestEnv() {
@@ -2492,7 +2493,7 @@ func testHealthCheckSuccess(t *testing.T, e env) {
 	verifyHealthCheckErrCode(t, 1*time.Second, te.clientConn(), defaultHealthService, codes.OK)
 }
 
-// TestHealthCheckFailure invokes the unary Check() RPC on the health server
+// TestHealthCheckFailure invokes the unary AuthCheck() RPC on the health server
 // with an expired context and expects the RPC to fail.
 func (s) TestHealthCheckFailure(t *testing.T) {
 	for _, e := range listTestEnv() {
@@ -2515,7 +2516,7 @@ func testHealthCheckFailure(t *testing.T, e env) {
 	awaitNewConnLogOutput()
 }
 
-// TestHealthCheckOff makes a unary Check() RPC on the health server where the
+// TestHealthCheckOff makes a unary AuthCheck() RPC on the health server where the
 // health status of the defaultHealthService is not set, and therefore expects
 // an error code 'codes.NotFound'.
 func (s) TestHealthCheckOff(t *testing.T) {
@@ -4810,7 +4811,7 @@ func (s) TestServerCredsDispatch(t *testing.T) {
 	// Give grpc a chance to see the error and potentially close the connection.
 	// And check that connection is not closed after that.
 	time.Sleep(100 * time.Millisecond)
-	// Check rawConn is not closed.
+	// AuthCheck rawConn is not closed.
 	if n, err := rawConn.Write([]byte{0}); n <= 0 || err != nil {
 		t.Errorf("Read() = %v, %v; want n>0, <nil>", n, err)
 	}

@@ -34,13 +34,14 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/net/http2"
-	"golang.org/x/net/http2/hpack"
 	"shorturl/wangjian-zero/grpc/codes"
 	"shorturl/wangjian-zero/grpc/internal/grpctest"
 	"shorturl/wangjian-zero/grpc/internal/leakcheck"
 	"shorturl/wangjian-zero/grpc/internal/testutils"
 	"shorturl/wangjian-zero/grpc/status"
+
+	"golang.org/x/net/http2"
+	"golang.org/x/net/http2/hpack"
 )
 
 type s struct {
@@ -735,7 +736,7 @@ func (s) TestGracefulClose(t *testing.T) {
 		// Stop the server's listener to make the server's goroutines terminate
 		// (after the last active stream is done).
 		server.lis.Close()
-		// Check for goroutine leaks (i.e. GracefulClose with an active stream
+		// AuthCheck for goroutine leaks (i.e. GracefulClose with an active stream
 		// doesn't eventually close the connection when that stream completes).
 		leakcheck.Check(t)
 		// Correctly clean up the server
@@ -1549,7 +1550,7 @@ func testFlowControlAccountCheck(t *testing.T, msgSize int, wc windowSizeConfig)
 		sstream := serverStreams[id]
 		loopyServerStream := loopyServerStreams[id]
 		loopyClientStream := loopyClientStreams[id]
-		// Check stream flow control.
+		// AuthCheck stream flow control.
 		if int(cstream.fc.limit+cstream.fc.delta-cstream.fc.pendingData-cstream.fc.pendingUpdate) != int(st.loopy.oiws)-loopyServerStream.bytesOutStanding {
 			t.Fatalf("Account mismatch: client stream inflow limit(%d) + delta(%d) - pendingData(%d) - pendingUpdate(%d) != server outgoing InitialWindowSize(%d) - outgoingStream.bytesOutStanding(%d)", cstream.fc.limit, cstream.fc.delta, cstream.fc.pendingData, cstream.fc.pendingUpdate, st.loopy.oiws, loopyServerStream.bytesOutStanding)
 		}
@@ -1557,7 +1558,7 @@ func testFlowControlAccountCheck(t *testing.T, msgSize int, wc windowSizeConfig)
 			t.Fatalf("Account mismatch: server stream inflow limit(%d) + delta(%d) - pendingData(%d) - pendingUpdate(%d) != client outgoing InitialWindowSize(%d) - outgoingStream.bytesOutStanding(%d)", sstream.fc.limit, sstream.fc.delta, sstream.fc.pendingData, sstream.fc.pendingUpdate, client.loopy.oiws, loopyClientStream.bytesOutStanding)
 		}
 	}
-	// Check transport flow control.
+	// AuthCheck transport flow control.
 	if client.fc.limit != client.fc.unacked+st.loopy.sendQuota {
 		t.Fatalf("Account mismatch: client transport inflow(%d) != client unacked(%d) + server sendQuota(%d)", client.fc.limit, client.fc.unacked, st.loopy.sendQuota)
 	}

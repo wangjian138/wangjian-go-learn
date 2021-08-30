@@ -36,11 +36,12 @@ import (
 	"shorturl/wangjian-zero/etcd/pkg/transport"
 	"shorturl/wangjian-zero/etcd/pkg/types"
 
+	"shorturl/wangjian-zero/grpc"
+
 	bolt "go.etcd.io/bbolt"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"golang.org/x/crypto/bcrypt"
-	"shorturl/wangjian-zero/grpc"
 	"sigs.k8s.io/yaml"
 )
 
@@ -545,7 +546,7 @@ func (cfg *Config) Validate() error {
 		addrs := cfg.getACURLs()
 		return fmt.Errorf(`--advertise-client-urls %q must be "host:port" (%v)`, strings.Join(addrs, ","), err)
 	}
-	// Check if conflicting flags are passed.
+	// AuthCheck if conflicting flags are passed.
 	nSet := 0
 	for _, v := range []bool{cfg.Durl != "", cfg.InitialCluster != "", cfg.DNSCluster != ""} {
 		if v {

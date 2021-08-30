@@ -22,8 +22,6 @@ import (
 	"testing"
 	"time"
 
-	corepb "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
-	"github.com/google/go-cmp/cmp"
 	"shorturl/wangjian-zero/grpc/balancer"
 	"shorturl/wangjian-zero/grpc/balancer/roundrobin"
 	"shorturl/wangjian-zero/grpc/connectivity"
@@ -32,6 +30,9 @@ import (
 	"shorturl/wangjian-zero/grpc/xds/internal/balancer/balancergroup"
 	xdsclient "shorturl/wangjian-zero/grpc/xds/internal/client"
 	"shorturl/wangjian-zero/grpc/xds/internal/testutils"
+
+	corepb "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
+	"github.com/google/go-cmp/cmp"
 )
 
 var (
@@ -364,7 +365,7 @@ func (s) TestEDS_EndpointsHealth(t *testing.T) {
 		t.Fatalf("want newSubConn with address %v, got %v", wantNewSubConnAddrStrs, newSubConnAddrStrs)
 	}
 
-	// There should be exactly 4 new SubConns. Check to make sure there's no
+	// There should be exactly 4 new SubConns. AuthCheck to make sure there's no
 	// more subconns being created.
 	select {
 	case <-cc.NewSubConnCh:

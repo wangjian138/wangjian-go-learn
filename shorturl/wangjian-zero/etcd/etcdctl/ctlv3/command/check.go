@@ -119,7 +119,7 @@ func NewCheckCommand() *cobra.Command {
 func NewCheckPerfCommand() *cobra.Command {
 	cmd := &cobra.Command{
 		Use:   "perf [options]",
-		Short: "Check the performance of the etcd cluster",
+		Short: "AuthCheck the performance of the etcd cluster",
 		Run:   newCheckPerfCommand,
 	}
 
@@ -269,7 +269,7 @@ func newCheckPerfCommand(cmd *cobra.Command, args []string) {
 func NewCheckDatascaleCommand() *cobra.Command {
 	cmd := &cobra.Command{
 		Use:   "datascale [options]",
-		Short: "Check the memory usage of holding data for different workloads on a given server endpoint.",
+		Short: "AuthCheck the memory usage of holding data for different workloads on a given server endpoint.",
 		Long:  "If no endpoint is provided, localhost will be used. If multiple endpoints are provided, first endpoint will be used.",
 		Run:   newCheckDatascaleCommand,
 	}

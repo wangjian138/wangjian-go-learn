@@ -28,7 +28,7 @@ func TestThreadsafeSet(t *testing.T) {
 	driveSetTests(t, NewThreadsafeSet())
 }
 
-// Check that two slices contents are equal; order is irrelevant
+// AuthCheck that two slices contents are equal; order is irrelevant
 func equal(a, b []string) bool {
 	as := sort.StringSlice(a)
 	bs := sort.StringSlice(b)

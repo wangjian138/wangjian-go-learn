@@ -860,7 +860,7 @@ func testClientBinaryLog(t *testing.T, c *rpcConfig) error {
 	// In racy cases, some entries are not logged when the RPC is finished (e.g.
 	// context.Cancel).
 	//
-	// Check 10 times, with a sleep of 1/100 seconds between each check. Makes
+	// AuthCheck 10 times, with a sleep of 1/100 seconds between each check. Makes
 	// it an 1-second wait in total.
 	for i := 0; i < 10; i++ {
 		got = testSink.logEntries(true) // all client entries.
@@ -961,7 +961,7 @@ func testServerBinaryLog(t *testing.T, c *rpcConfig) error {
 	// context.Cancel). This is unlikely to happen on server side, but it does
 	// no harm to retry.
 	//
-	// Check 10 times, with a sleep of 1/100 seconds between each check. Makes
+	// AuthCheck 10 times, with a sleep of 1/100 seconds between each check. Makes
 	// it an 1-second wait in total.
 	for i := 0; i < 10; i++ {
 		got = testSink.logEntries(false) // all server entries.

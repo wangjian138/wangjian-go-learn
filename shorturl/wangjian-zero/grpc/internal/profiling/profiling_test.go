@@ -79,12 +79,12 @@ func (s) TestProfiling(t *testing.T) {
 
 	lastIdx := 0
 	for i, timer := range statReturned.Timers {
-		// Check that they're in the order of append.
+		// AuthCheck that they're in the order of append.
 		if n, err := strconv.Atoi(timer.Tags); err != nil && n != lastIdx {
 			t.Fatalf("stat.Timers[%d].Tags = %s; wanted %d", i, timer.Tags, lastIdx)
 		}
 
-		// Check that the timestamps are consistent.
+		// AuthCheck that the timestamps are consistent.
 		if diff := timer.End.Sub(timer.Begin); diff.Nanoseconds() < 1000 {
 			t.Fatalf("stat.Timers[%d].End - stat.Timers[%d].Begin = %v; want >= 1000ns", i, i, diff)
 		}

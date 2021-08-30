@@ -26,9 +26,10 @@ func TestParseForm(t *testing.T) {
 }
 
 func TestParseHeader(t *testing.T) {
-	m := ParseHeader("key=value;")
+	m := ParseHeader("key=value;key1=value1")
 	assert.EqualValues(t, map[string]string{
-		"key": "value",
+		"key":  "value",
+		"key1": "value1",
 	}, m)
 }
 

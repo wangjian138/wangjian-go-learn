@@ -103,7 +103,7 @@ func (b *bdpEstimator) add(n uint32) bool {
 // Here we calculate the current bdp and bandwidth sample and
 // decide if the flow control windows should go up.
 func (b *bdpEstimator) calculate(d [8]byte) {
-	// Check if the ping acked for was the bdp ping.
+	// AuthCheck if the ping acked for was the bdp ping.
 	if bdpPing.data != d {
 		return
 	}

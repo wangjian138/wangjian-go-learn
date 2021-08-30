@@ -178,7 +178,7 @@ func (s) TestHealthCheckWatchStateChange(t *testing.T) {
 	// updates its health status. As there's only one addrConn corresponds with the ClientConn in this
 	// test, we use ClientConn's connectivity state as the addrConn connectivity state.
 	//+------------------------------+-------------------------------------------+
-	//| Health Check Returned Status | Expected addrConn Connectivity Transition |
+	//| Health AuthCheck Returned Status | Expected addrConn Connectivity Transition |
 	//+------------------------------+-------------------------------------------+
 	//| NOT_SERVING                  | ->TRANSIENT FAILURE                       |
 	//| SERVING                      | ->READY                                   |

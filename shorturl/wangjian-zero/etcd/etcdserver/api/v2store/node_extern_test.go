@@ -56,7 +56,7 @@ func TestNodeExternClone(t *testing.T) {
 	}
 
 	gNode := eNode.Clone()
-	// Check the clone is as expected
+	// AuthCheck the clone is as expected
 	testutil.AssertEqual(t, gNode.Key, key)
 	testutil.AssertEqual(t, gNode.TTL, ttl)
 	testutil.AssertEqual(t, gNode.CreatedIndex, ci)

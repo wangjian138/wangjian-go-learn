@@ -260,7 +260,7 @@ func TestV3LeaseCheckpoint(t *testing.T) {
 
 	time.Sleep(250 * time.Millisecond)
 
-	// Check the TTL of the new leader
+	// AuthCheck the TTL of the new leader
 	var ttlresp *pb.LeaseTimeToLiveResponse
 	for i := 0; i < 10; i++ {
 		if ttlresp, err = c2.Lease.LeaseTimeToLive(ctx, &pb.LeaseTimeToLiveRequest{ID: lresp.ID}); err != nil {

@@ -576,7 +576,7 @@ func (cc *ClientConn) maybeApplyDefaultServiceConfig(addrs []resolver.Address) {
 func (cc *ClientConn) updateResolverState(s resolver.State, err error) error {
 	defer cc.firstResolveEvent.Fire()
 	cc.mu.Lock()
-	// Check if the ClientConn is already closed. Some fields (e.g.
+	// AuthCheck if the ClientConn is already closed. Some fields (e.g.
 	// balancerWrapper) are set to nil when closing the ClientConn, and could
 	// cause nil pointer panic if we don't have this check.
 	if cc.conns == nil {

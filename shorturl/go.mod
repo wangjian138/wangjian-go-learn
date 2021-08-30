@@ -1,6 +1,6 @@
 module shorturl
 
-go 1.15
+go 1.16
 
 require (
 	cloud.google.com/go v0.81.0 // indirect
@@ -20,7 +20,6 @@ require (
 	github.com/emicklei/proto v1.9.0
 	github.com/envoyproxy/go-control-plane v0.9.9-0.20201210154907-fd9021fe5dad
 	github.com/fatih/structtag v1.2.0
-	github.com/frankban/quicktest v1.7.2 // indirect
 	github.com/globalsign/mgo v0.0.0-20181015135952-eeefdecb41b8
 	github.com/go-redis/redis v6.15.7+incompatible
 	github.com/go-sql-driver/mysql v1.5.0

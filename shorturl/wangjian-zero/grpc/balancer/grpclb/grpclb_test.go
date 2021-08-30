@@ -31,7 +31,6 @@ import (
 	"testing"
 	"time"
 
-	durationpb "github.com/golang/protobuf/ptypes/duration"
 	"shorturl/wangjian-zero/grpc"
 	"shorturl/wangjian-zero/grpc/balancer"
 	lbgrpc "shorturl/wangjian-zero/grpc/balancer/grpclb/grpc_lb_v1"
@@ -45,6 +44,8 @@ import (
 	"shorturl/wangjian-zero/grpc/resolver/manual"
 	"shorturl/wangjian-zero/grpc/status"
 	testpb "shorturl/wangjian-zero/grpc/test/grpc_testing"
+
+	durationpb "github.com/golang/protobuf/ptypes/duration"
 )
 
 var (
@@ -713,7 +714,7 @@ func (s) TestBalancerDisconnects(t *testing.T) {
 
 	lbs[0].Stop()
 	// Stop balancer[0], balancer[1] should be used by grpclb.
-	// Check peer address to see if that happened.
+	// AuthCheck peer address to see if that happened.
 	for i := 0; i < 1000; i++ {
 		if _, err := testC.EmptyCall(context.Background(), &testpb.Empty{}, grpc.WaitForReady(true), grpc.Peer(&p)); err != nil {
 			t.Fatalf("%v.EmptyCall(_, _) = _, %v, want _, <nil>", testC, err)

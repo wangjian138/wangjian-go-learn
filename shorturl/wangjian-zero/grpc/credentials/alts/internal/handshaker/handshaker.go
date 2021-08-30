@@ -278,7 +278,7 @@ func (h *altsHandshaker) doHandshake(req *altspb.HandshakerReq) (net.Conn, *alts
 	if err != nil {
 		return nil, nil, err
 	}
-	// Check of the returned status is an error.
+	// AuthCheck of the returned status is an error.
 	if resp.GetStatus() != nil {
 		if got, want := resp.GetStatus().Code, uint32(codes.OK); got != want {
 			return nil, nil, fmt.Errorf("%v", resp.GetStatus().Details)

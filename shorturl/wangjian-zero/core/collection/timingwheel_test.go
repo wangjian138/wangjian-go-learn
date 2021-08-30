@@ -1,17 +1,19 @@
 package collection
 
 import (
+	"fmt"
 	"sort"
 	"sync"
 	"sync/atomic"
 	"testing"
 	"time"
 
-	"github.com/stretchr/testify/assert"
 	"shorturl/wangjian-zero/core/lang"
 	"shorturl/wangjian-zero/core/stringx"
 	"shorturl/wangjian-zero/core/syncx"
 	"shorturl/wangjian-zero/core/timex"
+
+	"github.com/stretchr/testify/assert"
 )
 
 const (
@@ -26,22 +28,34 @@ func TestNewTimingWheel(t *testing.T) {
 
 func TestTimingWheel_Drain(t *testing.T) {
 	ticker := timex.NewFakeTicker()
+	//ticker1 := time.NewTicker(1 * time.Second)
 	tw, _ := newTimingWheelWithClock(testStep, 10, func(k, v interface{}) {
+		fmt.Printf("k:%v v:%v\n", k, v)
 	}, ticker)
 	defer tw.Stop()
 	tw.SetTimer("first", 3, testStep*4)
 	tw.SetTimer("second", 5, testStep*7)
-	tw.SetTimer("third", 7, testStep*7)
+	tw.SetTimer("third", 7, testStep*9)
 	var keys []string
 	var vals []int
 	var lock sync.Mutex
 	var wg sync.WaitGroup
 	wg.Add(3)
+	ticker.Tick()
+	ticker.Tick()
+	ticker.Tick()
+	ticker.Tick()
+	ticker.Tick()
+	ticker.Tick()
+
+	time.Sleep(10 * time.Second)
+
 	tw.Drain(func(key, value interface{}) {
 		lock.Lock()
 		defer lock.Unlock()
 		keys = append(keys, key.(string))
 		vals = append(vals, value.(int))
+		t.Logf("key:%v", key)
 		wg.Done()
 	})
 	wg.Wait()

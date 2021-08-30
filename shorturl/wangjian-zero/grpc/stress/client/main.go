@@ -71,7 +71,7 @@ func parseTestCases(testCaseString string) []testCaseWithWeight {
 		if len(testCase) != 2 {
 			panic(fmt.Sprintf("invalid test case with weight: %s", str))
 		}
-		// Check if test case is supported.
+		// AuthCheck if test case is supported.
 		switch testCase[0] {
 		case
 			"empty_unary",

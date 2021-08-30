@@ -533,7 +533,7 @@ func (t *http2Client) getTrAuthData(ctx context.Context, audience string) (map[s
 
 func (t *http2Client) getCallAuthData(ctx context.Context, audience string, callHdr *CallHdr) (map[string]string, error) {
 	var callAuthData map[string]string
-	// Check if credentials.PerRPCCredentials were provided via call options.
+	// AuthCheck if credentials.PerRPCCredentials were provided via call options.
 	// Note: if these credentials are provided both via dial options and call
 	// options, then both sets of credentials will be applied.
 	if callCreds := callHdr.Creds; callCreds != nil {
@@ -1246,10 +1246,10 @@ func (t *http2Client) operateHeaders(frame *http2.MetaHeadersFrame) {
 //
 // TODO(zhaoq): currently one reader per transport. Investigate whether this is
 // optimal.
-// TODO(zhaoq): Check the validity of the incoming frame sequence.
+// TODO(zhaoq): AuthCheck the validity of the incoming frame sequence.
 func (t *http2Client) reader() {
 	defer close(t.readerDone)
-	// Check the validity of server preface.
+	// AuthCheck the validity of server preface.
 	frame, err := t.framer.fr.ReadFrame()
 	if err != nil {
 		t.Close() // this kicks off resetTransport, so must be last before return

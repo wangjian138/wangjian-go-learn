@@ -1,9 +1,8 @@
 package rest
 
 import (
-	"time"
-
 	"shorturl/wangjian-zero/core/service"
+	"time"
 )
 
 type (

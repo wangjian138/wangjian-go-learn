@@ -284,7 +284,7 @@ func TestRawNodeProposeAndConfChange(t *testing.T) {
 				}
 			}
 
-			// Check that the last index is exactly the conf change we put in,
+			// AuthCheck that the last index is exactly the conf change we put in,
 			// down to the bits. Note that this comes from the Storage, which
 			// will not reflect any unstable entries that we'll only be presented
 			// with in the next Ready.
@@ -353,7 +353,7 @@ func TestRawNodeProposeAndConfChange(t *testing.T) {
 				rd = rawNode.Ready()
 			}
 
-			// Check that the right ConfChange comes out.
+			// AuthCheck that the right ConfChange comes out.
 			if len(rd.Entries) != 1 || rd.Entries[0].Type != pb.EntryConfChangeV2 {
 				t.Fatalf("expected exactly one more entry, got %+v", rd)
 			}
@@ -851,7 +851,7 @@ func TestRawNodeBoundedLogGrowthWithPartition(t *testing.T) {
 		rawNode.Propose(data)
 	}
 
-	// Check the size of leader's uncommitted log tail. It should not exceed the
+	// AuthCheck the size of leader's uncommitted log tail. It should not exceed the
 	// MaxUncommittedEntriesSize limit.
 	checkUncommitted := func(exp uint64) {
 		t.Helper()
@@ -941,7 +941,7 @@ func BenchmarkStatus(b *testing.B) {
 }
 
 func TestRawNodeConsumeReady(t *testing.T) {
-	// Check that readyWithoutAccept() does not call acceptReady (which resets
+	// AuthCheck that readyWithoutAccept() does not call acceptReady (which resets
 	// the messages) but Ready() does.
 	s := NewMemoryStorage()
 	rn := newTestRawNode(1, []uint64{1}, 3, 1, s)

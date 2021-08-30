@@ -262,7 +262,7 @@ func newHTTP2Server(conn net.Conn, config *ServerConfig) (_ ServerTransport, err
 		}
 	}()
 
-	// Check the validity of client preface.
+	// AuthCheck the validity of client preface.
 	preface := make([]byte, len(clientPreface))
 	if _, err := io.ReadFull(t.conn, preface); err != nil {
 		return nil, connectionErrorf(false, err, "transport: http2Server.HandleStreams failed to receive the preface from client: %v", err)
@@ -711,7 +711,7 @@ func (t *http2Server) handlePing(f *http2.PingFrame) {
 			t.pingStrikes++
 		}
 	} else {
-		// Check if keepalive policy is respected.
+		// AuthCheck if keepalive policy is respected.
 		if t.lastPingAt.Add(t.kep.MinTime).After(now) {
 			t.pingStrikes++
 		}

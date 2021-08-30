@@ -25,7 +25,7 @@ type (
 	}
 )
 
-// MustNewServer returns a server with given config of c and options defined in opts.
+// MustNewServer MustNewServe returns a server with given config of c and options defined in opts.
 // Be aware that later RunOption might overwrite previous one that write the same option.
 // The process will exit if error occurs.
 func MustNewServer(c RestConf, opts ...RunOption) *Server {

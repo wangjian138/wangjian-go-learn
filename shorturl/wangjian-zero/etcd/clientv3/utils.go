@@ -33,7 +33,7 @@ func jitterUp(duration time.Duration, jitter float64) time.Duration {
 	return time.Duration(float64(duration) * (1 + multiplier))
 }
 
-// Check if the provided function is being called in the op options.
+// AuthCheck if the provided function is being called in the op options.
 func isOpFuncCalled(op string, opts []OpOption) bool {
 	for _, opt := range opts {
 		v := reflect.ValueOf(opt)

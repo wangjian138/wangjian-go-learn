@@ -146,7 +146,7 @@ func (p *conn) Read(b []byte) (n int, err error) {
 		if err != nil {
 			return n, err
 		}
-		// Check whether the next frame to be decrypted has been
+		// AuthCheck whether the next frame to be decrypted has been
 		// completely received yet.
 		if len(framedMsg) == 0 {
 			copy(p.protected, p.nextFrame)
@@ -155,7 +155,7 @@ func (p *conn) Read(b []byte) (n int, err error) {
 			// the protected buffer and reset nextFrame to it.
 			p.nextFrame = p.protected
 		}
-		// Check whether a complete frame has been received yet.
+		// AuthCheck whether a complete frame has been received yet.
 		for len(framedMsg) == 0 {
 			if len(p.protected) == cap(p.protected) {
 				tmp := make([]byte, len(p.protected), cap(p.protected)+altsRecordDefaultLength)

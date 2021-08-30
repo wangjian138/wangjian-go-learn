@@ -218,7 +218,7 @@ func (s) TestRoundRobin(t *testing.T) {
 		}
 		time.Sleep(10 * time.Millisecond)
 	}
-	// Check the incoming RPCs served in a round-robin manner.
+	// AuthCheck the incoming RPCs served in a round-robin manner.
 	for i := 0; i < 10; i++ {
 		if err := cc.Invoke(context.Background(), "/foo/bar", &req, &reply); err == nil || errorDesc(err) != servers[i%numServers].port {
 			t.Fatalf("Index %d: Invoke(_, _, _, _, _) = %v, want %s", i, err, servers[i%numServers].port)
@@ -559,7 +559,7 @@ func (s) TestPickFirstOrderAllServerUp(t *testing.T) {
 	checkServerUp(t, servers[1])
 	checkServerUp(t, servers[2])
 
-	// Check the incoming RPCs served in server[0]
+	// AuthCheck the incoming RPCs served in server[0]
 	req := "port"
 	var reply string
 	for i := 0; i < 20; i++ {
@@ -671,7 +671,7 @@ func (s) TestPickFirstOrderOneServerDown(t *testing.T) {
 	checkServerUp(t, servers[1])
 	checkServerUp(t, servers[2])
 
-	// Check the incoming RPCs served in server[0]
+	// AuthCheck the incoming RPCs served in server[0]
 	req := "port"
 	var reply string
 	for i := 0; i < 20; i++ {

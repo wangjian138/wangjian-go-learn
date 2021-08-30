@@ -26,7 +26,6 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
 	"shorturl/wangjian-zero/grpc/codes"
 	"shorturl/wangjian-zero/grpc/encoding"
 	protoenc "shorturl/wangjian-zero/grpc/encoding/proto"
@@ -34,6 +33,8 @@ import (
 	"shorturl/wangjian-zero/grpc/internal/transport"
 	"shorturl/wangjian-zero/grpc/status"
 	perfpb "shorturl/wangjian-zero/grpc/test/codec_perf"
+
+	"github.com/golang/protobuf/proto"
 )
 
 type fullReader struct {
@@ -61,7 +62,7 @@ func (s) TestSimpleParsing(t *testing.T) {
 		{[]byte{0, 0, 0, 0, 1, 'a'}, nil, []byte{'a'}, compressionNone},
 		{[]byte{1, 0}, io.ErrUnexpectedEOF, nil, compressionNone},
 		{[]byte{0, 0, 0, 0, 10, 'a'}, io.ErrUnexpectedEOF, nil, compressionNone},
-		// Check that messages with length >= 2^24 are parsed.
+		// AuthCheck that messages with length >= 2^24 are parsed.
 		{append([]byte{0, 1, 0, 0, 0}, bigMsg...), nil, bigMsg, compressionNone},
 	} {
 		buf := fullReader{bytes.NewReader(test.p)}

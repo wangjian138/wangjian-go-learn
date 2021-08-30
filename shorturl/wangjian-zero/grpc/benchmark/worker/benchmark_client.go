@@ -121,7 +121,7 @@ func createConns(config *testpb.ClientConfig) ([]*grpc.ClientConn, func(), error
 		return nil, nil, status.Errorf(codes.InvalidArgument, "unknown client type: %v", config.ClientType)
 	}
 
-	// Check and set security options.
+	// AuthCheck and set security options.
 	if config.SecurityParams != nil {
 		if *caFile == "" {
 			*caFile = testdata.Path("ca.pem")

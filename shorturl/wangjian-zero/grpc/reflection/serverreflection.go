@@ -48,12 +48,13 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/golang/protobuf/proto"
-	dpb "github.com/golang/protobuf/protoc-gen-go/descriptor"
 	"shorturl/wangjian-zero/grpc"
 	"shorturl/wangjian-zero/grpc/codes"
 	rpb "shorturl/wangjian-zero/grpc/reflection/grpc_reflection_v1alpha"
 	"shorturl/wangjian-zero/grpc/status"
+
+	"github.com/golang/protobuf/proto"
+	dpb "github.com/golang/protobuf/protoc-gen-go/descriptor"
 )
 
 type serverReflectionServer struct {
@@ -289,12 +290,12 @@ func (s *serverReflectionServer) fileDescEncodingByFilename(name string) ([]byte
 // call proto.FileDescriptor to get the byte slice.
 // For SupportPackageIsVersion3, m is a byte slice itself.
 func parseMetadata(meta interface{}) ([]byte, bool) {
-	// Check if meta is the file name.
+	// AuthCheck if meta is the file name.
 	if fileNameForMeta, ok := meta.(string); ok {
 		return proto.FileDescriptor(fileNameForMeta), true
 	}
 
-	// Check if meta is the byte slice.
+	// AuthCheck if meta is the byte slice.
 	if enc, ok := meta.([]byte); ok {
 		return enc, true
 	}
@@ -309,7 +310,7 @@ func (s *serverReflectionServer) fileDescEncodingContainingSymbol(name string) (
 	_, symbols := s.getSymbols()
 	fd := symbols[name]
 	if fd == nil {
-		// Check if it's a type name that was not present in the
+		// AuthCheck if it's a type name that was not present in the
 		// transitive dependencies of the registered services.
 		if st, err := typeForName(name); err == nil {
 			fd, err = s.fileDescForType(st)

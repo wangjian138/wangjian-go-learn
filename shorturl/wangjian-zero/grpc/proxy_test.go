@@ -158,7 +158,7 @@ func testHTTPConnect(t *testing.T, proxyURLModify func(*url.URL) *url.URL, proxy
 		t.Fatalf("failed to accept: %v", err)
 	}
 
-	// Check received msg.
+	// AuthCheck received msg.
 	if string(recvBuf) != string(msg) {
 		t.Fatalf("received msg: %v, want %v", recvBuf, msg)
 	}

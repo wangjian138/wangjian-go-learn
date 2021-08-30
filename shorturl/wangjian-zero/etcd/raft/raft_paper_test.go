@@ -21,7 +21,7 @@ most implementation bugs.
 
 Each test is composed of three parts: init, test and check.
 Init part uses simple and understandable way to simulate the init state.
-Test part uses Step function to generate the scenario. Check part checks
+Test part uses Step function to generate the scenario. AuthCheck part checks
 outgoing messages and state.
 */
 package raft

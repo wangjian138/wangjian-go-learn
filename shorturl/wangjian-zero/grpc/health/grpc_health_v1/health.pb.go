@@ -6,11 +6,12 @@ package grpc_health_v1
 import (
 	context "context"
 	fmt "fmt"
-	proto "github.com/golang/protobuf/proto"
 	math "math"
 	grpc "shorturl/wangjian-zero/grpc"
 	codes "shorturl/wangjian-zero/grpc/codes"
 	status "shorturl/wangjian-zero/grpc/status"
+
+	proto "github.com/golang/protobuf/proto"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -207,7 +208,7 @@ func NewHealthClient(cc grpc.ClientConnInterface) HealthClient {
 
 func (c *healthClient) Check(ctx context.Context, in *HealthCheckRequest, opts ...grpc.CallOption) (*HealthCheckResponse, error) {
 	out := new(HealthCheckResponse)
-	err := c.cc.Invoke(ctx, "/grpc.health.v1.Health/Check", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/grpc.health.v1.Health/AuthCheck", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
@@ -274,7 +275,7 @@ type UnimplementedHealthServer struct {
 }
 
 func (*UnimplementedHealthServer) Check(ctx context.Context, req *HealthCheckRequest) (*HealthCheckResponse, error) {
-	return nil, status.Errorf(codes.Unimplemented, "method Check not implemented")
+	return nil, status.Errorf(codes.Unimplemented, "method AuthCheck not implemented")
 }
 func (*UnimplementedHealthServer) Watch(req *HealthCheckRequest, srv Health_WatchServer) error {
 	return status.Errorf(codes.Unimplemented, "method Watch not implemented")
@@ -294,7 +295,7 @@ func _Health_Check_Handler(srv interface{}, ctx context.Context, dec func(interf
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/grpc.health.v1.Health/Check",
+		FullMethod: "/grpc.health.v1.Health/AuthCheck",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(HealthServer).Check(ctx, req.(*HealthCheckRequest))
@@ -328,7 +329,7 @@ var _Health_serviceDesc = grpc.ServiceDesc{
 	HandlerType: (*HealthServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
-			MethodName: "Check",
+			MethodName: "AuthCheck",
 			Handler:    _Health_Check_Handler,
 		},
 	},
